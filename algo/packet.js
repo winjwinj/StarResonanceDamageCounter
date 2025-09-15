@@ -5,6 +5,7 @@ const pbjs = require('protobufjs/minimal');
 const fs = require('fs');
 
 const monsterNames = require('../tables/monster_names.json');
+const {debug} = require("winston");
 
 class BinaryReader {
     constructor(buffer, offset = 0) {
@@ -414,7 +415,7 @@ class PacketProcessor {
                 `EXT: ${extra.join('|')}`,
             ];
             const dmgLog = dmgLogArr.join(' ');
-            this.logger.info(dmgLog);
+            // this.logger.info(dmgLog);
             this.userDataManager.addLog(dmgLog);
         }
     }
@@ -438,7 +439,7 @@ class PacketProcessor {
         const uuid = aoiSyncToMeDelta.Uuid;
         if (uuid && !currentUserUuid.eq(uuid)) {
             currentUserUuid = uuid;
-            this.logger.info('Got player UUID! UUID: ' + currentUserUuid + ' UID: ' + currentUserUuid.shiftRight(16));
+            // this.logger.info('Got player UUID! UUID: ' + currentUserUuid + ' UID: ' + currentUserUuid.shiftRight(16));
         }
 
         const aoiSyncDelta = aoiSyncToMeDelta.BaseDelta;
@@ -469,7 +470,10 @@ class PacketProcessor {
             if (!vData.CharBase) return;
             const charBase = vData.CharBase;
 
-            if (charBase.Name) this.userDataManager.setName(playerUid, charBase.Name);
+            if (charBase.Name) {
+                this.logger.info(`player name _processSyncContainerData`);
+                this.userDataManager.setName(playerUid, charBase.Name);
+            }
 
             if (charBase.FightPoint) this.userDataManager.setFightPoint(playerUid, charBase.FightPoint);
 
@@ -479,7 +483,7 @@ class PacketProcessor {
                 this.userDataManager.setProfession(playerUid, getProfessionNameFromId(professionList.CurProfessionId));
         } catch (err) {
             fs.writeFileSync('./SyncContainerData.dat', payloadBuffer);
-            this.logger.warn(`Failed to decode SyncContainerData for player ${currentUserUuid.shiftRight(16)}. Please report to developer`);
+            // this.logger.warn(`Failed to decode SyncContainerData for player ${currentUserUuid.shiftRight(16)}. Please report to developer`);
             throw err;
         }
     }
@@ -489,7 +493,7 @@ class PacketProcessor {
 
         const syncContainerDirtyData = pb.SyncContainerDirtyData.decode(payloadBuffer);
         if (!syncContainerDirtyData.VData || !syncContainerDirtyData.VData.Buffer) return;
-        this.logger.debug(syncContainerDirtyData.VData.Buffer.toString('hex'));
+        // this.logger.debug(syncContainerDirtyData.VData.Buffer.toString('hex'));
         const messageReader = new BinaryReader(Buffer.from(syncContainerDirtyData.VData.Buffer));
 
         if (!doesStreamHaveIdentifier(messageReader)) return;
@@ -506,6 +510,7 @@ class PacketProcessor {
                     case 5: // Name
                         const playerName = streamReadString(messageReader);
                         if (!playerName || playerName === '') break;
+                        // this.logger.info(`player name _processSyncContainerDirtyData`);
                         this.userDataManager.setName(currentUserUuid.shiftRight(16).toNumber(), playerName);
                         break;
                     case 35: // FightPoint
@@ -618,7 +623,7 @@ class PacketProcessor {
                     this.userDataManager.setAttrKV(playerUid, 'reduction_level', playerReductionLevel);
                     break;
                 default:
-                    // this.logger.debug(`Found unknown attrId ${attr.Id} for ${playerUid} ${attr.RawData.toString('base64')}`);
+                    this.logger.debug(`Found unknown attrId ${attr.Id} for ${playerUid} ${attr.RawData.toString('base64')}`);
                     break;
             }
         }
@@ -633,13 +638,13 @@ class PacketProcessor {
                 case AttrType.AttrName:
                     const enemyName = reader.string();
                     this.userDataManager.enemyCache.name.set(enemyUid, enemyName);
-                    this.logger.info(`Found monster name ${enemyName} for id ${enemyUid}`);
+                    // this.logger.info(`Found monster name ${enemyName} for id ${enemyUid}`);
                     break;
                 case AttrType.AttrId:
                     const attrId = reader.int32();
                     const name = monsterNames[attrId];
                     if (name) {
-                        this.logger.info(`Found moster name ${name} for id ${enemyUid}`);
+                        // this.logger.info(`Found moster name ${name} for id ${enemyUid}`);
                         this.userDataManager.enemyCache.name.set(enemyUid, name);
                     }
                     break;
@@ -675,6 +680,7 @@ class PacketProcessor {
                         this._processEnemyAttrs(entityUid, attrCollection.Attrs);
                         break;
                     case pb.EEntityType.EntChar:
+                        this.logger.info(`player name _process sync near entities`);
                         this._processPlayerAttrs(entityUid, attrCollection.Attrs);
                         break;
                     default:
@@ -702,9 +708,11 @@ class PacketProcessor {
 
         switch (methodId) {
             case NotifyMethod.SyncNearEntities:
+                this.logger.info(`SyncNearEntities`);
                 this._processSyncNearEntities(msgPayload);
                 break;
             case NotifyMethod.SyncContainerData:
+                // this.logger.info(`SyncContainerData`);
                 this._processSyncContainerData(msgPayload);
                 break;
             case NotifyMethod.SyncContainerDirtyData:
@@ -727,31 +735,39 @@ class PacketProcessor {
         this.logger.debug(`Unimplemented processing return`);
     }
 
-    processPacket(packets) {
+
+
+    processPacket(packets, debug_ctr) {
         try {
+
             const packetsReader = new BinaryReader(packets);
 
             do {
                 let packetSize = packetsReader.peekUInt32();
+                console.log(`${packetsReader.remaining()} ${packetSize}`)
                 if (packetSize < 6) {
-                    this.logger.debug(`Received invalid packet`);
+                    // this.logger.debug(`Received invalid packet`);
                     return;
                 }
 
                 const packetReader = new BinaryReader(packetsReader.readBytes(packetSize));
-                packetSize = packetReader.readUInt32(); // to advance
+                packetReader.readUInt32(); // to advance
                 const packetType = packetReader.readUInt16();
                 const isZstdCompressed = packetType & 0x8000;
                 const msgTypeId = packetType & 0x7fff;
 
+                debug_ctr += 1;
                 switch (msgTypeId) {
                     case MessageType.Notify:
+                        this.logger.info(`${debug_ctr} Notify [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
                         this._processNotifyMsg(packetReader, isZstdCompressed);
                         break;
                     case MessageType.Return:
+                        // this.logger.info(`${debug_ctr} Return [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
                         this._processReturnMsg(packetReader, isZstdCompressed);
                         break;
                     case MessageType.FrameDown:
+                        this.logger.info(`${debug_ctr} FrameDown [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
                         const serverSequenceId = packetReader.readUInt32();
                         if (packetReader.remaining() == 0) break;
 
@@ -761,8 +777,10 @@ class PacketProcessor {
                             nestedPacket = this._decompressPayload(nestedPacket);
                         }
 
+
+
                         // this.logger.debug("Processing FrameDown packet.");
-                        this.processPacket(nestedPacket);
+                        this.processPacket(nestedPacket, debug_ctr);
                         break;
                     default:
                         // this.logger.debug(`Ignore packet with message type ${msgTypeId}.`);
@@ -770,7 +788,8 @@ class PacketProcessor {
                 }
             } while (packetsReader.remaining() > 0);
         } catch (e) {
-            this.logger.error(`Fail while parsing data for player ${currentUserUuid.shiftRight(16)}.\nErr: ${e}`);
+            console.log(`${e}`)
+            // this.logger.error(`Fail while parsing data for player ${currentUserUuid.shiftRight(16)}.\nErr: ${e}`);
         }
     }
 }

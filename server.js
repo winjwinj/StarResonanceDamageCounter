@@ -20,6 +20,7 @@ const { exec } = require('child_process');
 const findDefaultNetworkDevice = require('./algo/netInterfaceUtil');
 
 const skillConfig = require('./tables/final_merged.json');
+const {BinaryReader} = require("./algo/packet");
 const VERSION = '3.1';
 const SETTINGS_PATH = path.join('./settings.json');
 let globalSettings = {
@@ -556,9 +557,9 @@ class UserDataManager {
             // 从缓存中设置名字和职业
             const cachedData = this.userCache.get(String(uid));
             if (cachedData) {
-                if (cachedData.name) {
-                    user.setName(cachedData.name);
-                }
+                // if (cachedData.name) {
+                //     user.setName(cachedData.name);
+                // }
                 if (cachedData.profession) {
                     user.setProfession(cachedData.profession);
                 }
@@ -684,17 +685,17 @@ class UserDataManager {
      * */
     setName(uid, name) {
         const user = this.getUser(uid);
+        this.logger.info(`Found player name ${name} for uid ${uid}`);
         if (user.name !== name) {
             user.setName(name);
-            // this.logger.info(`Found player name ${name} for uid ${uid}`);
 
             // 更新缓存
             const uidStr = String(uid);
-            if (!this.userCache.has(uidStr)) {
-                this.userCache.set(uidStr, {});
-            }
-            this.userCache.get(uidStr).name = name;
-            this.saveUserCacheThrottled();
+            // if (!this.userCache.has(uidStr)) {
+            //     this.userCache.set(uidStr, {});
+            // }
+            // this.userCache.get(uidStr).name = name;
+            // this.saveUserCacheThrottled();
         }
     }
 
@@ -898,6 +899,7 @@ async function main() {
 
     // 从命令行参数获取设备号和日志级别
     const args = process.argv.slice(2);
+    // let num = args[0]
     let num = args[0] ? args[0] : 'auto';
     let log_level = args[1] ? args[1] : 'info';
 
@@ -953,7 +955,13 @@ async function main() {
                 return `[${info.timestamp}] [${info.level}] ${info.message}`;
             }),
         ),
-        transports: [new winston.transports.Console()],
+        transports: [
+            new winston.transports.Console(),
+            new winston.transports.File({
+                filename: "app.log",   // log file name
+                level: log_level,      // optional: can set different level
+            }),
+        ],
     });
 
     const userDataManager = new UserDataManager(logger);
@@ -1386,7 +1394,7 @@ async function main() {
         if (tcpBuffer === null) return;
         const tcpPacket = decoders.TCP(tcpBuffer);
 
-        const buf = Buffer.from(tcpBuffer.subarray(tcpPacket.hdrlen));
+        const tcp_payload = Buffer.from(tcpBuffer.subarray(tcpPacket.hdrlen));
 
         //logger.debug(' from port: ' + tcpPacket.info.srcport + ' to port: ' + tcpPacket.info.dstport);
         const srcport = tcpPacket.info.srcport;
@@ -1397,31 +1405,31 @@ async function main() {
         if (current_server !== src_server) {
             try {
                 //尝试通过小包识别服务器
-                if (buf[4] == 0) {
-                    const data = buf.subarray(10);
+                if (tcp_payload[4] == 0) {
+                    const data = tcp_payload.subarray(10);
                     if (data.length) {
                         const stream = Readable.from(data, { objectMode: false });
-                        let data1;
+                        let tcp_frag;
                         do {
-                            const len_buf = stream.read(4);
-                            if (!len_buf) break;
-                            data1 = stream.read(len_buf.readUInt32BE() - 4);
+                            const tcp_frag_len = stream.read(4);
+                            if (!tcp_frag_len) break;
+                            tcp_frag = stream.read(tcp_frag_len.readUInt32BE() - 4);
                             const signature = Buffer.from([0x00, 0x63, 0x33, 0x53, 0x42, 0x00]); //c3SB??
-                            if (Buffer.compare(data1.subarray(5, 5 + signature.length), signature)) break;
+                            if (Buffer.compare(tcp_frag.subarray(5, 5 + signature.length), signature)) break;
                             try {
                                 if (current_server !== src_server) {
                                     current_server = src_server;
                                     clearTcpCache();
-                                    tcp_next_seq = tcpPacket.info.seqno + buf.length;
+                                    tcp_next_seq = tcpPacket.info.seqno + tcp_payload.length;
                                     clearDataOnServerChange();
                                     logger.info('Got Scene Server Address: ' + src_server);
                                 }
                             } catch (e) {}
-                        } while (data1 && data1.length);
+                        } while (tcp_frag && tcp_frag.length);
                     }
                 }
                 //尝试通过登录返回包识别服务器(仍需测试)
-                if (buf.length === 0x62) {
+                if (tcp_payload.length === 0x62) {
                     // prettier-ignore
                     const signature = Buffer.from([
                         0x00, 0x00, 0x00, 0x62,
@@ -1432,13 +1440,13 @@ async function main() {
                         0x0a, 0x4e, 0x08, 0x01, 0x22, 0x24
                     ]);
                     if (
-                        Buffer.compare(buf.subarray(0, 10), signature.subarray(0, 10)) === 0 &&
-                        Buffer.compare(buf.subarray(14, 14 + 6), signature.subarray(14, 14 + 6)) === 0
+                        Buffer.compare(tcp_payload.subarray(0, 10), signature.subarray(0, 10)) === 0 &&
+                        Buffer.compare(tcp_payload.subarray(14, 14 + 6), signature.subarray(14, 14 + 6)) === 0
                     ) {
                         if (current_server !== src_server) {
                             current_server = src_server;
                             clearTcpCache();
-                            tcp_next_seq = tcpPacket.info.seqno + buf.length;
+                            tcp_next_seq = tcpPacket.info.seqno + tcp_payload.length;
                             clearDataOnServerChange();
                             logger.info('Got Scene Server Address by Login Return Packet: ' + src_server);
                         }
@@ -1452,13 +1460,13 @@ async function main() {
         //这里已经是识别到的服务器的包了
         if (tcp_next_seq === -1) {
             logger.error('Unexpected TCP capture error! tcp_next_seq is -1');
-            if (buf.length > 4 && buf.readUInt32BE() < 0x0fffff) {
+            if (tcp_payload.length > 4 && tcp_payload.readUInt32BE() < 0x0fffff) {
                 tcp_next_seq = tcpPacket.info.seqno;
             }
         }
         // logger.debug('TCP next seq: ' + tcp_next_seq);
         if ((tcp_next_seq - tcpPacket.info.seqno) << 0 <= 0 || tcp_next_seq === -1) {
-            tcp_cache.set(tcpPacket.info.seqno, buf);
+            tcp_cache.set(tcpPacket.info.seqno, tcp_payload);
         }
         while (tcp_cache.has(tcp_next_seq)) {
             const seq = tcp_next_seq;
@@ -1478,9 +1486,10 @@ async function main() {
                 const packet = _data.subarray(0, packetSize);
                 _data = _data.subarray(packetSize);
                 const processor = new PacketProcessor({ logger, userDataManager });
-                processor.processPacket(packet); // TODO: this?
+                logger.info(`Reassembled: Seq - ${packetSize} - ${packet}`)
+                processor.processPacket(packet, 0); // TODO: this?
             } else if (packetSize > 0x0fffff) {
-                logger.error(`Invalid Length!! ${_data.length},${len},${_data.toString('hex')},${tcp_next_seq}`);
+                // logger.error(`Invalid Length!! ${_data.length},${len},${_data.toString('hex')},${tcp_next_seq}`);
                 process.exit(1);
                 break;
             }
@@ -1528,3 +1537,7 @@ if (!zlib.zstdDecompressSync) {
 }
 
 main();
+
+// let v = [0, 0, 81, 185, 128, 6, 0, 0, 0, 1, 40, 181, 47, 253, 0, 88, 28, 141, 2, 26, 236, 243, 219, 84, 32, 14, 37, 149, 116, 93, 213, 76, 87, 81, 17, 17, 85, 101, 6, 20, 173, 6, 0, 85, 0, 0, 51, 25, 179, 168, 168, 170, 170, 5, 1, 17, 0, 193, 205, 198, 194, 182, 56, 118, 227, 163, 78, 170, 78, 142, 219, 226, 242, 118, 43, 103, 76, 219, 82, 63, 125, 165, 191, 112, 57, 67, 183, 120, 31, 146, 122, 154, 239, 165, 245, 5, 88, 101, 61, 75, 99, 187, 37, 178, 27, 33, 100, 183, 72, 14, 79, 14, 246, 12, 248, 29, 108, 100, 25, 74, 91, 166, 202, 31, 42, 165, 140, 115, 157, 198, 81, 195, 123, 242, 91, 90, 229, 136, 43, 42, 50, 1, 190, 161, 9, 240, 29, 23, 233, 139, 242, 4, 181, 165, 172, 193, 117, 90, 131, 38, 28, 65, 232, 110, 44, 45, 143, 85, 146, 240, 145, 36, 71, 224, 59, 29, 1, 23, 127, 72, 109, 136, 91, 114, 7, 215, 233, 14, 140, 134, 154, 198, 168, 100, 224, 104, 203, 34, 190, 161, 69, 124, 39, 39, 134, 171, 5, 145, 178, 33, 44, 59, 186, 156, 175, 211, 249, 29, 204, 142, 110, 68, 189, 200, 40, 92, 167, 81, 80, 223, 248, 242, 203, 117, 250, 101, 112, 5, 186, 196, 197, 15, 164, 165, 229, 73, 149, 36, 124, 236, 229, 12, 223, 233, 12, 239, 32, 39, 134, 43, 9, 138, 101, 150, 169, 96, 30, 45, 173, 114, 132, 22, 24, 89, 230, 27, 90, 230, 59, 57, 33, 154, 198, 232, 4, 143, 44, 177, 242, 132, 30, 42, 114, 9, 207, 208, 37, 28, 39, 71, 101, 18, 214, 130, 106, 73, 175, 110, 105, 149, 63, 84, 48, 242, 7, 215, 233, 15, 88, 236, 177, 48, 210, 97, 152, 121, 174, 211, 60, 239, 144, 115, 148, 83, 161, 4, 197, 140, 159, 16, 77, 99, 127, 127, 116, 75, 84, 105, 66, 29, 86, 54, 192, 117, 218, 0, 204, 64, 174, 52, 162, 33, 75, 10, 40, 127, 168, 6, 115, 6, 215, 233, 12, 132, 122, 48, 185, 216, 79, 136, 24, 124, 128, 56, 2, 151, 86, 89, 162, 206, 73, 174, 185, 78, 215, 188, 67, 142, 49, 9, 201, 203, 2, 69, 128, 201, 79, 136, 166, 179, 24, 98, 90, 150, 70, 229, 15, 85, 140, 156, 194, 117, 58, 133, 119, 200, 81, 153, 220, 80, 138, 64, 220, 79, 136, 166, 177, 41, 42, 96, 75, 171, 60, 161, 135, 94, 6, 113, 157, 6, 241, 14, 57, 49, 92, 73, 69, 98, 144, 33, 74, 65, 89, 90, 37, 9, 39, 93, 70, 94, 167, 145, 239, 144, 147, 124, 102, 123, 26, 171, 182, 167, 217, 194, 38, 172, 240, 145, 95, 126, 251, 229, 24, 199, 112, 33, 13, 94, 234, 39, 68, 147, 216, 87, 217, 218, 178, 149, 214, 143, 44, 107, 184, 78, 107, 120, 135, 22, 254, 161, 91, 184, 8, 56, 249, 204, 198, 27, 219, 248, 35, 182, 137, 25, 230, 48, 13, 115, 25, 124, 164, 3, 162, 228, 139, 134, 96, 94, 192, 1, 208, 11, 0, 194, 151, 114, 177, 5, 102, 5, 28, 0, 173, 128, 247, 228, 28, 233, 216, 242, 44, 179, 232, 66, 209, 3, 69, 21, 138, 22, 41, 13, 66, 129, 80, 20, 253, 132, 104, 42, 251, 139, 26, 178, 180, 74, 213, 139, 232, 40, 39, 224, 0, 232, 4, 188, 39, 199, 132, 21, 62, 242, 241, 22, 169, 143, 183, 48, 240, 142, 21, 18, 138, 32, 138, 61, 45, 8, 129, 132, 28, 22, 54, 144, 1, 19, 52, 128, 133, 19, 100, 160, 4, 57, 47, 36, 123, 245, 59, 13, 206, 32, 71, 197, 82, 97, 161, 84, 44, 21, 86, 169, 215, 207, 88, 36, 52, 5, 46, 136, 208, 128, 6, 62, 140, 48, 194, 82, 68, 11, 41, 68, 8, 192, 7, 41, 2, 144, 194, 231, 131, 16, 82, 164, 8, 225, 3, 17, 68, 44, 51, 240, 193, 82, 3, 1, 208, 128, 6, 150, 1, 88, 129, 131, 7, 224, 138, 43, 172, 62, 235, 178, 231, 135, 9, 200, 100, 50, 153, 56, 64, 182, 88, 232, 176, 193, 0, 254, 102, 135, 65, 9, 20, 16, 197, 192, 36, 109, 214, 91, 27, 54, 54, 113, 40, 220, 117, 90, 169, 80, 129, 142, 137, 16, 33, 194, 8, 32, 60, 44, 61, 44, 147, 232, 215, 218, 2, 133, 90, 122, 8, 192, 210, 103, 4, 16, 30, 62, 120, 88, 190, 160, 76, 40, 243, 197, 22, 26, 173, 20, 163, 237, 59, 218, 60, 36, 141, 46, 246, 89, 108, 212, 166, 216, 104, 219, 99, 27, 103, 173, 101, 43, 186, 80, 244, 128, 106, 117, 88, 59, 134, 218, 174, 162, 189, 178, 71, 173, 212, 117, 90, 169, 88, 178, 70, 215, 105, 68, 38, 197, 50, 79, 224, 97, 1, 18, 108, 96, 116, 1, 93, 154, 160, 4, 44, 152, 64, 237, 73, 192, 83, 146, 82, 4, 16, 34, 128, 8, 65, 68, 136, 16, 66, 92, 32, 196, 139, 237, 234, 4, 60, 37, 29, 165, 17, 133, 49, 48, 131, 81, 44, 42, 157, 195, 138, 207, 224, 125, 38, 135, 242, 32, 96, 160, 31, 159, 229, 133, 131, 123, 74, 228, 185, 109, 77, 86, 48, 55, 240, 158, 184, 30, 159, 241, 113, 156, 50, 35, 216, 103, 180, 78, 131, 125, 150, 87, 71, 215, 145, 57, 158, 155, 3, 134, 146, 28, 191, 193, 62, 77, 20, 51, 137, 99, 99, 43, 108, 200, 141, 253, 92, 103, 11, 24, 72, 72, 198, 136, 190, 147, 116, 242, 153, 180, 231, 109, 50, 109, 129, 249, 14, 211, 57, 32, 126, 134, 232, 52, 248, 231, 58, 229, 154, 124, 156, 70, 137, 207, 117, 163, 107, 194, 76, 115, 255, 131, 41, 20, 96, 124, 134, 234, 44, 85, 114, 130, 174, 104, 26, 154, 2, 186, 206, 171, 193, 166, 159, 235, 164, 81, 200, 195, 231, 58, 105, 248, 157, 45, 229, 238, 1, 199, 24, 161, 80, 215, 224, 174, 221, 145, 184, 36, 215, 113, 59, 14, 126, 158, 230, 237, 10, 29, 223, 57, 200, 68, 125, 102, 195, 65, 208, 114, 157, 156, 67, 205, 12, 192, 122, 14, 94, 94, 183, 35, 34, 173, 85, 202, 53, 128, 57, 128, 2, 151, 1, 8, 92, 77, 19, 238, 24, 4, 116, 157, 101, 86, 224, 126, 124, 174, 19, 74, 13, 46, 241, 61, 88, 189, 67, 161, 74, 1, 84, 147, 60, 213, 34, 99, 234, 155, 146, 186, 3, 48, 137, 102, 52, 45, 238, 32, 176, 3, 198, 122, 168, 137, 84, 210, 92, 121, 52, 209, 168, 38, 6, 65, 215, 41, 232, 39, 232, 212, 252, 185, 110, 131, 87, 88, 136, 52, 239, 51, 119, 28, 108, 93, 60, 147, 79, 74, 84, 48, 249, 158, 131, 37, 80, 199, 98, 72, 225, 55, 232, 56, 14, 94, 94, 49, 60, 184, 39, 142, 45, 146, 113, 116, 14, 106, 167, 161, 178, 113, 26, 236, 179, 188, 104, 125, 130, 76, 158, 139, 214, 103, 4, 80, 132, 222, 111, 240, 207, 125, 99, 10, 6, 57, 77, 86, 90, 219, 113, 146, 119, 232, 210, 103, 112, 6, 39, 99, 105, 16, 208, 117, 166, 145, 141, 253, 248, 92, 103, 12, 30, 99, 203, 43, 149, 200, 132, 137, 243, 14, 216, 103, 121, 215, 218, 184, 204, 241, 92, 31, 96, 43, 212, 126, 83, 87, 247, 25, 252, 115, 225, 212, 248, 156, 62, 99, 118, 154, 53, 160, 31, 31, 13, 255, 0, 3, 165, 208, 227, 55, 88, 45, 91, 75, 217, 152, 40, 221, 218, 49, 104, 200, 123, 48, 6, 46, 152, 40, 124, 84, 124, 3, 206, 106, 159, 193, 63, 215, 9, 5, 72, 219, 105, 128, 154, 109, 79, 254, 97, 235, 52, 47, 206, 1, 255, 220, 183, 102, 219, 220, 105, 112, 6, 165, 98, 26, 4, 116, 157, 87, 186, 48, 127, 124, 174, 27, 93, 162, 18, 250, 13, 124, 159, 185, 87, 231, 128, 5, 227, 78, 163, 197, 104, 230, 31, 120, 157, 6, 255, 92, 39, 29, 142, 181, 211, 224, 212, 176, 153, 30, 245, 161, 81, 205, 99, 208, 229, 222, 115, 162, 203, 103, 132, 156, 67, 145, 207, 96, 186, 211, 92, 161, 187, 66, 119, 133, 238, 10, 29, 4, 146, 124, 9, 244, 115, 225, 212, 246];
+// const processor = new PacketProcessor({});
+// processor.processPacket(Buffer.from(v), 0);
