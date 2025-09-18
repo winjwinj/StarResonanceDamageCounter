@@ -510,7 +510,7 @@ class PacketProcessor {
                     case 5: // Name
                         const playerName = streamReadString(messageReader);
                         if (!playerName || playerName === '') break;
-                        // this.logger.info(`player name _processSyncContainerDirtyData`);
+                        this.logger.info(`player name _processSyncContainerDirtyData`);
                         this.userDataManager.setName(currentUserUuid.shiftRight(16).toNumber(), playerName);
                         break;
                     case 35: // FightPoint
@@ -575,15 +575,18 @@ class PacketProcessor {
             switch (attr.Id) {
                 case AttrType.AttrName:
                     const playerName = reader.string();
+                    // this.logger.info("_processPlayerAttrs");
                     this.userDataManager.setName(playerUid, playerName);
                     break;
                 case AttrType.AttrProfessionId:
                     const professionId = reader.int32();
                     const professionName = getProfessionNameFromId(professionId);
+                    this.logger.info("_processPlayerAttrs");
                     this.userDataManager.setProfession(playerUid, professionName);
                     break;
                 case AttrType.AttrFightPoint:
                     const playerFightPoint = reader.int32();
+                    this.logger.info("_processPlayerAttrs");
                     this.userDataManager.setFightPoint(playerUid, playerFightPoint);
                     break;
                 case AttrType.AttrLevel:
@@ -680,7 +683,7 @@ class PacketProcessor {
                         this._processEnemyAttrs(entityUid, attrCollection.Attrs);
                         break;
                     case pb.EEntityType.EntChar:
-                        this.logger.info(`player name _process sync near entities`);
+                        this.logger.info(`player name _processSyncNearEntities`);
                         this._processPlayerAttrs(entityUid, attrCollection.Attrs);
                         break;
                     default:
@@ -708,7 +711,7 @@ class PacketProcessor {
 
         switch (methodId) {
             case NotifyMethod.SyncNearEntities:
-                this.logger.info(`SyncNearEntities`);
+                // this.logger.info(`SyncNearEntities`);
                 this._processSyncNearEntities(msgPayload);
                 break;
             case NotifyMethod.SyncContainerData:
@@ -716,12 +719,15 @@ class PacketProcessor {
                 this._processSyncContainerData(msgPayload);
                 break;
             case NotifyMethod.SyncContainerDirtyData:
+                // this.logger.info(`SyncContainerDirtyData`);
                 this._processSyncContainerDirtyData(msgPayload);
                 break;
             case NotifyMethod.SyncToMeDeltaInfo:
+                // this.logger.info(`SyncToMeDeltaInfo`);
                 this._processSyncToMeDeltaInfo(msgPayload);
                 break;
             case NotifyMethod.SyncNearDeltaInfo:
+                // this.logger.info(`SyncNearDeltaInfo`);
                 this._processSyncNearDeltaInfo(msgPayload);
                 break;
             default:
@@ -744,7 +750,6 @@ class PacketProcessor {
 
             do {
                 let packetSize = packetsReader.peekUInt32();
-                console.log(`${packetsReader.remaining()} ${packetSize}`)
                 if (packetSize < 6) {
                     // this.logger.debug(`Received invalid packet`);
                     return;
@@ -759,7 +764,7 @@ class PacketProcessor {
                 debug_ctr += 1;
                 switch (msgTypeId) {
                     case MessageType.Notify:
-                        this.logger.info(`${debug_ctr} Notify [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
+                        // this.logger.info(`${debug_ctr} Notify [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
                         this._processNotifyMsg(packetReader, isZstdCompressed);
                         break;
                     case MessageType.Return:
@@ -767,7 +772,7 @@ class PacketProcessor {
                         this._processReturnMsg(packetReader, isZstdCompressed);
                         break;
                     case MessageType.FrameDown:
-                        this.logger.info(`${debug_ctr} FrameDown [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
+                        // this.logger.info(`${debug_ctr} FrameDown [${Array.from(new Uint8Array(packetReader.buffer)).join(", ")}]`);
                         const serverSequenceId = packetReader.readUInt32();
                         if (packetReader.remaining() == 0) break;
 
