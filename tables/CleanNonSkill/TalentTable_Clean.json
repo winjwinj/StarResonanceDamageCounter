@@ -1,0 +1,2860 @@
+{
+    "1": {
+        "ChineseShort": "力量+10",
+        "EnglishShort": "Strength"
+    },
+    "2": {
+        "ChineseShort": "智力+10",
+        "EnglishShort": "Intellect"
+    },
+    "3": {
+        "ChineseShort": "敏捷+10",
+        "EnglishShort": "Agility"
+    },
+    "4": {
+        "ChineseShort": "耐力+30",
+        "EnglishShort": "Endurance"
+    },
+    "5": {
+        "ChineseShort": "暴击+25",
+        "EnglishShort": "Crit"
+    },
+    "6": {
+        "ChineseShort": "急速+25",
+        "EnglishShort": "Haste"
+    },
+    "7": {
+        "ChineseShort": "幸运+25",
+        "EnglishShort": "Luck"
+    },
+    "8": {
+        "ChineseShort": "精通+25",
+        "EnglishShort": "Mastery"
+    },
+    "9": {
+        "ChineseShort": "全能+25",
+        "EnglishShort": "Versatility"
+    },
+    "20": {
+        "ChineseShort": "冰元素攻击+5",
+        "EnglishShort": "Ice Attack"
+    },
+    "21": {
+        "ChineseShort": "岩元素攻击+5",
+        "EnglishShort": "Rock Attack"
+    },
+    "22": {
+        "ChineseShort": "雷元素攻击+5",
+        "EnglishShort": "Thunder Attack"
+    },
+    "23": {
+        "ChineseShort": "森元素攻击+5",
+        "EnglishShort": "Forest Attack"
+    },
+    "24": {
+        "ChineseShort": "光元素攻击+5",
+        "EnglishShort": "Light Attack"
+    },
+    "25": {
+        "ChineseShort": "暗元素攻击+5",
+        "EnglishShort": "Dark Attack"
+    },
+    "26": {
+        "ChineseShort": "风元素攻击+5",
+        "EnglishShort": "Wind Attack"
+    },
+    "27": {
+        "ChineseShort": "火元素攻击+5",
+        "EnglishShort": "Fire Attack"
+    },
+    "40": {
+        "ChineseShort": "暴击几率+2%",
+        "EnglishShort": "Crit Chance"
+    },
+    "41": {
+        "ChineseShort": "攻击速度+1%",
+        "EnglishShort": "Attack Speed"
+    },
+    "42": {
+        "ChineseShort": "施法速度+1%",
+        "EnglishShort": "Cast Speed"
+    },
+    "43": {
+        "ChineseShort": "技能冷却+1%",
+        "EnglishShort": "Skill CD"
+    },
+    "44": {
+        "ChineseShort": "幸运几率+2%",
+        "EnglishShort": "Luck Chance"
+    },
+    "45": {
+        "ChineseShort": "暴击伤害+3%",
+        "EnglishShort": "Crit DMG"
+    },
+    "46": {
+        "ChineseShort": "幸运伤害+3%",
+        "EnglishShort": "Luck Damage"
+    },
+    "47": {
+        "ChineseShort": "治疗效果+3%",
+        "EnglishShort": "Healing"
+    },
+    "48": {
+        "ChineseShort": "护盾减伤+4%",
+        "EnglishShort": "Shield Defense"
+    },
+    "49": {
+        "ChineseShort": "格挡减伤+4%",
+        "EnglishShort": "Block Defense"
+    },
+    "50": {
+        "ChineseShort": "全能增伤+3%",
+        "EnglishShort": "Universal Damage Bonus"
+    },
+    "51": {
+        "ChineseShort": "全能减伤+3%",
+        "EnglishShort": "Universal Defense"
+    },
+    "52": {
+        "ChineseShort": "易伤强度+3%",
+        "EnglishShort": "Vulnerability Intensity"
+    },
+    "53": {
+        "ChineseShort": "易伤增伤+3%",
+        "EnglishShort": "Vulnerability Damage Bonus"
+    },
+    "54": {
+        "ChineseShort": "压制增伤+3%",
+        "EnglishShort": "Suppress Damage Bonus"
+    },
+    "55": {
+        "ChineseShort": "压制减伤+3%",
+        "EnglishShort": "Suppress Defense"
+    },
+    "56": {
+        "ChineseShort": "鼓舞效果+3%",
+        "EnglishShort": "Inspiring Effect"
+    },
+    "57": {
+        "ChineseShort": "忽视防御+2%",
+        "EnglishShort": "Ignore Defense"
+    },
+    "100": {
+        "ChineseShort": "刀意",
+        "EnglishShort": "Blade Intent",
+        "EnglishLong": "Gain 3 points of Blade Intent when releasing Expertise."
+    },
+    "101": {
+        "ChineseShort": "敏捷转换",
+        "EnglishShort": "Agility Conversion",
+        "EnglishLong": "Every <style=\"accent-gn\">8</style> Agility grants <style=\"accent-gn\">1</style> ATK."
+    },
+    "102": {
+        "ChineseShort": "霹雳回旋",
+        "EnglishShort": "Thunder Whirl",
+        "EnglishLong": "Piercing Slash grants Overdrive 1 charge."
+    },
+    "103": {
+        "ChineseShort": "心眼一击",
+        "EnglishShort": "Keen Strike",
+        "EnglishLong": "Normal attacks have a fixed 10% chance to trigger Piercing Slash, effective at most once per second."
+    },
+    "104": {
+        "ChineseShort": "心眼强化",
+        "EnglishShort": "Keen Enhancement",
+        "EnglishLong": "Fixed trigger chance of Piercing Slash +10%."
+    },
+    "105": {
+        "ChineseShort": "居合天授",
+        "EnglishShort": "Iaido Mastery",
+        "EnglishLong": "Crit rate of Iaido Slash +10%.<br>For every 1% exceeding 60% Crit rate, provide 1% Crit DMG."
+    },
+    "106": {
+        "ChineseShort": "追击风袭·上式",
+        "EnglishShort": "Wind Assault I",
+        "EnglishLong": "Critical attributes obtained in any way are +12%, but luck attributes obtained in any way are -10%."
+    },
+    "107": {
+        "ChineseShort": "禅瞬之机",
+        "EnglishShort": "Zen Moment",
+        "EnglishLong": "Special attacks triggering Crits gain 100 Blade Intent."
+    },
+    "108": {
+        "ChineseShort": "霹雳符印",
+        "EnglishShort": "Thunder Sigil Charm",
+        "EnglishLong": "Thunder Sigil limit +1."
+    },
+    "109": {
+        "ChineseShort": "雷返",
+        "EnglishShort": "Thunder Reversal",
+        "EnglishLong": "Consume 100 Blade Intent to gain a Thunder Reversal Mark. When the Thunder Reversal Mark stacks to 5 layers, Casting Iaido Slash grants the Thunder Reversal effect and clears the Thunder Reversal Mark.<br>Thunder Reversal: Gain 10% Thunder Elemental Bonus, lasts for 15s."
+    },
+    "110": {
+        "ChineseShort": "拔刀真空波",
+        "EnglishShort": "Vacuum Slash",
+        "EnglishLong": "Each time Flash or Raijin Dash is cast, stack 1 layer of Thundrage. When Thundrage accumulates to 5 layers, Iaido Slash evolves into Thunder Cut.<br>After Casting Thunder Cut, consume 5 layers of Thundrage, Thundrage can stack up to 8 layers."
+    },
+    "112": {
+        "ChineseShort": "一闪狂刃",
+        "EnglishShort": "Flash Frenzy Blade",
+        "EnglishLong": "When Iaido Slash critically hits, 10% chance to reset the remaining CD time of Flash or Raijin Dash, with an additional 10% chance for each Thunder Sigil consumed."
+    },
+    "113": {
+        "ChineseShort": "刃风界域",
+        "EnglishShort": "Bladewind Domain",
+        "EnglishLong": "After Casting Overdrive three times, the next Iaido Slash forms a Bladewind Domain in front. <br>Each time the Bladewind Domain deals damage, the remaining CD time of Oblivion Combo -1.5s."
+    },
+    "114": {
+        "ChineseShort": "雷魂之触",
+        "EnglishShort": "Touch of Thunder Soul",
+        "EnglishLong": "When Moon Blade triggers a Lucky Strike, there is a 30% fixed chance to cast Thunder Strike. <br>Moon Blade can autonomously move to attack enemy targets."
+    },
+    "115": {
+        "ChineseShort": "印记之息",
+        "EnglishShort": "Breath of Mark",
+        "EnglishLong": "When Moon Blade triggers a Lucky Strike, there is a 30% fixed chance to restore 1 Thunder Sigil, effective once per second."
+    },
+    "116": {
+        "ChineseShort": "幻影时延",
+        "EnglishShort": "Phantom Delay",
+        "EnglishLong": "When Thundercut triggers a Lucky Strike, it extends Moon Blade's duration by 1s."
+    },
+    "118": {
+        "ChineseShort": "幻镰之境·一式",
+        "EnglishShort": "Phantom Scythe Realm I",
+        "EnglishLong": "Moon Blade limit +1. <br>Moon Blade damage -35%."
+    },
+    "119": {
+        "ChineseShort": "幻镰之境·二式",
+        "EnglishShort": "Phantom Scythe Realm II",
+        "EnglishLong": "Moon Blade limit +1. <br>Moon Blade damage -35%."
+    },
+    "120": {
+        "ChineseShort": "雷电之力",
+        "EnglishShort": "Power of Thunder",
+        "EnglishLong": "Every 10 hits, trigger Thunder Power.<br>Thunder Power: Thunder Elemental Attack +10, lasts 10s, stacks up to 10 times."
+    },
+    "121": {
+        "ChineseShort": "月影时延",
+        "EnglishShort": "Moonstrike Delay",
+        "EnglishLong": "Blade Intent limit +25. <br>During a continuous Thundercut, every 5th strike will perform a powerful Thundercleave, dealing higher damage."
+    },
+    "122": {
+        "ChineseShort": "霹雳之光",
+        "EnglishShort": "Lightning Flash",
+        "EnglishLong": "During Stormflash, Moon Blade attack speed +100%."
+    },
+    "123": {
+        "ChineseShort": "雷咒",
+        "EnglishShort": "Thunder Curse",
+        "EnglishLong": "When Special Attacks deal damage, apply Thunder Curse to the enemy target.<br>Thunder Curse: Each stack of Thunder Curse increases the damage the enemy target takes by 2%, lasts 10s, stacks up to 4 times."
+    },
+    "124": {
+        "ChineseShort": "决斗意识",
+        "EnglishShort": "Duel Awareness",
+        "EnglishLong": "When dealing damage to enemy targets with more than 80% HP, Attack Damage +20%."
+    },
+    "126": {
+        "ChineseShort": "狂戮雷鸣",
+        "EnglishShort": "Frenzied Thunder Roar",
+        "EnglishLong": "When defeating an enemy target, trigger Thunder Explosion, can only occur once every 3s."
+    },
+    "128": {
+        "ChineseShort": "敌影蔑视",
+        "EnglishShort": "Shadow Despise",
+        "EnglishLong": "For each enemy target within 3 meters, Armor Penetration +3%, up to a maximum of 15% (effect doubled for elite and above targets)."
+    },
+    "129": {
+        "ChineseShort": "居合雷舞",
+        "EnglishShort": "Iai Thunder Dance",
+        "EnglishLong": "When Thunder Sigil is greater than or equal to 3, Special Attacks will attack twice consecutively."
+    },
+    "130": {
+        "ChineseShort": "居合斩流",
+        "EnglishShort": "Iaido Slash Spec",
+        "EnglishLong": "Further enhance the ability to use Iaido Slash.<br>When the number of Thunder Sigils consumed by Iaido Slash equals 5, Iaido Slash damage +10% and grants super armor during its execution."
+    },
+    "131": {
+        "ChineseShort": "霹雳电种",
+        "EnglishShort": "Thunder Seed",
+        "EnglishLong": "Thundercut always grants 1 Charge Seed."
+    },
+    "132": {
+        "ChineseShort": "一闪锐击",
+        "EnglishShort": "Flash Sharp Strike",
+        "EnglishLong": "When Casting Iaido Slash, it triggers Sharp Strike, effective once every 10s. <br>Sharp Strike: Flash Crit +10%, if Flash Crits, gain 3 Thunder Sigils for 10s."
+    },
+    "133": {
+        "ChineseShort": "疾电破袭",
+        "EnglishShort": "Rapid Thunder Assault",
+        "EnglishLong": "For each additional Thunder Sigil consumed by a skill, damage +3%."
+    },
+    "134": {
+        "ChineseShort": "破灭之终结",
+        "EnglishShort": "End of Annihilation",
+        "EnglishLong": "The final strike of Oblivion Combo is enhanced to Ultimate Slash."
+    },
+    "135": {
+        "ChineseShort": "迅捷",
+        "EnglishShort": "Swift",
+        "EnglishLong": "Each <style=\"accent-gn\">1%</style> Haste provides <style=\"accent-gn\">1%</style> Attack Speed."
+    },
+    "136": {
+        "ChineseShort": "霹雳符印",
+        "EnglishShort": "Thunder Sigil Charm",
+        "EnglishLong": "Thunder Sigil limit +1."
+    },
+    "137": {
+        "ChineseShort": "迅捷之刃",
+        "EnglishShort": "Swift Blade",
+        "EnglishLong": "When Agility reaches 500 points, Crit DMG and Lucky Damage +5%."
+    },
+    "138": {
+        "ChineseShort": "雷符刀意",
+        "EnglishShort": "Thunder Charm Blade",
+        "EnglishLong": "For each Thunder Sigil consumed by a Expertise Skill, gain an additional 3 points of Blade Intent."
+    },
+    "139": {
+        "ChineseShort": "无穷雷霆",
+        "EnglishShort": "Infinite Thunder",
+        "EnglishLong": "For every 5 Thunder Sigils consumed, the remaining CD time of Volt Surge -0.5s."
+    },
+    "140": {
+        "ChineseShort": "雷印回溯",
+        "EnglishShort": "Thunder Sigil Rewind",
+        "EnglishLong": "When consuming Thunder Sigils, there is a chance to return 1 Thunder Sigil. For each additional Thunder Sigil consumed, the return chance +8%."
+    },
+    "141": {
+        "ChineseShort": "雷霆神威",
+        "EnglishShort": "Thunder Might",
+        "EnglishLong": "Activate Volt Surge, Flash and Raijin Dash derive into Dracoflash and Phantom Slash."
+    },
+    "142": {
+        "ChineseShort": "无双飞雷神",
+        "EnglishShort": "Unmatched Raijin Dash",
+        "EnglishLong": "Raijin Dash ignores target's Armor. <br>For each additional target hit by Raijin Dash, damage +10%."
+    },
+    "143": {
+        "ChineseShort": "暴斩",
+        "EnglishShort": "Violent Slash",
+        "EnglishLong": "Iaido Slash Crit +12%."
+    },
+    "144": {
+        "ChineseShort": "追击风袭·下式",
+        "EnglishShort": "Wind Assault II",
+        "EnglishLong": "Critical attributes obtained in any way are +12%, but luck attributes obtained in any way are -10%."
+    },
+    "145": {
+        "ChineseShort": "刀意双绝",
+        "EnglishShort": "Dual Blade Intent",
+        "EnglishLong": "When Blade Intent is greater than or equal to 100, One Flash and Raijin Dash Crit +10%."
+    },
+    "146": {
+        "ChineseShort": "雷印亲和",
+        "EnglishShort": "Thunder Sigil Affinity",
+        "EnglishLong": "When dealing damage with Expertise and special attacks, for each additional Thunder Sigil consumed, gain 1% Thunder Element bonus."
+    },
+    "147": {
+        "ChineseShort": "雷霆之压",
+        "EnglishShort": "Thundrage",
+        "EnglishLong": "Each time Dracoflash and Phantom Slash are cast, stack 5 layers of Thundrage, up to a maximum of 8 layers."
+    },
+    "148": {
+        "ChineseShort": "超高出力精进",
+        "EnglishShort": "Overdrive Refinement",
+        "EnglishLong": "Overdrive CD -30%."
+    },
+    "149": {
+        "ChineseShort": "刀意雷击",
+        "EnglishShort": "Blade Intent Thunder Strike",
+        "EnglishLong": "When Iaido Slash deals Crit DMG, if the Blade Intent is greater than 20 points, trigger Thunder Strike (Iaido Slash can trigger only once per use)."
+    },
+    "150": {
+        "ChineseShort": "霹雳符印",
+        "EnglishShort": "Thunder Sigil Charm",
+        "EnglishLong": "Thunder Sigil limit +1."
+    },
+    "151": {
+        "ChineseShort": "破斩",
+        "EnglishShort": "Break Slash",
+        "EnglishLong": "When Iaido Slash deals Crit DMG, ignore 30% of the target's Armor."
+    },
+    "152": {
+        "ChineseShort": "暴裂",
+        "EnglishShort": "Arcane",
+        "EnglishLong": "Crit DMG +10%."
+    },
+    "153": {
+        "ChineseShort": "瞬斩",
+        "EnglishShort": "Instant Slash",
+        "EnglishLong": "Instant Iaido Slash hitting the target reduces the target's Armor by 6% for 5s, stacking up to 5 layers."
+    },
+    "154": {
+        "ChineseShort": "精进",
+        "EnglishShort": "Advancement",
+        "EnglishLong": "Mastery +6%."
+    },
+    "155": {
+        "ChineseShort": "雷霆之镰精进",
+        "EnglishShort": "Thunder Scythe",
+        "EnglishLong": "Number of Charge Seeds consumed by Thunder Scythe -3."
+    },
+    "156": {
+        "ChineseShort": "刀意回复",
+        "EnglishShort": "Blade Intent Recovery",
+        "EnglishLong": "Each 1% Haste provides 1% Blade Intent recovery speed."
+    },
+    "157": {
+        "ChineseShort": "月刃召唤流",
+        "EnglishShort": "Moonstrike Spec",
+        "EnglishLong": "Replace <style=\"accent-gn\">Special Attack</style> with <linktext=1507><style=\"ItemQuality_5\">Moonstrike</style></linktext>, enhancing the ability.<br>Cast <linktext=1507><style=\"ItemQuality_5\">Moonstrike</style></linktext> to gain <style=\"accent-gn\">30</style> <linktext=1167><style=\"ItemQuality_5\">Blade Intent</style></linktext>.<br><br><i><style=\"text_third_gray\"><size=20>Frequent consumption of Thunder Sigils summons Moon Blade to continuously attack the target. High Haste accelerates Moon Blade's attacks. High Luck increases the frequency of Moon Blade triggering Thunder Strike.</size></style></i>"
+    },
+    "158": {
+        "ChineseShort": "神罚之镰",
+        "EnglishShort": "Divine Sickle",
+        "EnglishLong": "Every 7 casts of Thunder Scythe trigger Divine Punishment Scythe.<br>Divine Punishment Scythe is guaranteed to critically hit."
+    },
+    "159": {
+        "ChineseShort": "月光电荷",
+        "EnglishShort": "Moonlight Charge",
+        "EnglishLong": "When Moon Blade triggers a Lucky Strike, 30% chance to gain 1 Charge Seed."
+    },
+    "160": {
+        "ChineseShort": "刀意·极",
+        "EnglishShort": "Blade Intent - Rare",
+        "EnglishLong": "Blade Intent cap +75."
+    },
+    "161": {
+        "ChineseShort": "雷鸣千闪",
+        "EnglishShort": "Thousand Thunder Flashes",
+        "EnglishLong": "For every 2 Thunder Strikes triggered, reduce the remaining CD time of Stormflash by 0.5s."
+    },
+    "162": {
+        "ChineseShort": "缭乱兜割",
+        "EnglishShort": "Chaos Breaker",
+        "EnglishLong": "Activating Stormflash transforms Moonstrike into Chaos Breaker."
+    },
+    "163": {
+        "ChineseShort": "雷击强化",
+        "EnglishShort": "Thunder Strike Enhancement",
+        "EnglishLong": "Lightning damage +20%.<br>Each 1% Luck provides 1% Lightning damage bonus."
+    },
+    "164": {
+        "ChineseShort": "电荷捕手",
+        "EnglishShort": "Charge Catcher",
+        "EnglishLong": "Gain 1 Charge Seed for each enemy target defeated."
+    },
+    "165": {
+        "ChineseShort": "雷击低语",
+        "EnglishShort": "Thunder Strike Whisper",
+        "EnglishLong": "Lightning strikes gain 50% Thunder Element bonus, but cannot deal Crit DMG."
+    },
+    "166": {
+        "ChineseShort": "月影锐击",
+        "EnglishShort": "Moonstrike Sharp Strike",
+        "EnglishLong": "When Blade Intent is greater than or equal to 50, Moonstrike is guaranteed to crit."
+    },
+    "167": {
+        "ChineseShort": "霹雳符印",
+        "EnglishShort": "Thunder Sigil Charm",
+        "EnglishLong": "Lightning Sigil limit +1.<br>Storm Scythe and Divine Sickle are guaranteed to trigger Piercing Slash."
+    },
+    "168": {
+        "ChineseShort": "雷符极意",
+        "EnglishShort": "Thunder Rune Mastery",
+        "EnglishLong": "Blade Intent limit doubled."
+    },
+    "169": {
+        "ChineseShort": "霹雳电荷",
+        "EnglishShort": "Raijin Dash Charge",
+        "EnglishLong": "When lightning storm Combo triggers a Lucky Strike, gain 1 Charge Seed."
+    },
+    "170": {
+        "ChineseShort": "月刃神速",
+        "EnglishShort": "Moon Blade Swift",
+        "EnglishLong": "Moon Blade triggers a spinning damage every 6s. Each 2% Haste reduces its trigger interval by 1%."
+    },
+    "171": {
+        "ChineseShort": "雷霆神威",
+        "EnglishShort": "Thunder Might",
+        "EnglishLong": "During Stormflash, Storm Scythe will activate twice in succession."
+    },
+    "172": {
+        "ChineseShort": "霹雳之光",
+        "EnglishShort": "Thunder Sigil Rewind",
+        "EnglishLong": "During Volt Surge, the return chance of Thunder Sigil Rewind doubles, but the damage bonus of skills that consume Thunder Sigil is reduced from 25% to 10%."
+    },
+    "200": {
+        "ChineseShort": "寒意·锐",
+        "EnglishShort": "Cold Intent - Sharp",
+        "EnglishLong": "Ice Energy limit +10.<br>Frost Lance damage +12%."
+    },
+    "201": {
+        "ChineseShort": "智力转换",
+        "EnglishShort": "Intellect Conversion",
+        "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Intellect provides <style=\"accent-gn\">1</style> point of MATK."
+    },
+    "202": {
+        "ChineseShort": "寒霜咒印",
+        "EnglishShort": "Frost Curse Sigil",
+        "EnglishLong": "When Special Attacks deal damage, 5% chance to apply Frozen to the target."
+    },
+    "203": {
+        "ChineseShort": "寒冰启示",
+        "EnglishShort": "Ice Revelation",
+        "EnglishLong": "Gain 2 permanent Ice Crystal Cores floating around you.<br>Ice Crystal Core<br>When normal attacks deal damage, Ice Crystal Core has a fixed 10% chance to cast 2 Ice Arrows.<br>Ice Arrow: Deals 50% ATK Magic Damage to enemy targets and gains 1 Frost, up to a maximum of 2 Frosts."
+    },
+    "204": {
+        "ChineseShort": "玄冰之息",
+        "EnglishShort": "Breath of Frost",
+        "EnglishLong": "Frost Crystal limit +1."
+    },
+    "206": {
+        "ChineseShort": "浪潮精通",
+        "EnglishShort": "Tide Mastery",
+        "EnglishLong": "When Casting Frostbeam, you can channel and cast Tidepool."
+    },
+    "207": {
+        "ChineseShort": "冰晶共鸣",
+        "EnglishShort": "Crystal Resonance",
+        "EnglishLong": "When Frostbeam deals damage, it has a fixed 10% chance to make Ice Crystal Core cast Ice Arrow."
+    },
+    "208": {
+        "ChineseShort": "霜爆",
+        "EnglishShort": "Frost Explosion",
+        "EnglishLong": "Ice Arrows cast by Ice Crystal Core can deal an additional 100% ATK Magic Damage, and this damage is area damage."
+    },
+    "209": {
+        "ChineseShort": "冰晶扩充",
+        "EnglishShort": "Ice Crystal Expansion",
+        "EnglishLong": "Ice Energy limit +40."
+    },
+    "210": {
+        "ChineseShort": "冰凌之约",
+        "EnglishShort": "Ice shard pact",
+        "EnglishLong": "Maelstrom Ice Energy recovery efficiency +200%."
+    },
+    "211": {
+        "ChineseShort": "寒风凝聚",
+        "EnglishShort": "Cold Wind Convergence",
+        "EnglishLong": "When Frozen Gale hits a target (only triggers once when hitting multiple targets), it consumes all Frosts to summon Ice Crystal Fall, with the number of Ice Crystal Falls equal to the consumed Frosts.<br>Ice Crystal Fall deals damage, recovers 5 Ice Energy, and reduces the Ice Energy cost of skills by 5% for the next 5s, stacking up to 4 times."
+    },
+    "212": {
+        "ChineseShort": "射线流",
+        "EnglishShort": "Frostbeam Spec",
+        "EnglishLong": "Replace <style=\"accent-gn\">Special Attack</style> with <linktext=1509><style=\"ItemQuality_5\">Frostbeam</style></linktext>, enhancing its effectiveness. <br>Each possessed <linktext=1161><style=\"ItemQuality_5\">Frost Crystal</style></linktext> increases <linktext=1509><style=\"ItemQuality_5\">Frostbeam</style></linktext> DMG by <style=\"accent-gn\">15%</style> and <style=\"accent-gn\">Ice Energy</style> consumption by <style=\"accent-gn\">30%</style>.<br><br><i><style=\"text_third_gray\"><size=20>Continuously consumes Ice Energy to maintain Frostbeam against targets. High Haste and Mastery result in faster beam channeling and superior Ice Energy recovery.</size></style></i>"
+    },
+    "214": {
+        "ChineseShort": "滝流雪影",
+        "EnglishShort": "Snow Shadow",
+        "EnglishLong": "For every 50 Ice Energy consumed, reduce the remaining CD time of Crystal Veil by 1s."
+    },
+    "215": {
+        "ChineseShort": "冰霜彗星",
+        "EnglishShort": "Frost Comet",
+        "EnglishLong": "When Frost Lance that consumes Frost triggers a crit or Lucky Strike, it has a fixed 50% chance to summon Frost Comet."
+    },
+    "216": {
+        "ChineseShort": "冻结星辰",
+        "EnglishShort": "Frozen Stars",
+        "EnglishLong": "When Frost Lance triggers both a Crit and a Lucky Strike, Meteor Storm's CD is immediately reset."
+    },
+    "217": {
+        "ChineseShort": "冰暴双矛",
+        "EnglishShort": "Blizzard Dual Spears",
+        "EnglishLong": "For 8s after Casting Blizzard, Frost Lance can additionally fire at another target near the original target."
+    },
+    "219": {
+        "ChineseShort": "风雨际会",
+        "EnglishShort": "Stormy encounter",
+        "EnglishLong": "When Crystal Veil deals damage, it has a fixed chance to reduce the remaining CD time of Blizzard by 1s, with the chance equal to half of your Luck%."
+    },
+    "220": {
+        "ChineseShort": "碎冰之击",
+        "EnglishShort": "Shattering Strike",
+        "EnglishLong": "When Meteor Storm deals damage, it makes Ice Crystal Core cast Ice Arrow (Meteor Storm can only trigger this effect once per instance)."
+    },
+    "221": {
+        "ChineseShort": "冰川怒潮",
+        "EnglishShort": "Glacier fury",
+        "EnglishLong": "After consuming 15 Frost Crystals, the next Blizzard cast within 10s is enhanced.<br>Blizzard: No Casting time, damage +50%."
+    },
+    "222": {
+        "ChineseShort": "极寒之矛",
+        "EnglishShort": "Icicle Volley",
+        "EnglishLong": "Every 15 Frost Lances cast, a piercing ice spear is launched forward."
+    },
+    "223": {
+        "ChineseShort": "琉璃浩瀚",
+        "EnglishShort": "Glazed Vastness",
+        "EnglishLong": "Ice skills deal +8% damage to elite and above targets."
+    },
+    "224": {
+        "ChineseShort": "涓流连绵",
+        "EnglishShort": "Continuous Stream",
+        "EnglishLong": "When dealing damage, trigger Trickle.<br>Trickle: Gain 1% Ice bonus, lasts for 6s, up to 5 stacks."
+    },
+    "225": {
+        "ChineseShort": "玄冰无界",
+        "EnglishShort": "Boundless Frost",
+        "EnglishLong": "Every 50 Ice Energy consumed grants 1 Frost Crystal.<br>Frost Crystal cap +3."
+    },
+    "226": {
+        "ChineseShort": "冰霜冲击",
+        "EnglishShort": "Frost Shock",
+        "EnglishLong": "When a Expertise Skill or Ultimate triggers a Lucky Strike, there is a 30% fixed chance to trigger Frost Shock. This effect can occur once every 3s."
+    },
+    "227": {
+        "ChineseShort": "速冻爆破",
+        "EnglishShort": "Quick Frozen Blast",
+        "EnglishLong": "When a Expertise Skill or Ultimate deals damage to a frozen target, trigger Frost Shock, can occur once every 1s."
+    },
+    "228": {
+        "ChineseShort": "冰息宁静",
+        "EnglishShort": "Icy Calm",
+        "EnglishLong": "For each additional target hit by Expertise or Ultimates (up to 5), mastery or haste or critical or luck +2% (based on the highest attribute), lasts for 5s."
+    },
+    "229": {
+        "ChineseShort": "冷却瞬息",
+        "EnglishShort": "Instant Cooling",
+        "EnglishLong": "Every 35 Ice Energy consumed reduces the remaining CD of Meteor Storm and Frozen Gale by 1s."
+    },
+    "230": {
+        "ChineseShort": "寒流",
+        "EnglishShort": "Cold Stream",
+        "EnglishLong": "Ice Energy cap +25.<br>Each 1% haste increases the natural recovery rate of Ice Energy by 1%."
+    },
+    "231": {
+        "ChineseShort": "冰光共鸣",
+        "EnglishShort": "Frostjade Staff",
+        "EnglishLong": "Ice Arrows cast by Ice Crystal Core have a fixed 30% chance to restore 3 Ice Energy when dealing damage.<br>During Permafrost, the chance is doubled."
+    },
+    "233": {
+        "ChineseShort": "冰矛流",
+        "EnglishShort": "Icicle Spec",
+        "EnglishLong": "Further enhance the ability to use Frost Lance.<br>When Frost Lance critically hits, it has a 30% fixed chance to cause Cryo Core to cast Ice Arrow."
+    },
+    "234": {
+        "ChineseShort": "寒冰领域",
+        "EnglishShort": "Frost Domain",
+        "EnglishLong": "The range of Glacier Hymn Field -50%, and you gain a 25% Ice bonus while within the field."
+    },
+    "235": {
+        "ChineseShort": "冰冷脉冲",
+        "EnglishShort": "Cold Pulse",
+        "EnglishLong": "Every 50 hits by Frostbeam triggers a Cold Pulse."
+    },
+    "236": {
+        "ChineseShort": "智力冷却",
+        "EnglishShort": "Intellect Cooling",
+        "EnglishLong": "When Intellect reaches 300 points, skill CD -10%."
+    },
+    "237": {
+        "ChineseShort": "次级增幅",
+        "EnglishShort": "Secondary Amp",
+        "EnglishLong": "Increases the highest among Crit, Haste, Luck, Mastery, and Versatility by +5%."
+    },
+    "238": {
+        "ChineseShort": "寒意·流",
+        "EnglishShort": "Cold Intent - Flow",
+        "EnglishLong": "Ice Energy cap +40.<br>Frost Lance damage +4%."
+    },
+    "239": {
+        "ChineseShort": "冰彗",
+        "EnglishShort": "Ice Comet",
+        "EnglishLong": "When Intellect reaches 500 points, gain 5% Ice bonus."
+    },
+    "240": {
+        "ChineseShort": "无尽苦寒",
+        "EnglishShort": "Endless Cold",
+        "EnglishLong": "Every 30 Frost Crystals consumed grants Endless Cold effect.<br>Endless Cold: During the 10-second duration, Casting Meteor Storm does not enter CD, but Ice Arrows triggered by Meteor Storm during this period cannot gain Frost Crystals."
+    },
+    "241": {
+        "ChineseShort": "冰矛连弹",
+        "EnglishShort": "Frost Lance Barrage",
+        "EnglishLong": "During Permafrost, Frost Lance will be cast twice consecutively."
+    },
+    "242": {
+        "ChineseShort": "陨星风暴之冻结",
+        "EnglishShort": "Freezing Meteor Storm",
+        "EnglishLong": "When Meteor Storm deals damage, 20% chance to apply Frozen to the target."
+    },
+    "243": {
+        "ChineseShort": "节能",
+        "EnglishShort": "Energy Saving",
+        "EnglishLong": "Frost Lance cast with Frost Crystal returns 50% of its consumed Ice Energy.<br>Frost Lance cast without Frost Crystal deducts an additional 50% of its consumed Ice Energy."
+    },
+    "244": {
+        "ChineseShort": "霜之利刃",
+        "EnglishShort": "Frost Blade",
+        "EnglishLong": "Frost Lance cast with Frost Crystal deals +20% damage."
+    },
+    "245": {
+        "ChineseShort": "深寒法矛",
+        "EnglishShort": "Deep Cold Magic Spear",
+        "EnglishLong": "Frost Lance damage +70%.<br>Frost Lance casting time +100%."
+    },
+    "246": {
+        "ChineseShort": "陨星风暴之倍扩",
+        "EnglishShort": "Meteor Storm Expansion",
+        "EnglishLong": "Meteor Storm drop quantity +1."
+    },
+    "247": {
+        "ChineseShort": "冰矛暴击",
+        "EnglishShort": "Frost Lance Crit",
+        "EnglishLong": "Frost Lance Crit DMG +1.5% for 6s, stacking up to 10 times."
+    },
+    "248": {
+        "ChineseShort": "灌注升华",
+        "EnglishShort": "Infusion Sublimation",
+        "EnglishLong": "Frost Crystal Limit +1.<br>During Permafrost, Iceal Attack +100.<br>After Permafrost ends, your Frost Crystal Limit will reset to the amount before Permafrost started."
+    },
+    "249": {
+        "ChineseShort": "致命冰矛",
+        "EnglishShort": "Deadly Frost Lance",
+        "EnglishLong": "Frost Lance damage +20% to targets with less than 35% HP."
+    },
+    "250": {
+        "ChineseShort": "暴击之寒",
+        "EnglishShort": "Critical Cold",
+        "EnglishLong": "During Permafrost, Crit DMG +15%.<br>During Permafrost, Allies' Crit chance +3%."
+    },
+    "251": {
+        "ChineseShort": "凛冽",
+        "EnglishShort": "Bitter Cold",
+        "EnglishLong": "Every 100 points of Intellect provides 0.5% Crit DMG."
+    },
+    "252": {
+        "ChineseShort": "锐利冰暴",
+        "EnglishShort": "Sharp Blizzard",
+        "EnglishLong": "Blizzard Crit chance +50%.<br>Blizzard Crit DMG +15%."
+    },
+    "253": {
+        "ChineseShort": "玄冰赋能",
+        "EnglishShort": "Frost Crystal Empowerment",
+        "EnglishLong": "Every 1 consumed Frost Crystal Limit increases Intellect by 25 for 10s, stacking up to 5 times."
+    },
+    "254": {
+        "ChineseShort": "寒霜侵袭",
+        "EnglishShort": "Frost Assault",
+        "EnglishLong": "Blizzard hits reduce target's Iceal Resistance by 10% for 10s, non-stackable. (Only effective for self)"
+    },
+    "255": {
+        "ChineseShort": "幸运伤害",
+        "EnglishShort": "Luck Damage",
+        "EnglishLong": "Lucky Strike damage +15%.<br>Every 2% Luck provides 1% Lucky Strike damage."
+    },
+    "256": {
+        "ChineseShort": "寒意留存",
+        "EnglishShort": "Cold Retention",
+        "EnglishLong": "During Permafrost, Frostbeam consumption -30%."
+    },
+    "257": {
+        "ChineseShort": "霜华启示",
+        "EnglishShort": "Frost Revelation",
+        "EnglishLong": "Tidepoolfirst hit restores 5 points of Ice Energy, with an additional 5 points of Ice Energy restored for each extra Ice Limit."
+    },
+    "258": {
+        "ChineseShort": "涌能法则",
+        "EnglishShort": "Law of Energy Surge",
+        "EnglishLong": "Frostbeam triggers Ice Arrow chance +5%.<br>During Permafrost, Frostbeam triggers Ice Arrow chance doubled."
+    },
+    "259": {
+        "ChineseShort": "冰晶之力",
+        "EnglishShort": "Power of Ice Crystals",
+        "EnglishLong": "When Ice Energy is above 50%, gain 8% Iceal bonus."
+    },
+    "260": {
+        "ChineseShort": "冰晶回升",
+        "EnglishShort": "Ice Crystal Recovery",
+        "EnglishLong": "When Ice Energy is below 50%, Ice Energy recovery efficiency +10%."
+    },
+    "261": {
+        "ChineseShort": "冰箭速射",
+        "EnglishShort": "Rapid Ice Arrow",
+        "EnglishLong": "During Permafrost, Frostbeam triggers 2 additional Ice Arrows from Ice Crystal Core.<br>However, during Permafrost, Frostbeam can no longer trigger Lucky Strike."
+    },
+    "262": {
+        "ChineseShort": "潮流无尽",
+        "EnglishShort": "Endless Tide",
+        "EnglishLong": "During Permafrost, Casting Tidepoolcan extend its duration by 3s."
+    },
+    "263": {
+        "ChineseShort": "玄冰潮汐",
+        "EnglishShort": "Frost Tide",
+        "EnglishLong": "When Frost Beam deals damage, 20% chance to directly gain Frost Crystal. If Frost Crystal is at its maximum, gain 5% Iceal bonus for 3s."
+    },
+    "264": {
+        "ChineseShort": "射线精进一式",
+        "EnglishShort": "Ray Mastery I",
+        "EnglishLong": "Frost Beam Iceal bonus +2%.<br>Frost Beam Iceal bonus to the main target +5%."
+    },
+    "265": {
+        "ChineseShort": "广域冰箭",
+        "EnglishShort": "Wide Area Ice Arrow",
+        "EnglishLong": "Every 15 hits from the Expertise Skill trigger Ice Arrow from the Ice Crystal Core."
+    },
+    "266": {
+        "ChineseShort": "智力冰晶",
+        "EnglishShort": "Intellect Ice Crystal",
+        "EnglishLong": "Every 50 points of Intellect provide 1 point of maximum Frost Crystal (maximum Frost Crystal obtained through this method does not exceed 100)."
+    },
+    "267": {
+        "ChineseShort": "快速吟唱",
+        "EnglishShort": "Quick Chant",
+        "EnglishLong": "Haste +500.<br>During Permafrost, Cast Speed +15%."
+    },
+    "268": {
+        "ChineseShort": "冰箭锐击",
+        "EnglishShort": "Sharp Ice Arrow",
+        "EnglishLong": "Ice Arrows cast by Ice Crystal Core have +50% Crit chance.<br>Ice Arrows cast by Ice Crystal Core have +10% Crit DMG."
+    },
+    "269": {
+        "ChineseShort": "射线绝唱",
+        "EnglishShort": "Ray's Swan Song",
+        "EnglishLong": "When Frost Beam deals damage (triggered only once), 10% chance to double the mastery attribute value for the next 3s."
+    },
+    "270": {
+        "ChineseShort": "冰晶扩充",
+        "EnglishShort": "Ice Crystal Expansion",
+        "EnglishLong": "Ice Energy limit +40."
+    },
+    "271": {
+        "ChineseShort": "智力增幅",
+        "EnglishShort": "Intellect Amp",
+        "EnglishLong": "Intellect +5%."
+    },
+    "400": {
+        "ChineseShort": "疾风流影",
+        "EnglishShort": "Swift Shadow",
+        "EnglishLong": "For every 50 Courage consumed, reduce the remaining CD of Spiral Stab, Breach Pursuit, and Falcon Toss by 1s."
+    },
+    "401": {
+        "ChineseShort": "力量转换",
+        "EnglishShort": "Power Conversion",
+        "EnglishLong": "Every <style=\"accent-gn\">8</style> Strength grants <style=\"accent-gn\">1</style> ATK."
+    },
+    "402": {
+        "ChineseShort": "易伤一击",
+        "EnglishShort": "Vulnerable Strike",
+        "EnglishLong": "When dealing damage, there is a 30% fixed chance to apply Vulnerable effect to the enemy target."
+    },
+    "403": {
+        "ChineseShort": "锐利",
+        "EnglishShort": "Sharp",
+        "EnglishLong": "When special attacks deal damage, gain Sharp."
+    },
+    "404": {
+        "ChineseShort": "锐利扩充",
+        "EnglishShort": "Sharp Expansion",
+        "EnglishLong": "Sharp cap +1."
+    },
+    "405": {
+        "ChineseShort": "风裂扩散",
+        "EnglishShort": "Wind Rift Diffusion",
+        "EnglishLong": "Expertise and Ultimates deal 10% more damage to bleeding targets and can cause the bleed to spread to nearby enemies."
+    },
+    "406": {
+        "ChineseShort": "风裂",
+        "EnglishShort": "Wind Tear",
+        "EnglishLong": "When Gale Thrust deals damage, 5% chance to apply Rend.<br>Every 3% mastery +1% of Teardamage."
+    },
+    "407": {
+        "ChineseShort": "快枪流星",
+        "EnglishShort": "Quickshot Meteor",
+        "EnglishLong": "Gale Thrust is enhanced, hit count +2."
+    },
+    "409": {
+        "ChineseShort": "锐利扩充",
+        "EnglishShort": "Sharp Expansion",
+        "EnglishLong": "Sharp cap +1.<br>The duration of Sharp -4s."
+    },
+    "410": {
+        "ChineseShort": "疾驰锋刃",
+        "EnglishShort": "Swift Blade",
+        "EnglishLong": "When Valor Cyclone deals damage, 7% chance for normal attacks to derive into Swift Blade."
+    },
+    "411": {
+        "ChineseShort": "风舞轻灵",
+        "EnglishShort": "Zephyr Waltz Agility",
+        "EnglishLong": "Additional Courage recovery per second: for every 2 layers of Sharp, recover +1 Courage."
+    },
+    "412": {
+        "ChineseShort": "追风逐影",
+        "EnglishShort": "Wind Chaser",
+        "EnglishLong": "During the Casting of Valor Cyclone skill, for every 20 points of Courage consumed, Valor Cyclone damage +2%, up to a maximum of +50%."
+    },
+    "413": {
+        "ChineseShort": "神影螺旋",
+        "EnglishShort": "Vortex Strike",
+        "EnglishLong": "Every 3 casts of Drake Cannon make your next Spiral Thrust within 10s derive into Vortex Strike."
+    },
+    "414": {
+        "ChineseShort": "刹那暴击",
+        "EnglishShort": "Instantaneous Crit",
+        "EnglishLong": "Under Chasing Step, the Crit chance of Instant Strike and Sharp Impact is doubled."
+    },
+    "416": {
+        "ChineseShort": "长矛贯穿",
+        "EnglishShort": "Spear Penetration",
+        "EnglishLong": "When Skyfall triggers Lucky Strike, it triggers Spear Penetration, which can occur once every 2s.<br>Spear Penetration deals damage and recovers 8 points of Courage."
+    },
+    "417": {
+        "ChineseShort": "风怒",
+        "EnglishShort": "Wind Fury",
+        "EnglishLong": "Casting Sharp Impact grants Wind Fury."
+    },
+    "418": {
+        "ChineseShort": "锐利扩充",
+        "EnglishShort": "Sharp Expansion",
+        "EnglishLong": "Sharp cap +1."
+    },
+    "419": {
+        "ChineseShort": "空舞重击",
+        "EnglishShort": "Air Dance Strike",
+        "EnglishLong": "Sharp Impact makes the next Elegant Posture recover +50% Courage and grants 1 Sharp."
+    },
+    "420": {
+        "ChineseShort": "锐利扩充",
+        "EnglishShort": "Sharp Expansion",
+        "EnglishLong": "Sharp cap +1."
+    },
+    "421": {
+        "ChineseShort": "龙卷之舞",
+        "EnglishShort": "Tornado Dance",
+        "EnglishLong": "During Wind Fury, Instant Edge Strike deals damage and triggers Tornado."
+    },
+    "422": {
+        "ChineseShort": "追击身法",
+        "EnglishShort": "Chasing Step",
+        "EnglishLong": "When a Crit is achieved by Skyfall, a follow-up attack technique is triggered."
+    },
+    "423": {
+        "ChineseShort": "神风之助",
+        "EnglishShort": "Divine Wind Support",
+        "EnglishLong": "When Falcon Toss and Instant Edge Hit hit a target, damage +10%."
+    },
+    "424": {
+        "ChineseShort": "战斗专长",
+        "EnglishShort": "Combat Expertise",
+        "EnglishLong": "As the battle duration increases, gain continuously growing ATK. Every 15s, ATK +2%, up to a maximum of 8%, cleared after the battle ends."
+    },
+    "425": {
+        "ChineseShort": "势涨",
+        "EnglishShort": "Momentum Surge",
+        "EnglishLong": "Sharp effect +1%, for each enemy target within 5 meters of self, an additional +1%, up to a maximum of 3%."
+    },
+    "427": {
+        "ChineseShort": "捕手",
+        "EnglishShort": "Catcher",
+        "EnglishLong": "During battle, for each enemy target defeated, ATK +20, lasts for 30s, up to a maximum of 200."
+    },
+    "428": {
+        "ChineseShort": "风裂身法",
+        "EnglishShort": "Wind Split Technique",
+        "EnglishLong": "When Tear causes damage, 50% chance to gain 2 points of Courage."
+    },
+    "429": {
+        "ChineseShort": "风雷破击",
+        "EnglishShort": "Wind and Thunder Strike",
+        "EnglishLong": "When Wind Grace ends, apply Wind Thunder Break effect, increasing self strength by 12% for the next 8s.<br>During Wind Grace, every 50 points of Courage consumed extends Wind Thunder Break duration by 1s."
+    },
+    "430": {
+        "ChineseShort": "神隐",
+        "EnglishShort": "Divine Concealment",
+        "EnglishLong": "When consuming Courage, Haste +1%, Speed +2%, lasts for 5s, stacks up to 5 layers."
+    },
+    "431": {
+        "ChineseShort": "刚勇",
+        "EnglishShort": "Valor",
+        "EnglishLong": "Courage limit +30."
+    },
+    "432": {
+        "ChineseShort": "空战流",
+        "EnglishShort": "Skyward Spec",
+        "EnglishLong": "Replace <style=\"accent-gn\">Special Attack</style> with <linktext=1520><style=\"ItemQuality_5\">Skyfall</style></linktext> enhances the skill.<br>When having <linktext=1152><style=\"ItemQuality_5\">Sharp</style></linktext>, gains ATK based on the max number of <linktext=1152><style=\"ItemQuality_5\">Sharp</style></linktext>.<br><br><i><style=\"text_third_gray\"><size=20>Skyfall and Instant Edge can chain together, skipping the aerial cast delay. High Luck and critical rate enable Skyfall to trigger a low-cost Instant Edge.</size></style></i>"
+    },
+    "433": {
+        "ChineseShort": "重装流",
+        "EnglishShort": "Vanguard Spec",
+        "EnglishLong": "Further enhances Gale Thrust.<br>Gale Thrust has a 15% base chance to trigger a Swift Blade from Basic Attacks. Each stack of Sharp increases this chance by 5%."
+    },
+    "434": {
+        "ChineseShort": "斗志昂扬",
+        "EnglishShort": "Battle Cry",
+        "EnglishLong": "<linktext=1525><style=\"ItemQuality_5\">Typhoon Cleave</style></linktext>Raises the banner spear, granting <style=\"accent-gn\">Inspire</style> to Allies. Afterward, a follow-up leap can be launched, dealing <style=\"physical\">Attack Damage</style> to the enemies within range and knocking them airborne, while restoring <style=\"accent-gn\">100</style> <style=\"accent-gn\">Courage</style>. <br><style=\"accent-gn\">Inspire</style>: Lasts for <style=\"accent-gn\">10s</style>. All Allies gain <style=\"accent-gn\">10%</style> Haste (Only one effect can be active at a time). You restore <style=\"accent-gn\">10</style> <style=\"accent-gn\">Courage</style> <style=\"accent-gn\">per</style> second and <style=\"accent-gn\">1</style> <linktext=1152><style=\"ItemQuality_5\">Sharpness</style></linktext> every <style=\"accent-gn\">2s</style>."
+    },
+    "435": {
+        "ChineseShort": "迅捷",
+        "EnglishShort": "Swift",
+        "EnglishLong": "Each <style=\"accent-gn\">1%</style> Haste provides <style=\"accent-gn\">1%</style> Attack Speed."
+    },
+    "436": {
+        "ChineseShort": "锐利扩充",
+        "EnglishShort": "Sharp Expansion",
+        "EnglishLong": "Sharp cap +1."
+    },
+    "437": {
+        "ChineseShort": "长枪利刃",
+        "EnglishShort": "Long Lance Sharp Blade",
+        "EnglishLong": "When strength reaches 300 points, Expertise Skill damage +7%."
+    },
+    "438": {
+        "ChineseShort": "锋锐",
+        "EnglishShort": "Sharp",
+        "EnglishLong": "When strength reaches 500 points, Sharp additional ATK increases to 6%."
+    },
+    "439": {
+        "ChineseShort": "破追精进",
+        "EnglishShort": "Break Pursuit Advancement",
+        "EnglishLong": "Within 10s after Casting the Ultimate, Casting Breach Pursuit will not enter CD. This effect is removed after time ends or after Casting Breach Pursuit 3 times."
+    },
+    "440": {
+        "ChineseShort": "风螺旋",
+        "EnglishShort": "Wind Spiral",
+        "EnglishLong": "When Gale Thrust causes damage, 10% chance to gain 1 layer of Wind Spiral, lasting for 10s, stacking up to 10 layers.<br>Wind Spiral: When Casting Spiral Stab or Valor Cyclone, it triggers Spiral Explosion causing Attack Damage equal to 100% ATK to surrounding enemy targets. Each time Spiral Explosion is triggered, Wind Spiral decreases by 1 layer."
+    },
+    "441": {
+        "ChineseShort": "气劲加持",
+        "EnglishShort": "Vigor Spike",
+        "EnglishLong": "When Sharp reaches full amount, enter Qi Energy Boost state, effective at most once every 30s."
+    },
+    "442": {
+        "ChineseShort": "无畏疾风",
+        "EnglishShort": "Fearless Gale",
+        "EnglishLong": "After Casting Spiral Stab or Breach Pursuit or Valor Cyclone, the next cast of Gale Thrust does not consume Courage, this effect is removed after leaving combat."
+    },
+    "443": {
+        "ChineseShort": "微风低语",
+        "EnglishShort": "Whispering Breeze",
+        "EnglishLong": "When Courage is less than or equal to 50%, Valor Cyclone energy consumption -15%.<br>When Courage is greater than 50%, Valor Cyclone damage +12%."
+    },
+    "444": {
+        "ChineseShort": "疾驰龙炮",
+        "EnglishShort": "Rapid Drake Cannon",
+        "EnglishLong": "Casting Swift Blade has a fixed 25% chance to evolve into Drake Cannon within the next 10s."
+    },
+    "445": {
+        "ChineseShort": "千疮百孔",
+        "EnglishShort": "Thousand Wounds",
+        "EnglishLong": "When Valor Cyclone causes damage, 50% chance to apply Thousand Wounds."
+    },
+    "446": {
+        "ChineseShort": "螺旋撕裂",
+        "EnglishShort": "Spiral Tear",
+        "EnglishLong": "When Spiral Stab hits a Tear target, damage +30%."
+    },
+    "447": {
+        "ChineseShort": "刚毅",
+        "EnglishShort": "Fortitude",
+        "EnglishLong": "During Valor Cyclone duration, gain Super Armor.<br>When Valor Cyclone causes damage, restore health equal to 10% ATK."
+    },
+    "448": {
+        "ChineseShort": "微风迅捷",
+        "EnglishShort": "Swift Breeze",
+        "EnglishLong": "Each 1% haste provides natural Courage recovery speed by 2%."
+    },
+    "449": {
+        "ChineseShort": "风元素之息",
+        "EnglishShort": "Breath of Wind",
+        "EnglishLong": "Skills that consume courage gain 8% Wind bonus."
+    },
+    "450": {
+        "ChineseShort": "风起",
+        "EnglishShort": "Wind Rise",
+        "EnglishLong": "When Valor Cyclone deals damage, Drake Cannon and Vortex Strike have a +7% Crit chance, lasting for 5s, stacking up to 7 layers."
+    },
+    "451": {
+        "ChineseShort": "强攻",
+        "EnglishShort": "Strong Attack",
+        "EnglishLong": "Spiral Stab and Breach Pursuit damage +20%."
+    },
+    "452": {
+        "ChineseShort": "螺旋爆炎",
+        "EnglishShort": "Spiral Flame",
+        "EnglishLong": "Casting Vortex Strike increases your haste by 25% for the next 10s."
+    },
+    "453": {
+        "ChineseShort": "龙之怒焰",
+        "EnglishShort": "Dragon's Fury Flame",
+        "EnglishLong": "The Crit chance of Drake Cannon and Vortex Strike is doubled.<br>Drake Cannon and Vortex Strike Crit DMG +8%."
+    },
+    "454": {
+        "ChineseShort": "风环龙炮",
+        "EnglishShort": "Wind Gate Drake Cannon",
+        "EnglishLong": "Every 30 triggers of Valor Cyclone, the next 10s of normal attacks will definitely derive into Drake Cannon."
+    },
+    "455": {
+        "ChineseShort": "飞鸟精进",
+        "EnglishShort": "Bird Advancement",
+        "EnglishLong": "Falcon Toss charge +1.<br>Falcon Toss courage consumption -50%."
+    },
+    "456": {
+        "ChineseShort": "锐利精进",
+        "EnglishShort": "Sharp Advancement",
+        "EnglishLong": "Wind Fury effectiveness +50%.<br>When Instant Edge consumes Chasing Step, doubles the charge efficiency of Sharp Impact."
+    },
+    "457": {
+        "ChineseShort": "长矛回复",
+        "EnglishShort": "Spear Recovery",
+        "EnglishLong": "Spear Penetration reduces the remaining CD time of Falcon Toss by 2s."
+    },
+    "458": {
+        "ChineseShort": "锐利长息",
+        "EnglishShort": "Sharp Long Breath",
+        "EnglishLong": "During Wind Fury, Falcon Toss derives into Azure Sever once."
+    },
+    "459": {
+        "ChineseShort": "锐利扩充",
+        "EnglishShort": "Sharp Expansion",
+        "EnglishLong": "Sharp cap +1."
+    },
+    "460": {
+        "ChineseShort": "锐利翔返",
+        "EnglishShort": "Skyfall",
+        "EnglishLong": "When Skyfall deals damage, 15% chance to gain an additional layer of Sharp."
+    },
+    "461": {
+        "ChineseShort": "追击之力",
+        "EnglishShort": "Pursuit Power",
+        "EnglishLong": "Consuming Chase Stance increases strength by 10% for the next 10s, stacking up to 2 layers."
+    },
+    "462": {
+        "ChineseShort": "卓绝风华",
+        "EnglishShort": "Exceptional Elegance",
+        "EnglishLong": "During the duration of Galeform, Instant Edge and Skyfall damage +25%."
+    },
+    "463": {
+        "ChineseShort": "风神·锐利冲击",
+        "EnglishShort": "Typhoon: Sharp Impact",
+        "EnglishLong": "Sharp Impact is enhanced, becoming Typhoon Sharp Impact."
+    },
+    "464": {
+        "ChineseShort": "刹那破式",
+        "EnglishShort": "Instant Edge Break Style",
+        "EnglishLong": "Instant Edge consumes Sharp +1.<br>Instant Edge damage +90%."
+    },
+    "465": {
+        "ChineseShort": "风卷劲击",
+        "EnglishShort": "Wind Swirl Strike",
+        "EnglishLong": "Tornado damage +30%.<br>Spear Penetration damage +10%."
+    },
+    "466": {
+        "ChineseShort": "追击之锐",
+        "EnglishShort": "Sharp Pursuit",
+        "EnglishLong": "When Instant Edge consumes Chase Stance, gain 1 layer of Sharp."
+    },
+    "467": {
+        "ChineseShort": "刹那连击",
+        "EnglishShort": "Instant Edge Combo",
+        "EnglishLong": "When Instant Edge consumes Chase Stance, 15% chance to trigger an additional damage."
+    },
+    "468": {
+        "ChineseShort": "破式",
+        "EnglishShort": "Break Style",
+        "EnglishLong": "When Expertise deal Crit DMG, ignore 40% of the target's Armor."
+    },
+    "469": {
+        "ChineseShort": "锐利回响",
+        "EnglishShort": "Sharp Echo",
+        "EnglishLong": "When Sharp is not at full capacity, Skyfall damage +15%."
+    },
+    "470": {
+        "ChineseShort": "神风幸运",
+        "EnglishShort": "Kamikaze Luck",
+        "EnglishLong": "For each Sharp consumed, gain 3 Courage."
+    },
+    "500": {
+        "ChineseShort": "活力充盈",
+        "EnglishShort": "Brimming Vitality",
+        "EnglishLong": "REG SPD of Energy +20%"
+    },
+    "501": {
+        "ChineseShort": "智力转换",
+        "EnglishShort": "Intellect Conversion",
+        "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Intellect provides <style=\"accent-gn\">1</style> point of MATK."
+    },
+    "502": {
+        "ChineseShort": "鼓舞",
+        "EnglishShort": "Inspiration",
+        "EnglishLong": "Grants Inspiration to yourself and allies within 30 meters."
+    },
+    "503": {
+        "ChineseShort": "再生蓓蕾",
+        "EnglishShort": "Regen Bud",
+        "EnglishLong": "Casting a Special Attack grants 1 Regen Bud.<br><br>Initial cap of Regen Buds: 4.<br>When an Expertise Skill or Ultimate generates healing, 2 Regen Buds are consumed to throw a Nourishing Seed, triggering up to once per second.<br>When an Expertise Skill or Ultimate deals DMG, 2 Regen Buds are consumed to shoot a Wild Seed, occurring up to once per second."
+    },
+    "504": {
+        "ChineseShort": "蓓蕾之息",
+        "EnglishShort": "Breath of Buds",
+        "EnglishLong": "Increases the cap of Regen Buds by 4."
+    },
+    "505": {
+        "ChineseShort": "自然护盾",
+        "EnglishShort": "Nature Shield",
+        "EnglishLong": "When Wild Bloom heals a target, it also applies Nature Shield to them.<br>Targets with Nature Shield restore HP when hit, with the amount equal to 10% of your ATK. This effect can occur up to once per second."
+    },
+    "506": {
+        "ChineseShort": "绿意之爆发",
+        "EnglishShort": "Arcane of Green",
+        "EnglishLong": "When Feral Seed deals DMG, it increases the DMG dealt by Infusion, Wild Bloom, Deer Charge in the next 10s by 20%."
+    },
+    "507": {
+        "ChineseShort": "治愈灵息",
+        "EnglishShort": "Healing Breath",
+        "EnglishLong": "When a Special Attack, Expertise Skill, or Ultimate generates healing, there is a 20% chance to trigger Healing Chain. For every 2% Luck, the chance +1%."
+    },
+    "508": {
+        "ChineseShort": "狂野祝福",
+        "EnglishShort": "Wild Blessing",
+        "EnglishLong": "Wild Bloom now holds up to 2 charges.<br>Wild Bloom's Energy cost -15%."
+    },
+    "509": {
+        "ChineseShort": "繁盛",
+        "EnglishShort": "Flourish",
+        "EnglishLong": "When Infusion, Feral Seed, or Wild Bloom deals DMG, 30% chance to reduce the remaining CD of the Ultimate by 1s, occurring up to once per second."
+    },
+    "510": {
+        "ChineseShort": "惩击流",
+        "EnglishShort": "Smite Spec",
+        "EnglishLong": "Further enhances Wild Bloom.<br>Wild Bloom, Regen Pulse, and Nature Ward now apply Symbiotic Mark to allied targets.<br>Symbiotic Mark: All of your DMG will heal allies with Symbiotic Mark for 20% of the DMG dealt, lasting for 10s."
+    },
+    "511": {
+        "ChineseShort": "双重灌注",
+        "EnglishShort": "Double Infusion",
+        "EnglishLong": "After casting Stag Charge, the number of channeling for the next Infusion +100%."
+    },
+    "512": {
+        "ChineseShort": "终焉光轮",
+        "EnglishShort": "Final Bloomwheel",
+        "EnglishLong": "When Wild Bloom triggers a Lucky Strike, it reduces the remaining CD of Infusion by 3s."
+    },
+    "514": {
+        "ChineseShort": "翠绿根基",
+        "EnglishShort": "Verdant Root",
+        "EnglishLong": "While in battle state, standing still for 2s creates a Grass Domain.<br>Grass Domain: While inside, your Haste +10%. Upon exiting, the Grass Domain disappears and your movement speed +50% for 0.5s."
+    },
+    "515": {
+        "ChineseShort": "盛放",
+        "EnglishShort": "Full Bloom",
+        "EnglishLong": "Casting Life Bloom grants a fixed 50% chance to reduce the remaining CD of Blossom Charge and Regen Pulse by 2s."
+    },
+    "516": {
+        "ChineseShort": "治疗充盈",
+        "EnglishShort": "Healing Infusion",
+        "EnglishLong": "After casting Life Bloom 5 times, your next healing Expertise Skill will have its healing +100%."
+    },
+    "518": {
+        "ChineseShort": "绿意二连奏",
+        "EnglishShort": "Verdant Duet",
+        "EnglishLong": "Life Bloom has a fixed 20% chance to heal 1 additional time."
+    },
+    "519": {
+        "ChineseShort": "花语",
+        "EnglishShort": "Floral Whisper",
+        "EnglishLong": "Healing Expertise generate 20% more healing, but healing from Life Bloom -50%."
+    },
+    "520": {
+        "ChineseShort": "生命延展",
+        "EnglishShort": "Lifeforce Extension",
+        "EnglishLong": "Increases the Healing of Healing Chain by 10%. For every 7% Mastery, Healing Chain jumps an additional time."
+    },
+    "521": {
+        "ChineseShort": "滋养之华",
+        "EnglishShort": "Nourish Essence",
+        "EnglishLong": "When Life Bloom generates healing, 50% chance to apply Nourish."
+    },
+    "522": {
+        "ChineseShort": "花开无尽",
+        "EnglishShort": "Endless Blossom",
+        "EnglishLong": "When casting Blossom Charge, Grove Wish, or Regen Pulse, 20% chance that the next cast of Life Bloom within 5s consumes no Energy."
+    },
+    "523": {
+        "ChineseShort": "鹿之奔袭",
+        "EnglishShort": "Stag Charge",
+        "EnglishLong": "After triggering a total of 10 Nourishing Seeds or Wild Seeds, Wild Bloom evolves into Stag Charge.<br>Casting Deer Charge instants grants 3 Regen Buds."
+    },
+    "524": {
+        "ChineseShort": "复苏之翼",
+        "EnglishShort": "Wings of Revival",
+        "EnglishLong": "When an ally within 20 meters takes DMG exceeding 30% of their HP, Revival triggers, which can affect the same target up to once every 45s.<br>Revival: Restores 50% HP over 5s."
+    },
+    "525": {
+        "ChineseShort": "自然绽放",
+        "EnglishShort": "Natural Bloom",
+        "EnglishLong": "When healing an ally with lower than 30% HP, Natural Bloom triggers, instantly restoring HP equal to 200% ATK to them. This effect can occur up to once every 30s."
+    },
+    "526": {
+        "ChineseShort": "治愈脉动",
+        "EnglishShort": "Healing Pulse",
+        "EnglishLong": "When an enemy within 10 meters that you have attacked is defeated, a Healing Pulse is generated, occurring up to once every 10s."
+    },
+    "527": {
+        "ChineseShort": "生命馈赠",
+        "EnglishShort": "Gift of Life",
+        "EnglishLong": "When an enemy within 10 meters that you have attacked is defeated, a Healing Orb is generated, occurring up to once every 2s."
+    },
+    "528": {
+        "ChineseShort": "蓓蕾获取",
+        "EnglishShort": "Bud Acquisition",
+        "EnglishLong": "When an enemy within 10 meters that you have attacked is defeated, an Engram Orb is generated. Picking it up grants 1 Regen Bud."
+    },
+    "529": {
+        "ChineseShort": "防御加持",
+        "EnglishShort": "Defensive Blessing",
+        "EnglishLong": "Inspiration additionally grants the target 100 Armor."
+    },
+    "530": {
+        "ChineseShort": "花界神升",
+        "EnglishShort": "Divine Ascension of the Flower Realm",
+        "EnglishLong": "When Wild Seed deals DMG or Nourishing Seed generates healing, you gain a 10% Forest bonus for the next 8s."
+    },
+    "531": {
+        "ChineseShort": "愈合流",
+        "EnglishShort": "Lifebind Spec",
+        "EnglishLong": "Replace <style=\"accent-gn\">Special Attack</style> with <linktext=1527><style=\"ItemQuality_5\">Life Bloom</style></linktext> and enhances the skill.<br><linktext=1527><style=\"ItemQuality_5\">Life Bloom</style></linktext> generates <style=\"accent-gn\">20%</style> more healing.<br>Casting <linktext=1527><style=\"ItemQuality_5\">Life Bloom</style></linktext> grants <style=\"accent-gn\">1</style> additional <linktext=1108><style=\"ItemQuality_5\">Regen Bud</style></linktext>.<br><br><i><style=\"text_third_gray\"><size=20>Whenever safety allows, aim to cast as many healing skills as possible. Haste increases cast speed, and Mastery enhances healing potency.</size></style></i>"
+    },
+    "532": {
+        "ChineseShort": "荆棘",
+        "EnglishShort": "Thorns",
+        "EnglishLong": "Wild Seed inflicts Thorn on the targets hit.<br>You deal 5% more Verdant DMG to the targets with Thorn."
+    },
+    "533": {
+        "ChineseShort": "生机涌动",
+        "EnglishShort": "Vital Surge",
+        "EnglishLong": "Replace <style=\"accent-gn\">Ultimate</style>, <linktext=1531><style=\"ItemQuality_5\">Divine Circle Bloom</style></linktext> with <linktext=1551><style=\"ItemQuality_5\">Vital Surge</style></linktext>."
+    },
+    "534": {
+        "ChineseShort": "绿意护佑",
+        "EnglishShort": "Verdant Blessing",
+        "EnglishLong": "When an inspired ally's HP drops below 20%, triggers the Blessing.<br>Blessing: Grants a Nature Shield and reduces the DMG taken by 35% for 8s. The effect can be triggered once every 60s."
+    },
+    "535": {
+        "ChineseShort": "花语回升",
+        "EnglishShort": "Bloomheal",
+        "EnglishLong": "Replace <style=\"accent-gn\">Ultimate</style>, <linktext=1531><style=\"ItemQuality_5\">Divine Circle Bloom</style></linktext> with <linktext=1552><style=\"ItemQuality_5\">Bloomheal</style></linktext>."
+    },
+    "536": {
+        "ChineseShort": "舞动之种",
+        "EnglishShort": "Dancing Seed",
+        "EnglishLong": "When a Expertise Skill that deals damage triggers a Lucky Strike, the number of Wild Seeds fired ++1.<br>For every 5 Nourishing Seeds thrown, the next throw of Nourishing Seeds will increase by +1."
+    },
+    "537": {
+        "ChineseShort": "能量涌动",
+        "EnglishShort": "Energy Surge",
+        "EnglishLong": "Every 2% Haste provides 1% energy natural recovery efficiency."
+    },
+    "538": {
+        "ChineseShort": "再生之芽",
+        "EnglishShort": "Regeneration Bud",
+        "EnglishLong": "Normal attacks have a 10% fixed chance to gain 1 Regen Bud."
+    },
+    "539": {
+        "ChineseShort": "全能之息",
+        "EnglishShort": "Omnipotent Breath",
+        "EnglishLong": "When Intellect reaches 500 points, Versatility +4%."
+    },
+    "540": {
+        "ChineseShort": "庇护",
+        "EnglishShort": "Shelter",
+        "EnglishLong": "Within 5s after Casting Infusion, the Nature Shield added by Wild Bloom or Nature Ward absorbs double the damage."
+    },
+    "541": {
+        "ChineseShort": "脉冲之息",
+        "EnglishShort": "Pulse Breath",
+        "EnglishLong": "If equipped with the Regen Pulse skill, Regen Pulse can be triggered whenever Nature Ward or Ultimate CD is completed."
+    },
+    "542": {
+        "ChineseShort": "不羁之种共生",
+        "EnglishShort": "Feral Seed Symbiosis",
+        "EnglishLong": "When the number of active Symbiotic Marks is greater than or equal to 5, Feral Seed damage +100%."
+    },
+    "543": {
+        "ChineseShort": "狂野庇护",
+        "EnglishShort": "Wild Protection",
+        "EnglishLong": "When the number of Regen Buds is greater than or equal to 6, Feral Seed consumes +2 Regen Buds, and the number of Wild Seeds thrown ++1.<br>When the number of Regen Buds is less than 6, Feral Seed gains an additional 10 energy."
+    },
+    "544": {
+        "ChineseShort": "广域荆棘",
+        "EnglishShort": "Wide-area Thorns",
+        "EnglishLong": "When Feral Seed hits a target affected by Thorns, it can spread the Thorns effect to other targets within 10 meters of the target."
+    },
+    "545": {
+        "ChineseShort": "割裂",
+        "EnglishShort": "Laceration",
+        "EnglishLong": "When Infusion deals damage, it applies Tearto the target.<br>Rend: Thorns damage received +100% for 2s."
+    },
+    "546": {
+        "ChineseShort": "脉冲二重",
+        "EnglishShort": "Pulse Duality",
+        "EnglishLong": "When actively Casting Regen Pulse, it will spread twice consecutively."
+    },
+    "547": {
+        "ChineseShort": "庇护迅捷",
+        "EnglishShort": "Swift Shelter",
+        "EnglishLong": "Each time Regen Pulse is cast or triggered, it reduces the remaining CD time of Nature Ward by 2s."
+    },
+    "548": {
+        "ChineseShort": "脉冲回望",
+        "EnglishShort": "Pulse Retrospect",
+        "EnglishLong": "When Regen Pulse reaches its maximum distance, it will return to your location.<br>Regen Pulse can now also deal damage to enemy targets."
+    },
+    "549": {
+        "ChineseShort": "迅捷蓓蕾",
+        "EnglishShort": "Swift Bud",
+        "EnglishLong": "For each Regen Bud gained, the remaining CD time of Feral Seed -1s."
+    },
+    "550": {
+        "ChineseShort": "共生之息",
+        "EnglishShort": "Breath of Symbiosis",
+        "EnglishLong": "Symbiotic Mark conversion healing amount +2%. Every 5% Mastery provides an additional +1%."
+    },
+    "551": {
+        "ChineseShort": "共生延长",
+        "EnglishShort": "Symbiosis Extension",
+        "EnglishLong": "Each time a Wild Seed is fired, the duration of active Symbiotic Marks is extended by 1s."
+    },
+    "552": {
+        "ChineseShort": "脉冲回响",
+        "EnglishShort": "Pulse Echo",
+        "EnglishLong": "When Infusion deals damage, you gain 1 stack of Pulse Echo.<br>Pulse Echo: Regen Pulse damage +20%, lasts for 5s, stacks up to 5 times."
+    },
+    "553": {
+        "ChineseShort": "幸运伤害",
+        "EnglishShort": "Luck Damage",
+        "EnglishLong": "Lucky Strike damage +5%.<br>Each 1% Luck provides 1% Lucky Strike damage."
+    },
+    "554": {
+        "ChineseShort": "绿意冲击",
+        "EnglishShort": "Verdant Impact",
+        "EnglishLong": "For every 20 stacks of Pulse Echo, the next Regen Pulse will end with a burst of Verdant Impact at your location."
+    },
+    "555": {
+        "ChineseShort": "狂野幸运",
+        "EnglishShort": "Wild Luck",
+        "EnglishLong": "When Wild Bloom and Regen Pulse deal damage, there is a chance of luck%/2 to gain 1 Regen Bud. If affected by Thorns, the trigger chance is doubled."
+    },
+    "556": {
+        "ChineseShort": "绿意滋养",
+        "EnglishShort": "Verdant Nourishment",
+        "EnglishLong": "When you have the Nourish effect, all damage taken -10%.<br>Targets with the Nourish effect receive +2% healing, and if Nourish is equal to or greater than 3 stacks, they receive an additional +2% healing."
+    },
+    "557": {
+        "ChineseShort": "极意鼓舞",
+        "EnglishShort": "Ultimate Inspiration",
+        "EnglishLong": "The Inspire effect is doubled."
+    },
+    "558": {
+        "ChineseShort": "生命盛放",
+        "EnglishShort": "Life Bloom",
+        "EnglishLong": "After Casting Blossom Charge, the next Life Bloom is enhanced, eliminating the Casting time and increasing healing by 50%."
+    },
+    "559": {
+        "ChineseShort": "生机",
+        "EnglishShort": "Vitality",
+        "EnglishLong": "Nourish can stack up to 5 layers.<br>Each time Life Bloom is cast, targets affected by the Nourish effect gain 1 layer of Nourish."
+    },
+    "560": {
+        "ChineseShort": "盛放精进",
+        "EnglishShort": "Flourishing Progress",
+        "EnglishLong": "Casting Blossom Charge no longer consumes Regen Buds."
+    },
+    "561": {
+        "ChineseShort": "绽放轮回",
+        "EnglishShort": "Blooming Reincarnation",
+        "EnglishLong": "Casting Life Bloom increases its healing by 20% for the next 4s and energy consumption by 10%, stacking up to 5 times."
+    },
+    "562": {
+        "ChineseShort": "能量勃发",
+        "EnglishShort": "Energy Arcane",
+        "EnglishLong": "During Growth Arcane, energy recovery speed +50%."
+    },
+    "563": {
+        "ChineseShort": "超然",
+        "EnglishShort": "Transcendence",
+        "EnglishLong": "For every 200 self-heals from Nourish, gain Transcendence."
+    },
+    "564": {
+        "ChineseShort": "花株繁盛",
+        "EnglishShort": "Flourishing Flower",
+        "EnglishLong": "When in the Grass Field, the appearance time of Flower Stalks is accelerated by 50%."
+    },
+    "565": {
+        "ChineseShort": "三色启示",
+        "EnglishShort": "Tricolor Revelation",
+        "EnglishLong": "Consuming Moonlight Solace triggers Flower Dance - Tricolor Revelation.<br>Flower Dance - Tricolor Revelation - Gain all Flower Stalk effects, this effect can only occur once every 60s."
+    },
+    "566": {
+        "ChineseShort": "花时轮舞",
+        "EnglishShort": "Flower Time Dance",
+        "EnglishLong": "Every 45s, generate 1 Flower Stalk in the order of Crimson True Sight, Golden Devotion, Moonlight Solace."
+    },
+    "567": {
+        "ChineseShort": "蓓蕾生花",
+        "EnglishShort": "Bud to Blossom",
+        "EnglishLong": "When a Flower Stalk is generated, gain 1 Regen Bud every 2s for 8s."
+    },
+    "568": {
+        "ChineseShort": "鼓舞强化",
+        "EnglishShort": "Inspire and Strengthen",
+        "EnglishLong": "The Inspire effect additionally provides 30 points of Intellect, Strength, Agility, and Endurance."
+    },
+    "569": {
+        "ChineseShort": "能量扩展",
+        "EnglishShort": "Energy Expansion",
+        "EnglishLong": "Energy cap +20.<br>Casting Blossom Charge restores 30% of lost energy."
+    },
+    "570": {
+        "ChineseShort": "救护",
+        "EnglishShort": "Rescue",
+        "EnglishLong": "Healing Expertise heal targets with less than 50% HP +25%."
+    },
+    "571": {
+        "ChineseShort": "绽放瞬发",
+        "EnglishShort": "Instant Bloom",
+        "EnglishLong": "After casting Life Bloom 10 times, the next Grove Wish or Regen Pulse within 15s has a Cast Speed of +100% and healing of +10%."
+    },
+    "900": {
+        "ChineseShort": "碎石引潮",
+        "EnglishShort": "Stone Fragment Tide",
+        "EnglishLong": "For 8s after you use Tectonic Ring, each Basic Attack pulls a target within 20 meters and at least 8 meters away toward you. The same target cannot be pulled again within 3s."
+    },
+    "901": {
+        "ChineseShort": "力量转换",
+        "EnglishShort": "Power Conversion",
+        "EnglishLong": "<style=\"accent-gn\">3</style> Strength provides <style=\"accent-gn\">2</style> Armor."
+    },
+    "902": {
+        "ChineseShort": "生命压制",
+        "EnglishShort": "Life Suppress",
+        "EnglishLong": "Gains the effects of Suppress Expertise."
+    },
+    "903": {
+        "ChineseShort": "弱点打击",
+        "EnglishShort": "Weak Point Strike",
+        "EnglishLong": "When dealing DMG, Basic Attacks have a fixed 10% chance to trigger Weak Point Strike."
+    },
+    "904": {
+        "ChineseShort": "弱点强化",
+        "EnglishShort": "Enhanced Weak Point Strike",
+        "EnglishLong": "Increases the fixed chance to trigger Weak Point Strike by 10%."
+    },
+    "906": {
+        "ChineseShort": "格挡回复",
+        "EnglishShort": "Block Recovery",
+        "EnglishLong": "Successful Block restores 2% HP and 3 Rage, once per second.<br>On Lucky Block, restore 6% HP and 10 Rage, once per second."
+    },
+    "907": {
+        "ChineseShort": "格挡反击",
+        "EnglishShort": "Countercrush",
+        "EnglishLong": "Successful Block triggers Countercrush, once per second.<br>On Lucky Block, trigger Enhanced Countercrush, once per second."
+    },
+    "911": {
+        "ChineseShort": "砂岩之握精进",
+        "EnglishShort": "Sandgrip",
+        "EnglishLong": "Reduces the CD of Sandstone Grasp by 15s.<br>After using Sandgrip, gains Countercrush."
+    },
+    "912": {
+        "ChineseShort": "愈合之砂",
+        "EnglishShort": "Healing Sands",
+        "EnglishLong": "Max HP +10%"
+    },
+    "913": {
+        "ChineseShort": "幸运壁垒",
+        "EnglishShort": "Fortune Bastion",
+        "EnglishLong": "During Brave Bastion, doubles the Block chance."
+    },
+    "914": {
+        "ChineseShort": "猛击庇护",
+        "EnglishShort": "Slam Shelter",
+        "EnglishLong": "Successful hit of Shield Bash reduces the DMG targets deal to you by 3% for 10s, stacking up to 3 times."
+    },
+    "916": {
+        "ChineseShort": "坚毅之息",
+        "EnglishShort": "Resolute Breath",
+        "EnglishLong": "While shielded, use Basic Attack midair to slam down, detonating the Shield and dealing DMG equal to 30% max HP to nearby enemies. Once every 30s."
+    },
+    "917": {
+        "ChineseShort": "猛击援护",
+        "EnglishShort": "Smash Support",
+        "EnglishLong": "Increases the effectiveness of Shield granted by Shield Bash by 30%."
+    },
+    "918": {
+        "ChineseShort": "砂之庇护",
+        "EnglishShort": "Sandy Shelter",
+        "EnglishLong": "During Stoneform, gains Sandy Shelter for every 20 Rage accumulated."
+    },
+    "919": {
+        "ChineseShort": "护盾连击",
+        "EnglishShort": "Shield Combo",
+        "EnglishLong": "Basic Attacks have a fixed 5% chance to trigger Shield Combo. Each 1% Mastery adds 0.2% to the trigger chance."
+    },
+    "920": {
+        "ChineseShort": "巨岩之息",
+        "EnglishShort": "Breath of Stone",
+        "EnglishLong": "Consumes 1 Sand Crystal to reduce the CD of Stoneform by 1s."
+    },
+    "921": {
+        "ChineseShort": "元素协调",
+        "EnglishShort": "Elemental Harmony",
+        "EnglishLong": "While shielded, reduces Magic Damage taken by 25% and Wind DMG taken by 50%."
+    },
+    "922": {
+        "ChineseShort": "护盾回声",
+        "EnglishShort": "Shield Echo",
+        "EnglishLong": "During Sandshroud, gaining a shield triggers Shield Echo."
+    },
+    "923": {
+        "ChineseShort": "破碎怒击",
+        "EnglishShort": "Shattering Rageblow",
+        "EnglishLong": "When dealing DMG, Granite Fury has a 20% chance to allow your next Basic Attack to evolve into Rageblow. Each 2% Luck adds 1% chance.<br>After using Rageblow, increases Block DMG RED by 10% for 10s."
+    },
+    "924": {
+        "ChineseShort": "首领之牙",
+        "EnglishShort": "Fang of the Alpha",
+        "EnglishLong": "Reduces the DMG Elites or stronger enemies deal to you by 12%."
+    },
+    "925": {
+        "ChineseShort": "绝境逢生",
+        "EnglishShort": "Survival Instinct",
+        "EnglishLong": "When HP falls below 30%, trigger Last Stand. Once every 60s."
+    },
+    "926": {
+        "ChineseShort": "敌影之盾",
+        "EnglishShort": "Shadow Veil",
+        "EnglishLong": "Each enemy within 3 meters increases Block chance by 3%, up to 15%. (Doubles the effect against Elite or stronger enemies.)"
+    },
+    "927": {
+        "ChineseShort": "奋勇",
+        "EnglishShort": "Valiant Fury",
+        "EnglishLong": "During Enraged, increases Armor by 30%, yet it loses 5% per second."
+    },
+    "928": {
+        "ChineseShort": "群敌压制",
+        "EnglishShort": "Group Suppress",
+        "EnglishLong": "Each enemy within 3 meters enhances Suppress effect by 3%, up to 15%. (Doubles the effect against Elite or stronger enemies.)"
+    },
+    "929": {
+        "ChineseShort": "怒火觉醒",
+        "EnglishShort": "Rage Awakening",
+        "EnglishLong": "Consuming Rage has a chance to trigger Enraged. Each 1 Rage consumed grants 1% chance."
+    },
+    "930": {
+        "ChineseShort": "格挡流",
+        "EnglishShort": "Block Spec",
+        "EnglishLong": "Replace <style=\"accent-gn\">Special Attack</style> with <linktext=1538><style=\"ItemQuality_5\">Countercrush</style></linktext>, and enhance the ability. <br>When <linktext=1126><style=\"ItemQuality_5\">Lucky Block</style></linktext> triggers, increases Block DMG RED by <style=\"accent-gn\">10%</style>. <br><br><i><style=\"text_third_gray\"><size=20>Try to keep Countercrush active as much as possible. While it's active, part of incoming DMG can be blocked. High Luck allows parry to yield various buffs.</size></style></i>"
+    },
+    "931": {
+        "ChineseShort": "岩盾流",
+        "EnglishShort": "Earthfort Spec",
+        "EnglishLong": "Further enhances Shield Bash.<br>Each additional enemy hit increases the DMG deal by Shield Bash by 30%, up to 150%."
+    },
+    "932": {
+        "ChineseShort": "同调领域",
+        "EnglishShort": "Resonant Domain",
+        "EnglishLong": "Tectonic Ring generates a Sandfield that lasts 5s."
+    },
+    "933": {
+        "ChineseShort": "砂岩回溯",
+        "EnglishShort": "Sandstone Rewind",
+        "EnglishLong": "When Rageblow deals DMG, reduces the CD of Brave Bastion by 3s."
+    },
+    "934": {
+        "ChineseShort": "砂石震荡",
+        "EnglishShort": "Sandstone Shock",
+        "EnglishLong": "During Brave Bastion, using Countercrush or Granite Fury triggers a Sand Crystal Shock."
+    },
+    "935": {
+        "ChineseShort": "格挡祝福",
+        "EnglishShort": "Block Blessing",
+        "EnglishLong": "A successful Block grants you a fixed 30% chance that your next Granite Fury won't consume Sand Crystal. Once every 3s."
+    },
+    "936": {
+        "ChineseShort": "狂怒庇护",
+        "EnglishShort": "Fury Shelter",
+        "EnglishLong": "In enraged state, Max HP +20%."
+    },
+    "937": {
+        "ChineseShort": "激怒压制",
+        "EnglishShort": "Enraged Suppress",
+        "EnglishLong": "In enraged state, Suppress effect is doubled."
+    },
+    "938": {
+        "ChineseShort": "激怒延时",
+        "EnglishShort": "Enrage Delay"
+    },
+    "939": {
+        "ChineseShort": "砂石复苏",
+        "EnglishShort": "Sandstone Revival",
+        "EnglishLong": "For every Sand Crystal consumed, recover 1% of Max HP."
+    },
+    "940": {
+        "ChineseShort": "激怒扩充",
+        "EnglishShort": "Enrage Expansion",
+        "EnglishLong": "In enraged state, attack speed +8%."
+    },
+    "941": {
+        "ChineseShort": "怒爆精进",
+        "EnglishShort": "Rage Burst improvement",
+        "EnglishLong": "Rage Burst charge +1.<br>While Enraged, Rage Burst becomes instant cast."
+    },
+    "942": {
+        "ChineseShort": "星之狂怒",
+        "EnglishShort": "Star Fury",
+        "EnglishLong": "Star Shatter damage +30%, and always gains enraged."
+    },
+    "943": {
+        "ChineseShort": "石域",
+        "EnglishShort": "Stone Domain",
+        "EnglishLong": "During the duration of Sandshroud, being attacked reduces the attack speed of enemy targets within 5 meters by 30%, lasting for 3s.<br>During the duration of Sandshroud, Armor of friendly targets within 8 meters +10%."
+    },
+    "944": {
+        "ChineseShort": "岩盾倍增",
+        "EnglishShort": "Amplified Earthfort",
+        "EnglishLong": "When normal attacks deal damage, 10% chance to trigger Rock Shield, this effect can occur once every 30s."
+    },
+    "945": {
+        "ChineseShort": "巨石护体",
+        "EnglishShort": "Boulder Shield",
+        "EnglishLong": "During the duration of Stoneform, all damage received -10%."
+    },
+    "946": {
+        "ChineseShort": "猛击护盾",
+        "EnglishShort": "Shield Bash",
+        "EnglishLong": "Shield +10%.<br>When in Sandshroud duration, Shield +20%."
+    },
+    "947": {
+        "ChineseShort": "回复",
+        "EnglishShort": "Recovery",
+        "EnglishLong": "Expertise and special attacks increase strength by 2% for 5s for each target hit, stacking up to 10 layers. When having 10 layers, Expertise heal for 20% of the damage dealt and remove the stack effect."
+    },
+    "948": {
+        "ChineseShort": "碎星崩裂",
+        "EnglishShort": "Starfall",
+        "EnglishLong": "For every 20 Sand Crystals consumed, Star Shatter evolves into Starfall."
+    },
+    "949": {
+        "ChineseShort": "岩之主",
+        "EnglishShort": "Lord of Rocks",
+        "EnglishLong": "After Casting Starfall Arcane, gain Rock Master.<br>Rock Master: For 15s, normal attacks evolve into 1 Arcane, and Rage Burst evolves into 1 Terra Sunder."
+    },
+    "950": {
+        "ChineseShort": "碎击",
+        "EnglishShort": "Shatter Strike",
+        "EnglishLong": "When Star Shatter defeats a target, Star Shatter immediately cools down."
+    },
+    "951": {
+        "ChineseShort": "激怒崩裂",
+        "EnglishShort": "Enraged Rupture",
+        "EnglishLong": "In Enraged state, Arcane is guaranteed to trigger Weak Point Strike."
+    },
+    "952": {
+        "ChineseShort": "碎星冲追击",
+        "EnglishShort": "Star Shatter Pursuit",
+        "EnglishLong": "Star Shatter deals +100% damage to targets with HP less than or equal to 35%."
+    },
+    "953": {
+        "ChineseShort": "巨岩之主",
+        "EnglishShort": "Lord of the Great Rock",
+        "EnglishLong": "For every 7 Enrages, gain Rock Master.<br>Rock Master: For 15s, normal attacks evolve into 1 Arcane, and Rage Burst evolves into 1 Terra Sunder."
+    },
+    "954": {
+        "ChineseShort": "愈战愈勇",
+        "EnglishShort": "Bravery in Battle",
+        "EnglishLong": "In combat state, recover 1% of max HP every 5s."
+    },
+    "955": {
+        "ChineseShort": "岩护",
+        "EnglishShort": "Rock Guard",
+        "EnglishLong": "Armor +300.<br>Terra Sunder additionally deals Attack Damage to the target equal to 200% of Armor."
+    },
+    "956": {
+        "ChineseShort": "壁垒怒火",
+        "EnglishShort": "Rampart Fury",
+        "EnglishLong": "During Brave Bastion, Granite Fury and Countercrush damage +30%."
+    },
+    "957": {
+        "ChineseShort": "格挡庇护",
+        "EnglishShort": "Block Shelter",
+        "EnglishLong": "When triggering Lucky Block, Defense for this block +30%."
+    },
+    "958": {
+        "ChineseShort": "格挡砂石",
+        "EnglishShort": "Sand Block",
+        "EnglishLong": "Block can be effective against Magic Damage."
+    },
+    "959": {
+        "ChineseShort": "岩之心",
+        "EnglishShort": "Heart of Rock",
+        "EnglishLong": "After Casting Granite Fury 5 times, gain Rock Heart.<br>Rock Heart: For 10s, Granite Fury evolves into Stone Fist."
+    },
+    "960": {
+        "ChineseShort": "岩弹",
+        "EnglishShort": "Earth Shard",
+        "EnglishLong": "After Casting Stone Fist, summon 1 Rock Bullet every 2s for the next 6s."
+    },
+    "961": {
+        "ChineseShort": "岩弹激怒",
+        "EnglishShort": "Granite Fury",
+        "EnglishLong": "For every 50 Rage generated, summon 1 Rock Bullet."
+    },
+    "962": {
+        "ChineseShort": "岩拳回复",
+        "EnglishShort": "Rock Heal",
+        "EnglishLong": "Stone Fist restores 5% of max HP, with an additional 2% restoration for each extra enemy hit, up to a maximum of 15%. Excess restoration converts into an equivalent shield."
+    },
+    "963": {
+        "ChineseShort": "壁垒刚毅",
+        "EnglishShort": "Rampart Fortitude",
+        "EnglishLong": "During Brave Bastion, when taking damage, Block Counter and Enhanced Block Counter damage +10%, lasting for 10s, stacking up to 10 layers."
+    },
+    "964": {
+        "ChineseShort": "怒击强化",
+        "EnglishShort": "Rage Enhancement",
+        "EnglishLong": "Granite Fury Sand Crystal consumption -1."
+    },
+    "965": {
+        "ChineseShort": "岩弹二连击",
+        "EnglishShort": "Granite Combo",
+        "EnglishLong": "Rock Bullet has a chance to summon an additional Rock Bullet, with the chance equal to Lucky Chance."
+    },
+    "966": {
+        "ChineseShort": "威压",
+        "EnglishShort": "Intimidation",
+        "EnglishLong": "Rock Bullet hitting a target reduces all damage dealt to me by that target by -10% for the next 5s."
+    },
+    "967": {
+        "ChineseShort": "岩弹怒击",
+        "EnglishShort": "Granite Fury",
+        "EnglishLong": "Every 20 rock bullets summoned grants a Heart of Rock.<br>Heart of Rock: For 10s, Granite Fury transforms into Stone Fist."
+    },
+    "968": {
+        "ChineseShort": "反击风暴",
+        "EnglishShort": "Counter Storm",
+        "EnglishLong": "For 10s after Casting Tectonic Ring, triggers Enhanced Block Counter every 2s."
+    },
+    "969": {
+        "ChineseShort": "刚岩幸运",
+        "EnglishShort": "Rock Luck",
+        "EnglishLong": "Luck chance +5%.<br>Block Counter and Enhanced Block Counter are guaranteed Crits."
+    },
+    "970": {
+        "ChineseShort": "刚岩精通",
+        "EnglishShort": "Rock Mastery",
+        "EnglishLong": "Mastery +600.<br>During Brave Bastion, mastery +8%."
+    },
+    "971": {
+        "ChineseShort": "激怒岩之心",
+        "EnglishShort": "Enraged Rock Heart",
+        "EnglishLong": "In enraged state, luck chance +10%."
+    },
+    "1100": {
+        "ChineseShort": "光储限界",
+        "EnglishShort": "Photon Limit",
+        "EnglishLong": "When Wildpack Spec is active, increases Max Photon Energy by 20, and extends the duration of Photon Reforge.<br>If Falconry Spec is active, reduces Max Photon Energy by 20, and enables faster access to Photon Reforge."
+    },
+    "1101": {
+        "ChineseShort": "敏捷转换",
+        "EnglishShort": "Agility Conversion",
+        "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Agility provide <style=\"accent-gn\">2</style> point of Haste."
+    },
+    "1102": {
+        "ChineseShort": "易伤一击",
+        "EnglishShort": "Vulnerable Strike",
+        "EnglishLong": "When dealing damage, there is a 30% fixed chance to apply Vulnerable effect to the enemy target."
+    },
+    "1103": {
+        "ChineseShort": "狼之契约",
+        "EnglishShort": "Wolf Pact",
+        "EnglishLong": "Tames a Wild Wolf to fight alongside you. Storm Arrow has a 30% fixed chance to trigger Coordinated Attack.<br><br>Wild Wolf<br>Fights alongside you.<br>Basic Attack: Sweeps the enemy, dealing Attack Damage equal to 50% ATK (which scales with the Level/Tier of your Basic Attack).<br>Coordinated Attack: Wild Wolf leaps to the enemy and bites, dealing Attack Damage equal to 80% ATK (which scales with the Level/Tier of your Basic Attack)."
+    },
+    "1104": {
+        "ChineseShort": "灵能激流",
+        "EnglishShort": "Psychic Surge",
+        "EnglishLong": "Every 15 Special Attacks increases the Photon Energy granted by the next Arrow Rain by 100%."
+    },
+    "1105": {
+        "ChineseShort": "战吼之法",
+        "EnglishShort": "Battle Howl",
+        "EnglishLong": "While Wildcall is active, the Wild Wolf is bound to deal Crit DMG."
+    },
+    "1106": {
+        "ChineseShort": "魔狼之嗜",
+        "EnglishShort": "Direwolf's Hunger",
+        "EnglishLong": "When the Wild Wolf deals Crit DMG, you and your Companions gain 2% Haste. The effect lasts 10s and stacks up to 5 times."
+    },
+    "1107": {
+        "ChineseShort": "冥想",
+        "EnglishShort": "Meditation",
+        "EnglishLong": "When Wildpack Spec is active, reduces Photon Energy drain during Photon Reforge from 25 to 20 per second.<br>If Falconry Spec is active, increases Photon Energy regain from 2 to 3 per second, speeding up activation of Photon Reforge via time-based mechanics."
+    },
+    "1108": {
+        "ChineseShort": "幻影狼袭",
+        "EnglishShort": "Phantom Wolfstrike",
+        "EnglishLong": "The Wild Wolf's Coordinated Attack grants a fixed 30% chance to summon a Phantom Direwolves, which pounces on the enemy.<br>Pounce and Bite always inflicts Bleed. If the target is already bleeding, the pounce is bound to deal Crit DMG."
+    },
+    "1109": {
+        "ChineseShort": "魔狼撕咬",
+        "EnglishShort": "Direwolf Bite",
+        "EnglishLong": "The Wild Wolf's Coordinated Attack has a 30% fixed chance to inflict Bleed."
+    },
+    "1110": {
+        "ChineseShort": "魔狼双生",
+        "EnglishShort": "Demon Wolf Twin",
+        "EnglishLong": "When dealing DMG in battle, Storm Arrow has a fixed 10% chance to summon a Wild Wolf for 8s. Once every 30s."
+    },
+    "1111": {
+        "ChineseShort": "光铸学识",
+        "EnglishShort": "Photon Reforge Lore",
+        "EnglishLong": "During Photon Reforge, the Wild Wolf's Coordinated Attack ignores the target's Armor."
+    },
+    "1112": {
+        "ChineseShort": "双星之矢",
+        "EnglishShort": "Twin Arrows",
+        "EnglishLong": "Luminary Bolt generates an additional Photon Explosion, dealing Attack Damage equal to 1,000% ATK (which scales with the Level/Tier of Ultimate), and inflicting Airborne."
+    },
+    "1114": {
+        "ChineseShort": "灵箭神踪",
+        "EnglishShort": "Tracer Arrows",
+        "EnglishLong": "During Photon Reforge, for each Companion in battle, Storm Arrow fires 1 Lightseeker Arrow."
+    },
+    "1115": {
+        "ChineseShort": "精神之辉",
+        "EnglishShort": "Radiant Spirit",
+        "EnglishLong": "Extends the duration of Focus by 3s."
+    },
+    "1116": {
+        "ChineseShort": "迅捷",
+        "EnglishShort": "Swift",
+        "EnglishLong": "Applies Swiftness to Falcon when using Lightning Strike.<br>Swiftness: Increases Attack SPD by 10%. The effect lasts 8s and stacks up to 3 times."
+    },
+    "1117": {
+        "ChineseShort": "光耀射手",
+        "EnglishShort": "Radiant Sharpshooter",
+        "EnglishLong": "Reduces Max Photon Energy by 20."
+    },
+    "1118": {
+        "ChineseShort": "鹰眼闪电破",
+        "EnglishShort": "Falcon Raid",
+        "EnglishLong": "Every 3 Crit hits with Double Arrow allows the Falcon to instantly perform Lightning Strike."
+    },
+    "1119": {
+        "ChineseShort": "天空之落星",
+        "EnglishShort": "Meteor",
+        "EnglishLong": "When the Falcon strikes, grants you a fixed 30% chance to gain 1 stack of Weak Point Aim.<br>Using Quadraflare leaves behind a Radiance Rift midair. The Rift consumes the stacks of Weak Point Aim to fire Photon Arrows, each dealing Attack Damage equal to 80% ATK."
+    },
+    "1120": {
+        "ChineseShort": "锐射",
+        "EnglishShort": "Piercing Shot",
+        "EnglishLong": "Crit of Double Arrow +7%"
+    },
+    "1121": {
+        "ChineseShort": "心之鹰击",
+        "EnglishShort": "Falcon's Heart",
+        "EnglishLong": "The Falcon ignores 20% of the targets' Armor."
+    },
+    "1122": {
+        "ChineseShort": "光落",
+        "EnglishShort": "Lightfall",
+        "EnglishLong": "Every 1% critical rate grants 0.3% Crit DMG.<br>Crit hits of Double Arrow grants 2 Photon Energy."
+    },
+    "1123": {
+        "ChineseShort": "专注射击",
+        "EnglishShort": "Focused Shot",
+        "EnglishLong": "Every target hit grants 1% Light DMG bonus. The effect lasts 3s and stacks up to 4 times."
+    },
+    "1124": {
+        "ChineseShort": "勇者之心",
+        "EnglishShort": "Valiant Heart",
+        "EnglishLong": "Companions deal 8% more DMG to Elites or stronger enemies."
+    },
+    "1125": {
+        "ChineseShort": "激能",
+        "EnglishShort": "Overcharge",
+        "EnglishLong": "When Basic Attacks deal DMG, there is a 5% fixed chance to instantly grant Special Attack 1 charge, up to the maximum charge limit."
+    },
+    "1126": {
+        "ChineseShort": "驭兽流",
+        "EnglishShort": "Wildpack Spec",
+        "EnglishLong": "Enhances usage of Storm Arrow and synergy with the Wild Wolf.<br>When Photon Reforge is not activated, using Storm Arrow grants the Wild Wolf a fixed 25% chance to launch a Coordinated Attack. During Photon Reforge, doubles the chance."
+    },
+    "1127": {
+        "ChineseShort": "连珠箭雨",
+        "EnglishShort": "Arrow Barrage",
+        "EnglishLong": "Basic Attacks grants a 20% fixed chance to fire extra arrows at up to 3 nearby enemies."
+    },
+    "1128": {
+        "ChineseShort": "裂空之矢",
+        "EnglishShort": "Sundering Arrow",
+        "EnglishLong": "Basic Attacks gains a fixed 15% chance to generate Split Arrow. Once per second."
+    },
+    "1129": {
+        "ChineseShort": "驯鹰流",
+        "EnglishShort": "Falconry Spec",
+        "EnglishLong": "Replaces <style=\"accent-gn\">Special Attack</style> with <linktext=1547><style=\"ItemQuality_5\">Double Arrow</style></linktext>, and enhances the ability to use this skill. <br>Recovers <style=\"accent-gn\">2</style> points of <style=\"accent-gn\">Photon Energy</style> per second. <br>Every <style=\"accent-gn\">1%</style> haste provides <style=\"accent-gn\">1%</style> CD Speed Increase for <linktext=1547><style=\"ItemQuality_5\">Double Arrow</style></linktext>.<br>Can tame a <style=\"accent-gn\">Falcon</style> to assist in combat. <br><br><style=\"accent-gn\">Falcon</style> always accompanies you. When your <style=\"accent-gn\">Class Skill</style> deals Crit DMG, the <style=\"accent-gn\">Falcon</style> swiftly attacks the target, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">150%</style> ATK. Scales with the Level/Tier of <style=\"accent-gn\">Basic Attack</style>. <br><br><i><style=\"text_third_gray\"><size=20>The Falcon will respond to your attacks. Haste and Crit will enhance the Falcon's action frequency. After the Falcon learns Lightning Strike, its DMG is greatly increased.</size></style></i>"
+    },
+    "1130": {
+        "ChineseShort": "猎狼之舞",
+        "EnglishShort": "Wolf Dancer",
+        "EnglishLong": "After you use Arrow Rain, the Wild Wolf continuously sweeps its tail until the storm ends.<br>Tail Sweep is bound to deal Crit DMG and inflicts Bleed."
+    },
+    "1131": {
+        "ChineseShort": "爆破箭矢",
+        "EnglishShort": "Explosive Arrow",
+        "EnglishLong": "When dealing DMG, Basic or Special Attacks gain a fixed 10% chance to fire an Explosive Arrow. Once every 3s."
+    },
+    "1132": {
+        "ChineseShort": "急速射击",
+        "EnglishShort": "Rapid Shot",
+        "EnglishLong": "Every 5% haste provides an additional 1% attack speed."
+    },
+    "1133": {
+        "ChineseShort": "野兽之力",
+        "EnglishShort": "Beast Power",
+        "EnglishLong": "Pet damage +10%."
+    },
+    "1134": {
+        "ChineseShort": "灵巧",
+        "EnglishShort": "Dexterity",
+        "EnglishLong": "When agility reaches 500 points, attack speed +5%."
+    },
+    "1135": {
+        "ChineseShort": "迅射",
+        "EnglishShort": "Quick Shot",
+        "EnglishLong": "Attack speed +<style=\"accent-gn\">5%</style>."
+    },
+    "1136": {
+        "ChineseShort": "野狼锐击",
+        "EnglishShort": "Wolf Sharp Strike",
+        "EnglishLong": "In Light Energy Reforge state, wolf's Crit DMG +50%."
+    },
+    "1137": {
+        "ChineseShort": "野兽怒涛之力",
+        "EnglishShort": "Beast Tidal Power",
+        "EnglishLong": "Companion damage +2%.<br>Within 5s after Casting Torrent Volley, Companion damage +10%."
+    },
+    "1138": {
+        "ChineseShort": "箭雨加速",
+        "EnglishShort": "Arrow Rain Acceleration",
+        "EnglishLong": "Each time a wolf or phantom wolf is summoned, Arrow Rain's remaining CD -0.5s."
+    },
+    "1139": {
+        "ChineseShort": "生命猎杀",
+        "EnglishShort": "Life Hunt",
+        "EnglishLong": "For each additional bleed effect on the target, the wolf's damage to that target +3%."
+    },
+    "1140": {
+        "ChineseShort": "狼牙之契",
+        "EnglishShort": "Wolf Fang Pact",
+        "EnglishLong": "The wolf's coordinated attack reduces Storm Arrow's remaining CD by 1s."
+    },
+    "1141": {
+        "ChineseShort": "光影流失",
+        "EnglishShort": "Light and Shadow Drain",
+        "EnglishLong": "Light Chasing Arrow has a 50% fixed chance to inflict bleed on the target."
+    },
+    "1142": {
+        "ChineseShort": "野狼进化",
+        "EnglishShort": "Wolf Evolution",
+        "EnglishLong": "The wolf evolves into an adult form, damage +30%, damage range +50%."
+    },
+    "1143": {
+        "ChineseShort": "传奇野兽",
+        "EnglishShort": "Legendary Beast",
+        "EnglishLong": "Each time Wild Call is cast, a powerful legendary eagle or legendary Boarrier will respond to your call."
+    },
+    "1144": {
+        "ChineseShort": "光意怒涛射击",
+        "EnglishShort": "Lumi Torrent",
+        "EnglishLong": "In Photon Reforge state, Torrent Volley continuously charges, and after 30s of charging, it evolves into Lumi Torrent."
+    },
+    "1145": {
+        "ChineseShort": "狂野呼唤冷却",
+        "EnglishShort": "Wild Call CD",
+        "EnglishLong": "Each time a Light Chasing Arrow is shot, Wild Call's remaining CD -1s."
+    },
+    "1146": {
+        "ChineseShort": "生命流失之精通",
+        "EnglishShort": "Mastery of bleed",
+        "EnglishLong": "Every 2% mastery provides 1% bleed damage."
+    },
+    "1147": {
+        "ChineseShort": "追光锋锐",
+        "EnglishShort": "Light Chasing Sharp",
+        "EnglishLong": "Light Chasing Arrow damage +50%."
+    },
+    "1148": {
+        "ChineseShort": "追光之箭",
+        "EnglishShort": "Arrow of Light",
+        "EnglishLong": "Arrow Rain and Light Chasing Arrow are guaranteed to critically hit."
+    },
+    "1149": {
+        "ChineseShort": "光意",
+        "EnglishShort": "Light Intent",
+        "EnglishLong": "Light energy cap +20."
+    },
+    "1150": {
+        "ChineseShort": "魔狼嗜咬",
+        "EnglishShort": "Wolf's Bite",
+        "EnglishLong": "Damage of the demon wolf to targets with HP less than or equal to 35% increased by 30%."
+    },
+    "1151": {
+        "ChineseShort": "践踏",
+        "EnglishShort": "Stomp",
+        "EnglishLong": "Within 10s after Casting Wild Call, Casting Wild Call again can command all pets on the field to immediately cast Trample."
+    },
+    "1152": {
+        "ChineseShort": "钢制喙",
+        "EnglishShort": "Steel Beak",
+        "EnglishLong": "When you and the falcon deal Crit DMG, apply 1 layer of Steel Beak to the target."
+    },
+    "1153": {
+        "ChineseShort": "幻影猎鹰",
+        "EnglishShort": "Phantom Falcon",
+        "EnglishLong": "Every 5 triggers of Implosion summon a phantom falcon to rush towards the target."
+    },
+    "1154": {
+        "ChineseShort": "凝神专注",
+        "EnglishShort": "Focused Concentration",
+        "EnglishLong": "During the duration of Focus, +0.5% Crit and +1% Crit DMG every second, this effect can stack up to 12 layers."
+    },
+    "1155": {
+        "ChineseShort": "双矢极意",
+        "EnglishShort": "Dual Arrow Mastery",
+        "EnglishLong": "When Double Arrow hits critically, reduce the remaining CD time of Blast Shot and Powerdraw by 1s."
+    },
+    "1156": {
+        "ChineseShort": "锐利二连矢·一",
+        "EnglishShort": "Sharp Double Arrow I",
+        "EnglishLong": "Crit DMG of Double Arrow +15%."
+    },
+    "1157": {
+        "ChineseShort": "光能凝滞",
+        "EnglishShort": "Light Energy Stasis",
+        "EnglishLong": "Radiance Barragehitting the target applies Light Stasis to it.<br>Light Stasis: Speed -30%, guaranteed Crit when hit by Powerdraw, lasts for 5s."
+    },
+    "1158": {
+        "ChineseShort": "猎鹰破式",
+        "EnglishShort": "Falcon Break",
+        "EnglishLong": "When the falcon hits critically, ignore 50% of the target's Armor."
+    },
+    "1159": {
+        "ChineseShort": "鹰眼",
+        "EnglishShort": "Eagle Eye",
+        "EnglishLong": "When the falcon triggers Coordinated Attack, agility +20 for 5s, can stack up to 10 layers."
+    },
+    "1160": {
+        "ChineseShort": "天界雄鹰",
+        "EnglishShort": "Celestial Eagle",
+        "EnglishLong": "During the duration of Focus, Radiance Barrage summons a celestial eagle at the target's location."
+    },
+    "1161": {
+        "ChineseShort": "辉爆蓄势",
+        "EnglishShort": "Radiant Charge",
+        "EnglishLong": "Each arrow fired by Radiance Rift that deals damage increases the damage of the next Blast Shot by +10%, up to a maximum of 100%."
+    },
+    "1162": {
+        "ChineseShort": "光棱",
+        "EnglishShort": "Light Prism",
+        "EnglishLong": "Lightning Strike hitting the target triggers Prism.<br>Prism: Deals chain damage equal to 100% ATK to up to 5 surrounding enemy targets, additionally applies 3 layers of Steel Beak."
+    },
+    "1163": {
+        "ChineseShort": "闪电破",
+        "EnglishShort": "Lightning Strike",
+        "EnglishLong": "Lightning Strike damage +30%."
+    },
+    "1164": {
+        "ChineseShort": "聚能之力",
+        "EnglishShort": "Energy Gathering Power",
+        "EnglishLong": "CD time of Powerdraw -50%."
+    },
+    "1165": {
+        "ChineseShort": "钢喙之击",
+        "EnglishShort": "Steel Beak Strike",
+        "EnglishLong": "Powerdraw hitting the target applies 2 layers of Steel Beak, if it hits critically, applies 5 layers of Steel Beak."
+    },
+    "1166": {
+        "ChineseShort": "钢制喙聚集",
+        "EnglishShort": "Steel Beak Gathering",
+        "EnglishLong": "When the celestial eagle hits the target, Steel Beak on the target will not naturally decrease."
+    },
+    "1167": {
+        "ChineseShort": "连环爆炸",
+        "EnglishShort": "Chain Explosion",
+        "EnglishLong": "Crit DMG of Double Arrow +15%."
+    },
+    "1200": {
+        "ChineseShort": "光铸身躯",
+        "EnglishShort": "Lightforged Body",
+        "EnglishLong": "Consumes Holy Sigils to activate Lightforged Body. Each additional Holy Sigil consumed grants a Radiant shield equal to 100% ATK."
+    },
+    "1201": {
+        "ChineseShort": "断罪",
+        "EnglishShort": "Condemn",
+        "EnglishLong": "When using a Skill that consumes Photon Energy, gains a 15% fixed chance to allow Basic Attack to evolve into Condemn."
+    },
+    "1202": {
+        "ChineseShort": "圣令的恩惠",
+        "EnglishShort": "Blessing of Holy Sigil",
+        "EnglishLong": "When using a Skill that consumes Holy Sigils, gains a 20% fixed chance to allow the next such Skill does not consume the Sigil. The effect lasts 8s or until a Sigil-consuming Skill is used."
+    },
+    "1203": {
+        "ChineseShort": "裁决之环",
+        "EnglishShort": "Ring of Judgment",
+        "EnglishLong": "Using Judgment generates a Divine Circle, with a CD of 30s.<br>Each Holy Sigil consumed reduces the CD by 1s."
+    },
+    "1204": {
+        "ChineseShort": "光铸延续",
+        "EnglishShort": "Lightforge Continuum",
+        "EnglishLong": "Every 20 Holy Energy consumed grants Lightforged Body a Light Shield equal to 100% ATK."
+    },
+    "1205": {
+        "ChineseShort": "急速圣令",
+        "EnglishShort": "Haste Sigil",
+        "EnglishLong": "Each 1% Haste accelerates the REG SPD of Holy Sigils by 1%."
+    },
+    "1206": {
+        "ChineseShort": "力量转换",
+        "EnglishShort": "Power Conversion",
+        "EnglishLong": "<style=\"accent-gn\">3</style> Strength provides <style=\"accent-gn\">2</style> Armor."
+    },
+    "1207": {
+        "ChineseShort": "断罪之光",
+        "EnglishShort": "Light of Condemn",
+        "EnglishLong": "Within the Divine Circle, Condemn evolves into Enhanced Condemn, dealing 100% more DMG."
+    },
+    "1208": {
+        "ChineseShort": "防护回复流",
+        "EnglishShort": "Recovery Spec",
+        "EnglishLong": "Further enhances your use of <linktext=1257><style=\"ItemQuality_5\">Valor Bash</style></linktext>.<br><linktext=1257><style=\"ItemQuality_5\">Valor Bash</style></linktext> now generates <linktext=1162><style=\"ItemQuality_5\">Radiant Impact</style></linktext>.<br>Using <linktext=1257><style=\"ItemQuality_5\">Valor Bash</style></linktext> twice in succession allows <linktext=1162><style=\"ItemQuality_5\">Radiant Impact</style></linktext> to force enemies to attack you and silences them for <style=\"accent-gn\">0</style>.<style=\"accent-gn\">5s</style>.<br><br><i><style=\"text_third_gray\"><size=20>Maintain the bonus Armor from Valor Bash to perform Inferno Reckon via high critical rate, thus gaining more Photon Energy. Ample Photon Energy allows you to constantly recover HP with Judgment and Scorching Judgment.</size></style></i>"
+    },
+    "1209": {
+        "ChineseShort": "神谕",
+        "EnglishShort": "Oracle",
+        "EnglishLong": "Skills that consume Holy Sigils grant 30% more Photon Energy on Crit hits.<br>Increases the Crit DMG of Skills that consume Photon Energy by 30%."
+    },
+    "1210": {
+        "ChineseShort": "裁决启示",
+        "EnglishShort": "Judgment Revelation",
+        "EnglishLong": "When Divine Strike lands a Crit hit, grants a fixed 50% chance that Judgment does not consume Photon Energy. The effect lasts 10s and stacks up to 2 times.<br>Using Judgment consumes 1 stack."
+    },
+    "1211": {
+        "ChineseShort": "圣环护卫",
+        "EnglishShort": "Divine Circle Defender",
+        "EnglishLong": "Within the Divine Circle, increases the Armor of Valor Bash by 30%."
+    },
+    "1212": {
+        "ChineseShort": "光护",
+        "EnglishShort": "Radiant Guard",
+        "EnglishLong": "Using Shield Toss grants the Lightforged Body a Light Shield equal to 300% ATK.<br>Increases the charge of Shield Toss by 1."
+    },
+    "1213": {
+        "ChineseShort": "圣光守卫赞歌",
+        "EnglishShort": "Aegis Ward's Anthem",
+        "EnglishLong": "Every 2 Holy Sigils consumed reduces the CD of Aegis Ward by 1s."
+    },
+    "1214": {
+        "ChineseShort": "无畏之盾",
+        "EnglishShort": "Fearless Shield",
+        "EnglishLong": "Each time Shield Toss deals DMG, there's a fixed 50% chance to grant the Lightforged Body a Light Shield equal to 100% ATK."
+    },
+    "1215": {
+        "ChineseShort": "圣光守卫惩戒",
+        "EnglishShort": "Aegis Ward's Retribution",
+        "EnglishLong": "While Aegis Ward is active, doubles your Block chance.<br>When you take DMG, reduces Aegis Ward's CD by 0.2s. Once every 0.5s."
+    },
+    "1216": {
+        "ChineseShort": "光明圣剑",
+        "EnglishShort": "Lightforged Greatsword",
+        "EnglishLong": "Every 10 uses of Judgment allows the next Judgment to evolve into Scorching Judgment.<br>Scorching Judgment: Summon a holy greatsword to descend upon the target area for 5s, dealing DMG over time to nearby enemies and inflicting Scorch, totally dealing Attack Damage equal to 600% ATK (which scales with the Level/Tier of Judgment).<br>Scorch: Reduces target's DMG dealt to you by 3% for 10s The effect stacks up to 10 times. Crit hits grant 3 stacks."
+    },
+    "1217": {
+        "ChineseShort": "神圣壁垒",
+        "EnglishShort": "Holy Barrier",
+        "EnglishLong": "After using Ultimate, creates a Holy Barrier, shielding nearby allies from DMG. It lasts for 15s or until it absorbs DMG equal to 200% Max HP."
+    },
+    "1218": {
+        "ChineseShort": "光盾回复流",
+        "EnglishShort": "Shield Spec",
+        "EnglishLong": "Replaces Special Attack with <linktext=1566><style=\"ItemQuality_5\">Vanguard Strike</style></linktext> and enhances its power.<br><style=\"accent-gn\">Each</style> additional enemy hit by <linktext=1566><style=\"ItemQuality_5\">Vanguard Strike</style></linktext> grants <style=\"accent-gn\">2</style> extra Photon Energy, up to <style=\"accent-gn\">10</style>.<br>Successfully Block prevents losing the stacks of <style=\"accent-gn\">Lightforged Barrier</style>.<br><br><style=\"accent-gn\">Lightforged Barrier</style>: Each stack increases Max HP by <style=\"accent-gn\">2%</style>, up to <style=\"accent-gn\">10</style> stacks, with each instance of DMG removing <style=\"accent-gn\">1</style> stack. It lasts <style=\"accent-gn\">25s</style> or until all stacks are consumed. gaining stacks resets the duration.<br><br><i><style=\"text_third_gray\"><size=20>Managing Lightforged Barrier is crucial for sustaining high HP and triggering self-healing and Defense effects from Judgment, Zeal Crusade, and Radiance.</size></style></i>"
+    },
+    "1219": {
+        "ChineseShort": "光障",
+        "EnglishShort": "Light Barrier",
+        "EnglishLong": "Lightforged Barrier limit +2."
+    },
+    "1220": {
+        "ChineseShort": "光铸屏障的升华",
+        "EnglishShort": "Ascension of the Lightforged Barrier",
+        "EnglishLong": "When Vanguard Strike deals damage, 20% chance that the next Judgment within 5s will consume 50% less Light Energy and will definitely deal Crit DMG."
+    },
+    "1221": {
+        "ChineseShort": "圣环咏叹",
+        "EnglishShort": "Divine Circle Chant",
+        "EnglishLong": "The Holy Sigil recovery effect from Haste +100%."
+    },
+    "1222": {
+        "ChineseShort": "圣击",
+        "EnglishShort": "Holy Strike",
+        "EnglishLong": "Each time a stack of Lightforged Barrier is consumed, 10% chance to gain 1 Holy Sigil."
+    },
+    "1223": {
+        "ChineseShort": "神圣光辉",
+        "EnglishShort": "Holy Radiance",
+        "EnglishLong": "When Sacred Blade hits an enemy target, it applies a Holy Mark to the target.<br>Vanguard Strike can spread this Holy Mark to hit enemy targets."
+    },
+    "1224": {
+        "ChineseShort": "决心斩击",
+        "EnglishShort": "Determination Slash",
+        "EnglishLong": "When dealing damage to targets with Holy Mark, 2% of the damage is converted into your own HP.<br>During the duration of Radiance, this effect is increased to 4%."
+    },
+    "1225": {
+        "ChineseShort": "光铸驱动",
+        "EnglishShort": "Lightforged Drive",
+        "EnglishLong": "When Casting Radiance, automatically releases Judgment to up to 5 surrounding enemy targets."
+    },
+    "1226": {
+        "ChineseShort": "冷酷回溯",
+        "EnglishShort": "Ruthless Rewind",
+        "EnglishLong": "During Zeal Crusade, gains 1 stack of Lightforged Barrier per second and each Holy Decree consumed grants Zeal Crusade 1 charge. When 3 charges are reached, Zeal Crusade explodes outward, dealing 200% Attack Damage and guaranteed Crit."
+    },
+    "1227": {
+        "ChineseShort": "圣环激荡",
+        "EnglishShort": "Divine Circle Resonance",
+        "EnglishLong": "For each enemy target within the Divine Circle, Divine Circle damage +25%, Divine Circle Healing +5%."
+    },
+    "1228": {
+        "ChineseShort": "众生裁决",
+        "EnglishShort": "Judgment of All Beings",
+        "EnglishLong": "When Judgment hits only one enemy target, damage +25%."
+    },
+    "1229": {
+        "ChineseShort": "圣环祝福",
+        "EnglishShort": "Divine Circle Blessing",
+        "EnglishLong": "While within the Divine Circle, self-Healing are +10%."
+    },
+    "1230": {
+        "ChineseShort": "光铸平衡",
+        "EnglishShort": "Lightforged Balance",
+        "EnglishLong": "When your HP percentage is higher than the enemy target, damage taken from the target -5%.<br>When your HP percentage is lower than the enemy target, Judgment damage +50%."
+    },
+    "1231": {
+        "ChineseShort": "光铸刚毅",
+        "EnglishShort": "Lightforged Fortitude",
+        "EnglishLong": "Gain Super Armor while in Lightforged Body state."
+    },
+    "1232": {
+        "ChineseShort": "光能援护",
+        "EnglishShort": "Energy Guard",
+        "EnglishLong": "During Ultimate duration, threat generated by Allies is transferred to you."
+    },
+    "1233": {
+        "ChineseShort": "生命强化",
+        "EnglishShort": "Life Enhancement",
+        "EnglishLong": "When Strength reaches 500 points, Max HP +12%."
+    },
+    "1234": {
+        "ChineseShort": "断罪时效",
+        "EnglishShort": "Condemn Time Limit",
+        "EnglishLong": "When Condemn deals damage, immediately cool down 1 Holy Decree (prioritizing the one with the longest remaining CD)."
+    },
+    "1235": {
+        "ChineseShort": "剑舞",
+        "EnglishShort": "Sword Dance",
+        "EnglishLong": "When Expertise critically heal, gain 15% healing bonus."
+    },
+    "1236": {
+        "ChineseShort": "持盾冲击",
+        "EnglishShort": "Shield Impact",
+        "EnglishLong": "Valor Bash can be charged by holding down, then rush forward a certain distance."
+    },
+    "1237": {
+        "ChineseShort": "清算炎盾",
+        "EnglishShort": "Reckon Shield",
+        "EnglishLong": "When Inferno Reckon or Reckoning deals Crit DMG to an enemy target, block chance +5%, lasts for 10s, stacks up to 5 times."
+    },
+    "1238": {
+        "ChineseShort": "圣光时效",
+        "EnglishShort": "Holy Light Time Limit",
+        "EnglishLong": "During Aegis Ward duration, when Expertise deal Crit DMG, 50% chance to immediately cool down 1 Holy Decree (prioritizing the one with the longest remaining CD)."
+    },
+    "1239": {
+        "ChineseShort": "圣光召唤",
+        "EnglishShort": "Holy Summon",
+        "EnglishLong": "When Shield Toss or Judgment deals damage, 10% chance to trigger Holy Strike. If Crit DMG is dealt, trigger chance increases to 30%."
+    },
+    "1240": {
+        "ChineseShort": "光击连锁",
+        "EnglishShort": "Light Chain",
+        "EnglishLong": "During Aegis Ward duration, Holy Strike trigger chance is doubled.<br>Every 3 times Holy Strike is triggered, Aegis Ward duration is extended by 1s."
+    },
+    "1241": {
+        "ChineseShort": "清算爆炎",
+        "EnglishShort": "Reckon Blaze",
+        "EnglishLong": "When Valor Bash deals Crit DMG, gain Scorching.<br>Casting Aegis Ward guarantees Scorching.<br>Scorching: For 5s, Reckoning evolves into Inferno Reckon. Casting Inferno Reckon reduces Scorching stacks by 1, stacks up to 5 times."
+    },
+    "1242": {
+        "ChineseShort": "圣体治愈",
+        "EnglishShort": "Holy Heal",
+        "EnglishLong": "Gain 12% healing bonus while in Lightforged Body state."
+    },
+    "1243": {
+        "ChineseShort": "光元素加护",
+        "EnglishShort": "Light Protection",
+        "EnglishLong": "Gain 5% Light bonus while in Lightforged Body state."
+    },
+    "1244": {
+        "ChineseShort": "守护极意",
+        "EnglishShort": "Ultimate Guard",
+        "EnglishLong": "For 10s after Casting Ultimate, block chance +30%."
+    },
+    "1245": {
+        "ChineseShort": "盾击守护",
+        "EnglishShort": "Shield Guard",
+        "EnglishLong": "Valor Bash restores 120% ATK as HP when it deals Crit DMG."
+    },
+    "1246": {
+        "ChineseShort": "光愈裁断",
+        "EnglishShort": "Radiant Heal",
+        "EnglishLong": "Judgment Healing +25%."
+    },
+    "1247": {
+        "ChineseShort": "极意神圣之击",
+        "EnglishShort": "Ultimate Strike",
+        "EnglishLong": "Holy Strike damage power +2%, lasts for 10s, stacks up to 5 times."
+    },
+    "1248": {
+        "ChineseShort": "盾击强化",
+        "EnglishShort": "Shield Strike Enhancement",
+        "EnglishLong": "Valor Bash damage +10%."
+    },
+    "1249": {
+        "ChineseShort": "极意征伐",
+        "EnglishShort": "Ultimate Conquest",
+        "EnglishLong": "Zeal Crusade damage +50%."
+    },
+    "1250": {
+        "ChineseShort": "光之暴击",
+        "EnglishShort": "Light's Crit",
+        "EnglishLong": "Critical chance +<style=\"accent-gn\">3%</style>."
+    },
+    "1251": {
+        "ChineseShort": "逆境强化",
+        "EnglishShort": "Adversity Enhancement",
+        "EnglishLong": "Special Attack and damage-focused Expertise are enhanced based on lost HP, with damage increasing by 1% for every 1% of HP lost."
+    },
+    "1252": {
+        "ChineseShort": "广域征伐",
+        "EnglishShort": "Wide Raid",
+        "EnglishLong": "Zeal Crusade range +100%.<br>During Zeal Crusade, the effect of Indomitable Courage is doubled."
+    },
+    "1253": {
+        "ChineseShort": "悍勇无畏",
+        "EnglishShort": "Bold Fearless",
+        "EnglishLong": "Sacred Blade and Judgment have a fixed 10% chance to trigger Vanguard Hunt when dealing damage.<br>Vanguard Hunt: Deals 200% ATK Attack Damage to the target, restores 2% of Max HP, and grants Indomitable Courage.<br>Indomitable Courage: Haste +3%, lasts for 8s, stacks up to 10 times."
+    },
+    "1254": {
+        "ChineseShort": "光芒核心",
+        "EnglishShort": "Radiant Core",
+        "EnglishLong": "Vanguard Hunt can obtain Radiant Core.<br>Repeatedly obtaining Radiant Core reduces its burst time by 2s."
+    },
+    "1255": {
+        "ChineseShort": "征伐追击",
+        "EnglishShort": "Conquest Pursuit",
+        "EnglishLong": "During Zeal Crusade, Vanguard Strike triggers Vanguard Hunt."
+    },
+    "1256": {
+        "ChineseShort": "决断之刃",
+        "EnglishShort": "Decisive Blade",
+        "EnglishLong": "Sacred Blade and Judgment have a fixed 10% increased chance to trigger Vanguard Hunt when dealing damage to targets with a lower percentage of HP than yourself."
+    },
+    "1257": {
+        "ChineseShort": "冷酷加速",
+        "EnglishShort": "Zeal Haste",
+        "EnglishLong": "For every 100 Light Energy consumed, Zeal Crusade's remaining CD -1s."
+    },
+    "1258": {
+        "ChineseShort": "圣印强化",
+        "EnglishShort": "Holy Sigil Enhancement",
+        "EnglishLong": "Judgment causes the target to suffer double the effect of Holy Mark for the next 5s when dealing damage."
+    },
+    "1259": {
+        "ChineseShort": "圣环守护",
+        "EnglishShort": "Divine Guard",
+        "EnglishLong": "When within the Divine Circle, all damage taken -10%."
+    },
+    "1260": {
+        "ChineseShort": "裁决精进",
+        "EnglishShort": "Judgment Improvement",
+        "EnglishLong": "For each stack of Lightforged Barrier, Judgment gains a 5% healing bonus."
+    },
+    "1261": {
+        "ChineseShort": "圣印追击",
+        "EnglishShort": "Sigil Pursuit",
+        "EnglishLong": "Vanguard Hunt deals 10% more damage to targets affected by Holy Mark."
+    },
+    "1262": {
+        "ChineseShort": "溢愈光壁",
+        "EnglishShort": "Overflow Healwall",
+        "EnglishLong": "When overflow healing applied by yourself accumulates to 10% of Max HP, gain 1 stack of Lightforged Barrier."
+    },
+    "1263": {
+        "ChineseShort": "光愈",
+        "EnglishShort": "Light Healing",
+        "EnglishLong": "Gain 12% healing bonus while in Lightforged Body state."
+    },
+    "1264": {
+        "ChineseShort": "光元素加护",
+        "EnglishShort": "Light Protection",
+        "EnglishLong": "Gain 5% Light bonus while in Lightforged Body state."
+    },
+    "1265": {
+        "ChineseShort": "决心速回",
+        "EnglishShort": "Resolved to Return",
+        "EnglishLong": "Sacred Blade damage +12%."
+    },
+    "1266": {
+        "ChineseShort": "光晕",
+        "EnglishShort": "Halo",
+        "EnglishLong": "The Divine Circle comes with a halo effect, stunning the enemy target for 0.5s each time it deals damage."
+    },
+    "1300": {
+        "ChineseShort": "热情迸发",
+        "EnglishShort": "Passion Surge",
+        "EnglishLong": "When Melody is active, there is a 15% fixed chance per second to gain Passion Surge. <br>Passion Surge: Special Attack costs zero Performance Passion for 5s. Removed after Special Attack is cast."
+    },
+    "1301": {
+        "ChineseShort": "弦域扩张",
+        "EnglishShort": "String Expansion",
+        "EnglishLong": "Performance Passion max limit +1."
+    },
+    "1302": {
+        "ChineseShort": "炽热迸发",
+        "EnglishShort": "Heat Surge",
+        "EnglishLong": "When Melody is activated, the trigger chance for Passion Surge +an extra 3% every 1s (up to 30%)."
+    },
+    "1303": {
+        "ChineseShort": "智力转换",
+        "EnglishShort": "Intellect Conversion",
+        "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Intellect provides <style=\"accent-gn\">1</style> point of MATK."
+    },
+    "1304": {
+        "ChineseShort": "魔力升华",
+        "EnglishShort": "Arcane Ascension",
+        "EnglishLong": "Special Attack costs -1 less Performance Passion."
+    },
+    "1305": {
+        "ChineseShort": "鸣奏·热力核心",
+        "EnglishShort": "Melody: Heat Core",
+        "EnglishLong": "Melody heals ally targets below 50% HP with 100% bonus effect."
+    },
+    "1306": {
+        "ChineseShort": "炎爆追击",
+        "EnglishShort": "Flame Pursuit",
+        "EnglishLong": "After using 3 Special Attacks, the next Basic Attack hit triggers Flame Pillar Blast."
+    },
+    "1307": {
+        "ChineseShort": "炎爆追击二式",
+        "EnglishShort": "Flame Pursuit II",
+        "EnglishLong": "Flame Pillar Blast becomes a two-hit combo."
+    },
+    "1308": {
+        "ChineseShort": "狂音流",
+        "EnglishShort": "Dissonance Spec",
+        "EnglishLong": "While in Rhapsody of Flame, your Luck chance is doubled."
+    },
+    "1309": {
+        "ChineseShort": "幸运音浪",
+        "EnglishShort": "Lucky Soundwave",
+        "EnglishLong": "Gains 1 Soundwave Energy whenever Expertise or Amplified Beat trigger a Lucky Strike."
+    },
+    "1310": {
+        "ChineseShort": "三重狂想",
+        "EnglishShort": "Trio Rhapsody",
+        "EnglishLong": "Rhapsody of Flame always appears in its most powerful form. <br>While in Rhapsody of Flame, healing +20%."
+    },
+    "1311": {
+        "ChineseShort": "断章",
+        "EnglishShort": "Severed Chapter",
+        "EnglishLong": "Each time Fierce Strike deals DMG, there's a fixed 50% chance to reset Harmonic Anthem's CD (which can only be triggers once on multiple hits)."
+    },
+    "1312": {
+        "ChineseShort": "音浪烈火",
+        "EnglishShort": "Sound Blaze",
+        "EnglishLong": "Gains 1 Soundwave Energy each time you deal DMG equal to 10 times ATK. <br>When consuming Performance Passion, launches Fireball that consumes all Soundwave Energy. Each 1 point of Soundwave Energy increases Fireball DMG by 20%."
+    },
+    "1313": {
+        "ChineseShort": "愈疗音符",
+        "EnglishShort": "Healing Note",
+        "EnglishLong": "Basic Attacks become a two-hit combo. <br>For every 5 Soundwave Energy obtained, creates a Note for the Ally with the lowest HP."
+    },
+    "1314": {
+        "ChineseShort": "炽焰治愈",
+        "EnglishShort": "Blazing Heal",
+        "EnglishLong": "Stores excess Healing (up to 500% of Max HP). After activating Heroic Melody, consumes stored Healing to recover allies' HP every 1s, up to 15% of Max HP per second."
+    },
+    "1315": {
+        "ChineseShort": "协奏",
+        "EnglishShort": "Concerto",
+        "EnglishLong": "While in Rhapsody of Flame, your Amplified Beat attack count +1.<br>While in Rhapsody of Flame, each hit of Harmonic Anthem also heals 1 ally with the lowest HP."
+    },
+    "1316": {
+        "ChineseShort": "重启",
+        "EnglishShort": "Restart",
+        "EnglishLong": "When DMG Expertise trigger Lucky Strike (triggers only once when hitting multiple targets), immediately resets Rhapsody of Flame's CD and makes it cost no Performance Passion for 10s."
+    },
+    "1317": {
+        "ChineseShort": "协奏流",
+        "EnglishShort": "Concerto Spec"
+    },
+    "1318": {
+        "ChineseShort": "华彩章节充能",
+        "EnglishShort": "Brilliant Charge",
+        "EnglishLong": "When Healing Beat or Passion Burst applies Crit Healing or deals Crit DMG (triggers only once when hitting multiple targets), gains 1 Performance Passion."
+    },
+    "1319": {
+        "ChineseShort": "双生治愈音符",
+        "EnglishShort": "Double Recovery Note",
+        "EnglishLong": "Healing Beat provides an additional Healing to targets under the influence of Healing Melody."
+    },
+    "1320": {
+        "ChineseShort": "暴击治疗",
+        "EnglishShort": "Crit Healing",
+        "EnglishLong": "Crit Healing +25%"
+    },
+    "1321": {
+        "ChineseShort": "烈火节拍",
+        "EnglishShort": "Fiery Beat",
+        "EnglishLong": "Healing Beat Crit Rate +10%. <br>Healing Beat Healing +10%."
+    },
+    "1322": {
+        "ChineseShort": "安可暴击增幅",
+        "EnglishShort": "Critical Encore",
+        "EnglishLong": "Every 1% Crit Rate grants 1% trigger chance for Encore Strings."
+    },
+    "1323": {
+        "ChineseShort": "热情挥洒·激昂",
+        "EnglishShort": "Passion Burst: Fervor",
+        "EnglishLong": "For each 10 Performance Passion consumed, enhances Passion Burst to Passion Burst for 10s."
+    },
+    "1324": {
+        "ChineseShort": "属性共鸣",
+        "EnglishShort": "Stat Resonance",
+        "EnglishLong": "While Healing Melody is active, grants allies appropriate buffs (Strength, Intellect, Agility) equal to 10% of Intellect. (Buffs from different Beat Performers cannot stack. Only one with the highest value applies.)"
+    },
+    "1325": {
+        "ChineseShort": "属性共鸣暴击",
+        "EnglishShort": "Stat Resonance Crit",
+        "EnglishLong": "When each Passion Burst Healing crits, doubles the buffs that Healing Melody provides to allies."
+    },
+    "1326": {
+        "ChineseShort": "火曜",
+        "EnglishShort": "Fire Day",
+        "EnglishLong": "Fire Bonus +8% when attacking Elite or higher targets."
+    },
+    "1327": {
+        "ChineseShort": "临界喝彩",
+        "EnglishShort": "Critical Acclaim",
+        "EnglishLong": "During Center Stage, triggering Encore Strings has a 30% fixed chance to grant Passion Surge."
+    },
+    "1328": {
+        "ChineseShort": "节奏灵韵",
+        "EnglishShort": "Rhythm Spirit",
+        "EnglishLong": "Defeating an enemy has a fixed 50% chance to grant you 1 Performance Passion."
+    },
+    "1329": {
+        "ChineseShort": "升格·无限狂想",
+        "EnglishShort": "Infinite Rhapsody",
+        "EnglishLong": "Replace <style=\"accent-gn\">Ultimate </style><linktext=1579><style=\"ItemQuality_5\">Rock the Stage</style></linktext> with <linktext=1612><style=\"ItemQuality_5\">Infinite Rhapsody</style></linktext>."
+    },
+    "1330": {
+        "ChineseShort": "升格·巡演曲",
+        "EnglishShort": "Concert Circuit",
+        "EnglishLong": "Replace <style=\"accent-gn\">Ultimate</style> <linktext=1579><style=\"ItemQuality_5\">Rock the Stage</style></linktext> with <linktext=1613><style=\"ItemQuality_5\">Concert Circuit</style></linktext>."
+    },
+    "1331": {
+        "ChineseShort": "安可无限连奏",
+        "EnglishShort": "Encore Chain",
+        "EnglishLong": "When Encore Strings triggers, it activates a second time on the same target."
+    },
+    "1332": {
+        "ChineseShort": "热力加倍",
+        "EnglishShort": "Heat Boost",
+        "EnglishLong": "When Intellect reaches 500, the Performance Energy cap +20%."
+    },
+    "1333": {
+        "ChineseShort": "变奏",
+        "EnglishShort": "Variation",
+        "EnglishLong": "Activating Melee Specialization increases Max HP by 20%. <br>When Ranged Specialization is activated, Basic Attacks become ranged attacks."
+    },
+    "1334": {
+        "ChineseShort": "鸣奏和弦",
+        "EnglishShort": "Melody Chord",
+        "EnglishLong": "Melody Healing +10%."
+    },
+    "1335": {
+        "ChineseShort": "激昂",
+        "EnglishShort": "Exaltation",
+        "EnglishLong": "Performance Energy REG SPD +10%."
+    },
+    "1336": {
+        "ChineseShort": "不屈谐音",
+        "EnglishShort": "Indomitable Chord",
+        "EnglishLong": "While Heroic Melody is active, grants Super Armor, increases DMG Reduction by 25%, and boosts movement speed by 10%."
+    },
+    "1337": {
+        "ChineseShort": "挥击回涌",
+        "EnglishShort": "Swing Reflux",
+        "EnglishLong": "Hitting a target with Fierce Strike recovers 3 Performance Energy. Each additional target hit provides 1 extra Performance Energy, up to 10 total."
+    },
+    "1338": {
+        "ChineseShort": "幸运倍乘",
+        "EnglishShort": "Luck Multiplier",
+        "EnglishLong": "Every 1% Luck grants 2% Lucky Strike DMG Multiplier."
+    },
+    "1339": {
+        "ChineseShort": "回响赋格",
+        "EnglishShort": "Resonant Counterpoint",
+        "EnglishLong": "When a Note forms, there's a 50% fixed chance to create an extra Note for a different target."
+    },
+    "1340": {
+        "ChineseShort": "音爆愈疗",
+        "EnglishShort": "Sonic Cure",
+        "EnglishLong": "When Expertise deal DMG (only triggers once when hitting multiple targets), heal targets with Note."
+    },
+    "1341": {
+        "ChineseShort": "音愈",
+        "EnglishShort": "Sonic Therapy",
+        "EnglishLong": "Converted healing from DMG +20% for targets affected by Note."
+    },
+    "1342": {
+        "ChineseShort": "炎律狂踏",
+        "EnglishShort": "Flame's Rampage",
+        "EnglishLong": "While Heroic Melody is active, Rhapsody of Flame becomes explosive, dealing DMG every 3s to targets it touches (interval affected by Haste)."
+    },
+    "1343": {
+        "ChineseShort": "烈焰音符",
+        "EnglishShort": "Flame Note",
+        "EnglishLong": "When casting an Expertise Skill, Rhapsody of Flame releases Magic Damage equal to 100% ATK and grants a Note to allies it touches."
+    },
+    "1344": {
+        "ChineseShort": "终幕指令",
+        "EnglishShort": "Finale Command",
+        "EnglishLong": "Within 10s of casting Encore, each use of Rhapsody of Flame causes targets affected by Encore to trigger Encore Strings."
+    },
+    "1345": {
+        "ChineseShort": "安可永续",
+        "EnglishShort": "Encore Persistence",
+        "EnglishLong": "Permanently benefits from Encore effect. <br>For every 5 triggers of Encore Strings, the next Amplified Beat or Harmonic Anthem deals 50% more DMG."
+    },
+    "1346": {
+        "ChineseShort": "安可幸运增幅",
+        "EnglishShort": "Encore Luck Boost",
+        "EnglishLong": "Every 1% Luck Chance grants 1% more trigger chance for Encore Strings."
+    },
+    "1347": {
+        "ChineseShort": "安可锐击",
+        "EnglishShort": "Encore Sharp Strike",
+        "EnglishLong": "Encore Strings' Lucky Strike DMG and healing +50%."
+    },
+    "1348": {
+        "ChineseShort": "绝顶万众瞩目",
+        "EnglishShort": "Absolute Center Stage",
+        "EnglishLong": "The number of enhanced skills granted after using Center Stage increases from 1 to 2."
+    },
+    "1349": {
+        "ChineseShort": "极意万众瞩目·狂音",
+        "EnglishShort": "Zenith Center Stage: Mad Tune",
+        "EnglishLong": "Center Stage charge +1.<br>For every 50 Performance Passion consumed, gain 1 Center Stage charge."
+    },
+    "1350": {
+        "ChineseShort": "音塔多重波动",
+        "EnglishShort": "Tower Multiwave",
+        "EnglishLong": "Casting Center Stage immediately extends Heroic Melody by 5s."
+    },
+    "1351": {
+        "ChineseShort": "音浪超频领域",
+        "EnglishShort": "Soundwave Overclock",
+        "EnglishLong": "Upon casting Center Stage, grants 15 Soundwave Energy, and doubles all the Soundwave Energy gained for the next 10s."
+    },
+    "1352": {
+        "ChineseShort": "会心充能律",
+        "EnglishShort": "Crit Charge Rhythm",
+        "EnglishLong": "Fivefold Crescendo deals Crit DMG or healing (only triggers once for multiple targets), and grants 2 Performance Energy. <br>When Healing Melody lands a Crit hit, grants 1 Performance Energy (only triggers once for multiple targets)."
+    },
+    "1353": {
+        "ChineseShort": "音塔爆炎冲击",
+        "EnglishShort": "Tower Flame Blast",
+        "EnglishLong": "The speaker releases a Flame Shock every 5s."
+    },
+    "1354": {
+        "ChineseShort": "多目标热力增幅",
+        "EnglishShort": "Multi-Target Heat Amp",
+        "EnglishLong": "For each additional target hit by Passion Burst, DMG dealt +5%, up to 25%."
+    },
+    "1355": {
+        "ChineseShort": "热烈音塔爆炎冲击",
+        "EnglishShort": "Heated Tower Flame Blast",
+        "EnglishLong": "When Passion Burst hits a speaker, it immediately releases a Flame Shock."
+    },
+    "1356": {
+        "ChineseShort": "音波裁决",
+        "EnglishShort": "Sonic Verdict",
+        "EnglishLong": "While Healing Melody is active, Fivefold Crescendo gains a DMG effect."
+    },
+    "1357": {
+        "ChineseShort": "谐波增幅器",
+        "EnglishShort": "Harmonic Amplifier",
+        "EnglishLong": "Expertise triggered by the speaker gain 30% more DMG and healing."
+    },
+    "1358": {
+        "ChineseShort": "渐强治愈和弦",
+        "EnglishShort": "Crescendo Healing Chord",
+        "EnglishLong": "Per second Healing Melody remains active, its Healing +2%, stacking up to 5 times."
+    },
+    "1359": {
+        "ChineseShort": "暴击天秤",
+        "EnglishShort": "Crit Scale",
+        "EnglishLong": "Crit +10% against enemies above 50% HP. <br>Crit +10% against enemies below 50% HP."
+    },
+    "1360": {
+        "ChineseShort": "鸣奏交响式",
+        "EnglishShort": "Symphonic Aria",
+        "EnglishLong": "Increases Healing by 10% for targets affected by Healing Melody."
+    },
+    "1361": {
+        "ChineseShort": "活力解放",
+        "EnglishShort": "Vitality Unleash",
+        "EnglishLong": "7% of DMG dealt and 15% of healing done is stored as Rhythm. Within 10s of casting Center Stage, the use of Expertise and Healing Beat consumes Rhythm to grant 40% bonus healing."
+    },
+    "1362": {
+        "ChineseShort": "安可连发",
+        "EnglishShort": "Encore Chain",
+        "EnglishLong": "Within 10s of casting Encore, each use of Expertise Skill triggers Encore Strings for targets affected by Encore."
+    },
+    "1363": {
+        "ChineseShort": "音塔共鸣",
+        "EnglishShort": "Tower Resonance",
+        "EnglishLong": "Permanently benefits from Encore effect. <br>Every 5 triggers of Encore Strings reduce the remaining CD of Expertise by 5s."
+    },
+    "1364": {
+        "ChineseShort": "属性共鸣超载",
+        "EnglishShort": "Stat Resonance Overload",
+        "EnglishLong": "While Encore is active, boosts from Healing Melody increase by 100%."
+    },
+    "1365": {
+        "ChineseShort": "极意万众瞩目·协奏",
+        "EnglishShort": "Zenith Center Stage: Concerto",
+        "EnglishLong": "Center Stage charge +1.<br>For every 50 Performance Passion consumed, gain 1 Center Stage charge."
+    },
+    "1366": {
+        "ChineseShort": "绝顶万众瞩目",
+        "EnglishShort": "Absolute Center Stage",
+        "EnglishLong": "The number of enhanced skills granted after using Center Stage increases from 1 to 2."
+    },
+    "1367": {
+        "ChineseShort": "螺旋炎奏",
+        "EnglishShort": "Spiral Flame",
+        "EnglishLong": "After casting Center Stage, summons a wave of Sonic Surge."
+    }
+}

@@ -111,7 +111,7 @@ merged_sorted = dict(sorted(merged.items()))
 
 # save output
 with open(
-        "final_merged.json", "w", encoding="utf-8") as f:
+        "SkillID_To_SkillName.json", "w", encoding="utf-8") as f:
     json.dump(merged_sorted, f, indent=2, ensure_ascii=False)
 
-print(f"Merged {len(merged_sorted)} entries into final_merged.json")
+print(f"Merged {len(merged_sorted)} entries into .json")

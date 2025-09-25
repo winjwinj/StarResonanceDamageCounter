@@ -1,0 +1,2298 @@
+{
+    "201": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "气刃突刺计数"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "智力转换",
+            "EnglishShort": "Intellect Conversion",
+            "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Intellect provides <style=\"accent-gn\">1</style> point of MATK."
+        }
+    },
+    "401": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "圆舞斩触发恢复气刃值"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "力量转换",
+            "EnglishShort": "Power Conversion",
+            "EnglishLong": "Every <style=\"accent-gn\">8</style> Strength grants <style=\"accent-gn\">1</style> ATK."
+        }
+    },
+    "501": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "圆舞斩恢复气刃值"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "智力转换",
+            "EnglishShort": "Intellect Conversion",
+            "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Intellect provides <style=\"accent-gn\">1</style> point of MATK."
+        }
+    },
+    "901": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "水龙卷引力BUFF"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "力量转换",
+            "EnglishShort": "Power Conversion",
+            "EnglishLong": "<style=\"accent-gn\">3</style> Strength provides <style=\"accent-gn\">2</style> Armor."
+        }
+    },
+    "1101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "水剑BUFF效果"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "场地标记01"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "敏捷转换",
+            "EnglishShort": "Agility Conversion",
+            "EnglishLong": "Every <style=\"accent-gn\">10</style> points of Agility provide <style=\"accent-gn\">2</style> point of Haste."
+        }
+    },
+    "1102": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "场地标记02"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "易伤一击",
+            "EnglishShort": "Vulnerable Strike",
+            "EnglishLong": "When dealing damage, there is a 30% fixed chance to apply Vulnerable effect to the enemy target."
+        }
+    },
+    "1103": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "场地标记03"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "狼之契约",
+            "EnglishShort": "Wolf Pact",
+            "EnglishLong": "Tames a Wild Wolf to fight alongside you. Storm Arrow has a 30% fixed chance to trigger Coordinated Attack.<br><br>Wild Wolf<br>Fights alongside you.<br>Basic Attack: Sweeps the enemy, dealing Attack Damage equal to 50% ATK (which scales with the Level/Tier of your Basic Attack).<br>Coordinated Attack: Wild Wolf leaps to the enemy and bites, dealing Attack Damage equal to 80% ATK (which scales with the Level/Tier of your Basic Attack)."
+        }
+    },
+    "1104": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "场地标记04"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "灵能激流",
+            "EnglishShort": "Psychic Surge",
+            "EnglishLong": "Every 15 Special Attacks increases the Photon Energy granted by the next Arrow Rain by 100%."
+        }
+    },
+    "1105": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "场地标记05"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "战吼之法",
+            "EnglishShort": "Battle Howl",
+            "EnglishLong": "While Wildcall is active, the Wild Wolf is bound to deal Crit DMG."
+        }
+    },
+    "1106": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "场地标记06"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "魔狼之嗜",
+            "EnglishShort": "Direwolf's Hunger",
+            "EnglishLong": "When the Wild Wolf deals Crit DMG, you and your Companions gain 2% Haste. The effect lasts 10s and stacks up to 5 times."
+        }
+    },
+    "1201": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "冰法仗蓄力子弹变大BUFF",
+            "EnglishShort": "Raincall Surge"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_01",
+            "EnglishShort": "Raincall Surge",
+            "EnglishLong": "<style=\"accent-gn\">Ice Energy</style><br>A key resource for unleashing <style=\"accent-gn\">Special Attacks</style> and <style=\"accent-gn\">Expertise</style>. Starts with a maximum of <style=\"accent-gn\">50</style> points, automatically restoring <style=\"accent-gn\">2</style> points <style=\"accent-gn\">per</style> second.<br><br><style=\"accent-gn\">Basic Attack: Raincall Surge</style><br>Unleashes up to four consecutive water-based attacks, each dealing <style=\"magic\">Magic Damage</style>.<br><br><size=22><style=\"tipsYellow\">Tips: When Ice Energy is low, this skill allows you to deal DMG flexibly as needed.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "断罪",
+            "EnglishShort": "Condemn",
+            "EnglishLong": "When using a Skill that consumes Photon Energy, gains a 15% fixed chance to allow Basic Attack to evolve into Condemn."
+        }
+    },
+    "1202": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_02",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣令的恩惠",
+            "EnglishShort": "Blessing of Holy Sigil",
+            "EnglishLong": "When using a Skill that consumes Holy Sigils, gains a 20% fixed chance to allow the next such Skill does not consume the Sigil. The effect lasts 8s or until a Sigil-consuming Skill is used."
+        }
+    },
+    "1203": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_03",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "裁决之环",
+            "EnglishShort": "Ring of Judgment",
+            "EnglishLong": "Using Judgment generates a Divine Circle, with a CD of 30s.<br>Each Holy Sigil consumed reduces the CD by 1s."
+        }
+    },
+    "1204": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_04",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光铸延续",
+            "EnglishShort": "Lightforge Continuum",
+            "EnglishLong": "Every 20 Holy Energy consumed grants Lightforged Body a Light Shield equal to 100% ATK."
+        }
+    },
+    "1208": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯AIRATK",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "防护回复流",
+            "EnglishShort": "Recovery Spec",
+            "EnglishLong": "Further enhances your use of <linktext=1257><style=\"ItemQuality_5\">Valor Bash</style></linktext>.<br><linktext=1257><style=\"ItemQuality_5\">Valor Bash</style></linktext> now generates <linktext=1162><style=\"ItemQuality_5\">Radiant Impact</style></linktext>.<br>Using <linktext=1257><style=\"ItemQuality_5\">Valor Bash</style></linktext> twice in succession allows <linktext=1162><style=\"ItemQuality_5\">Radiant Impact</style></linktext> to force enemies to attack you and silences them for <style=\"accent-gn\">0</style>.<style=\"accent-gn\">5s</style>.<br><br><i><style=\"text_third_gray\"><size=20>Maintain the bonus Armor from Valor Bash to perform Inferno Reckon via high critical rate, thus gaining more Photon Energy. Ample Photon Energy allows you to constantly recover HP with Judgment and Scorching Judgment.</size></style></i>"
+        }
+    },
+    "1209": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_EX",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "神谕",
+            "EnglishShort": "Oracle",
+            "EnglishLong": "Skills that consume Holy Sigils grant 30% more Photon Energy on Crit hits.<br>Increases the Crit DMG of Skills that consume Photon Energy by 30%."
+        }
+    },
+    "1210": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Maelstrom",
+            "ChineseShort": "博伊斯SKILL_01",
+            "EnglishLong": "Unleashes a water vortex at the target's feet, continuously dealing <style=\"magic\">Magic Damage</style> to enemies within range. Each time DMG is dealt, for every <style=\"accent-gn\">1</style> target hit, restore <style=\"accent-gn\">2</style> <style=\"accent-gn\">Ice Energy</style>. A maximum of 10 <style=\"accent-gn\">Ice Energy</style> can be restored per hit. <br><br><style=\"accent-gn\">Ultra Cold Vortex</style><br>While in the <style=\"accent-gn\">Ultra Cold</style> state, the water vortex will freeze and violently explode upon ending, dealing higher <style=\"magic\">Magic Damage</style> to all enemies within range. <br><br><size=22><style=\"tipsYellow\">Tips: Pair with Ray Stream. Casting at the right moment can restore considerable Ice Energy.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "裁决启示",
+            "EnglishShort": "Judgment Revelation",
+            "EnglishLong": "When Divine Strike lands a Crit hit, grants a fixed 50% chance that Judgment does not consume Photon Energy. The effect lasts 10s and stacks up to 2 times.<br>Using Judgment consumes 1 stack."
+        }
+    },
+    "1211": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Crystal Veil",
+            "ChineseShort": "博伊斯SKILL_02",
+            "EnglishLong": "Casts a slow-moving water orb and gains <style=\"accent-gn\">1</style> <linktext=1161><style=\"ItemQuality_5\">Frost Crystal</style></linktext> immediately, and <style=\"accent-gn\">1</style> <linktext=1161><style=\"ItemQuality_5\">Frost Crystal</style></linktext> every <style=\"accent-gn\">3s</style> thereafter. On impact, the orb's velocity decays. While the aqueous orb persists, it continuously deals <style=\"magic\">Magic Damage</style> to all nearby enemies and applies <linktext=3003><style=\"ItemQuality_5\">Frost</style></linktext> to them. <br><br><style=\"accent-gn\">Ultra Cold Crystal Veil</style><br>While in the <style=\"accent-gn\">Ultra Cold</style>, the water orb will freeze and violently explode upon ending, dealing higher <style=\"magic\">Magic Damage</style> to all enemies within range. <br><br>This skill holds <style=\"accent-gn\">2</style> charges. <br><br><size=22><style=\"tipsYellow\">Tips: At least one charge shall be maintained at all times, unless Ice Energy exceeds its maximum capacity. It is recommended to maintain two charges before casting the Ultimate, as combining it with Ultra Cold grants bonus DMG.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣环护卫",
+            "EnglishShort": "Divine Circle Defender",
+            "EnglishLong": "Within the Divine Circle, increases the Armor of Valor Bash by 30%."
+        }
+    },
+    "1213": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯UTR_SKILL"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣光守卫赞歌",
+            "EnglishShort": "Aegis Ward's Anthem",
+            "EnglishLong": "Every 2 Holy Sigils consumed reduces the CD of Aegis Ward by 1s."
+        }
+    },
+    "1214": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯协同子弹触发被动"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "无畏之盾",
+            "EnglishShort": "Fearless Shield",
+            "EnglishLong": "Each time Shield Toss deals DMG, there's a fixed 50% chance to grant the Lightforged Body a Light Shield equal to 100% ATK."
+        }
+    },
+    "1216": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚拟体冰球爆炸",
+            "EnglishShort": "Enhanced Crystal Veil"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光明圣剑",
+            "EnglishShort": "Lightforged Greatsword",
+            "EnglishLong": "Every 10 uses of Judgment allows the next Judgment to evolve into Scorching Judgment.<br>Scorching Judgment: Summon a holy greatsword to descend upon the target area for 5s, dealing DMG over time to nearby enemies and inflicting Scorch, totally dealing Attack Damage equal to 600% ATK (which scales with the Level/Tier of Judgment).<br>Scorch: Reduces target's DMG dealt to you by 3% for 10s The effect stacks up to 10 times. Crit hits grant 3 stacks."
+        }
+    },
+    "1218": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯SKILL_02_BD"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光盾回复流",
+            "EnglishShort": "Shield Spec",
+            "EnglishLong": "Replaces Special Attack with <linktext=1566><style=\"ItemQuality_5\">Vanguard Strike</style></linktext> and enhances its power.<br><style=\"accent-gn\">Each</style> additional enemy hit by <linktext=1566><style=\"ItemQuality_5\">Vanguard Strike</style></linktext> grants <style=\"accent-gn\">2</style> extra Photon Energy, up to <style=\"accent-gn\">10</style>.<br>Successfully Block prevents losing the stacks of <style=\"accent-gn\">Lightforged Barrier</style>.<br><br><style=\"accent-gn\">Lightforged Barrier</style>: Each stack increases Max HP by <style=\"accent-gn\">2%</style>, up to <style=\"accent-gn\">10</style> stacks, with each instance of DMG removing <style=\"accent-gn\">1</style> stack. It lasts <style=\"accent-gn\">25s</style> or until all stacks are consumed. gaining stacks resets the duration.<br><br><i><style=\"text_third_gray\"><size=20>Managing Lightforged Barrier is crucial for sustaining high HP and triggering self-healing and Defense effects from Judgment, Zeal Crusade, and Radiance.</size></style></i>"
+        }
+    },
+    "1219": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚拟体冰龙卷"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光障",
+            "EnglishShort": "Light Barrier",
+            "EnglishLong": "Lightforged Barrier limit +2."
+        }
+    },
+    "1221": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法杖切换技"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣环咏叹",
+            "EnglishShort": "Divine Circle Chant",
+            "EnglishLong": "The Holy Sigil recovery effect from Haste +100%."
+        }
+    },
+    "1222": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "幻影冲锋_1",
+            "EnglishShort": "Phantom Dash"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣击",
+            "EnglishShort": "Holy Strike",
+            "EnglishLong": "Each time a stack of Lightforged Barrier is consumed, 10% chance to gain 1 Holy Sigil."
+        }
+    },
+    "1223": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "幻影冲锋_2",
+            "EnglishShort": "Phantom Dash"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "神圣光辉",
+            "EnglishShort": "Holy Radiance",
+            "EnglishLong": "When Sacred Blade hits an enemy target, it applies a Holy Mark to the target.<br>Vanguard Strike can spread this Holy Mark to hit enemy targets."
+        }
+    },
+    "1224": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯DODGE_f"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "决心斩击",
+            "EnglishShort": "Determination Slash",
+            "EnglishLong": "When dealing damage to targets with Holy Mark, 2% of the damage is converted into your own HP.<br>During the duration of Radiance, this effect is increased to 4%."
+        }
+    },
+    "1225": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯DODGE_b"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光铸驱动",
+            "EnglishShort": "Lightforged Drive",
+            "EnglishLong": "When Casting Radiance, automatically releases Judgment to up to 5 surrounding enemy targets."
+        }
+    },
+    "1230": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯SKILL_02_A"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光铸平衡",
+            "EnglishShort": "Lightforged Balance",
+            "EnglishLong": "When your HP percentage is higher than the enemy target, damage taken from the target -5%.<br>When your HP percentage is lower than the enemy target, Judgment damage +50%."
+        }
+    },
+    "1231": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯SKILL_02_B"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光铸刚毅",
+            "EnglishShort": "Lightforged Fortitude",
+            "EnglishLong": "Gain Super Armor while in Lightforged Body state."
+        }
+    },
+    "1238": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "水龙卷-被动版",
+            "EnglishShort": "Tidal Vortex - Passive Skill"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣光时效",
+            "EnglishShort": "Holy Light Time Limit",
+            "EnglishLong": "During Aegis Ward duration, when Expertise deal Crit DMG, 50% chance to immediately cool down 1 Holy Decree (prioritizing the one with the longest remaining CD)."
+        }
+    },
+    "1239": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Meteor Storm",
+            "ChineseShort": "冰陨石",
+            "EnglishLong": "Consumes <style=\"accent-gn\">5</style> <style=\"accent-gn\">Ice Energy</style> to instantly summon 3 <style=\"accent-gn\">Meteor Storms</style> above the target, dealing <style=\"magic\">Magic Damage</style> to the target and surrounding enemies. <br>This skill holds <style=\"accent-gn\">2</style> charges. <br><br><size=22><style=\"tipsYellow\">Tips: This instant-cast DMG skill is best utilized in a highly mobile style of combat to maximize DMG dealt through repeated use.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣光召唤",
+            "EnglishShort": "Holy Summon",
+            "EnglishLong": "When Shield Toss or Judgment deals damage, 10% chance to trigger Holy Strike. If Crit DMG is dealt, trigger chance increases to 30%."
+        }
+    },
+    "1240": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Frozen Gale",
+            "ChineseShort": "冰风",
+            "EnglishLong": "Unleashes built-up cold energy in a violent surge, dealing <style=\"magic\">Magic Damage</style> and inflicting <linktext=1171><style=\"ItemQuality_5\">Frozen</style></linktext> on nearby enemies.<br>Charging the skill alters both its range and DMG.<br>Tier <style=\"accent-gn\">1</style>: Chants for <style=\"accent-gn\">1</style> sec, targeting a <style=\"accent-gn\">8</style>m frontal cone.<br>Tier <style=\"accent-gn\">2</style>: Chants for <style=\"accent-gn\">2</style> secs, targeting a <style=\"accent-gn\">8</style>m frontal cone with <style=\"accent-gn\">50%</style> increased DMG.<br>Tier <style=\"accent-gn\">3</style>: Chants for <style=\"accent-gn\">3</style> secs, targeting a <style=\"accent-gn\">8</style>m frontal cone with <style=\"accent-gn\">100%</style> increased DMG.<br>When holding <style=\"accent-gn\">1</style> / <style=\"accent-gn\">3</style> / <style=\"accent-gn\">5</style> <linktext=1171><style=\"ItemQuality_5\">Frozen</style></linktext>, the skill will instantly cast at Tier <style=\"accent-gn\">1</style> / <style=\"accent-gn\">2</style> / <style=\"accent-gn\">3</style>, skipping the charge time.<br><br><size=22><style=\"tipsYellow\">Tips: This skill offers both area damage and crowd control. For best results, cast it when you have high Frost Crystal count.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光击连锁",
+            "EnglishShort": "Light Chain",
+            "EnglishLong": "During Aegis Ward duration, Holy Strike trigger chance is doubled.<br>Every 3 times Holy Strike is triggered, Aegis Ward duration is extended by 1s."
+        }
+    },
+    "1241": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Frostbeam",
+            "ChineseShort": "博伊斯SPECIAL_SKILL_A",
+            "EnglishLong": "Consumes <style=\"accent-gn\">15</style> <style=\"accent-gn\">Ice Energy</style> to launch a concentrated ice beam toward the target, dealing <style=\"magic\">Magic Damage</style> to all enemies in its path every <style=\"accent-gn\">0.3s</style>. After dealing DMG <style=\"accent-gn\">5</style> instances, the beam attempts to consume additional Ice Energy to sustain itself. Every <style=\"accent-gn\">12</style> Ice Energy extends the beam by <style=\"accent-gn\">0.3s</style> and deals <style=\"accent-gn\">1</style> additional instance of DMG. Each time <style=\"accent-gn\">Frostbeam</style> deals DMG, it increases its own DMG by <style=\"accent-gn\">8%</style>, up to <style=\"accent-gn\">80%</style>. (Beam terminates when <style=\"accent-gn\">Ice Energy</style> drops below <style=\"accent-gn\">3</style>.)<br><style=\"accent-gn\">Frostbeam</style>'s firing interval is affected by Haste. <br><br><size=22><style=\"tipsYellow\">Tips: Cast when Ice Energy is near maximum capacity for extended beam duration. While firing, use the joystick to make minor positioning adjustments.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "清算爆炎",
+            "EnglishShort": "Reckon Blaze",
+            "EnglishLong": "When Valor Bash deals Crit DMG, gain Scorching.<br>Casting Aegis Ward guarantees Scorching.<br>Scorching: For 5s, Reckoning evolves into Inferno Reckon. Casting Inferno Reckon reduces Scorching stacks by 1, stacks up to 5 times."
+        }
+    },
+    "1242": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Frost Lance",
+            "ChineseShort": "博伊斯SPECIAL_SKILL_B",
+            "EnglishLong": "Chants for <style=\"accent-gn\">1.4s</style>, then consumes <style=\"accent-gn\">10</style> <style=\"accent-gn\">Ice Energy</style> to fire a sharp Frost Lance at the target, dealing <style=\"magic\">Magic Damage</style> on impact. <br>Allows the consumption of <style=\"accent-gn\">1</style> <linktext=1161><style=\"ItemQuality_5\">Frost Crystal</style></linktext> to skip chanting and to increase DMG by <style=\"accent-gn\">20%</style>. <br><br><size=22><style=\"tipsYellow\">Tips: Cast Frost Lance regularly to avoid wasting excess Energy.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣体治愈",
+            "EnglishShort": "Holy Heal",
+            "EnglishLong": "Gain 12% healing bonus while in Lightforged Body state."
+        }
+    },
+    "1243": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Permafrost",
+            "ChineseShort": "冰之灌注",
+            "EnglishLong": "Summon the Strength of Ice to generate <style=\"accent-gn\">6</style> <style=\"accent-gn\">Ice Energy</style> per second and increase <style=\"accent-gn\">Haste</style> for the duration. <br><br><size=22><style=\"tipsYellow\">Tips: Increases ATK and casting speed. Since this skill generates Ice Energy, avoid using it when Ice Energy is near maximum, or quickly spend Ice Energy afterward.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光元素加护",
+            "EnglishShort": "Light Protection",
+            "EnglishLong": "Gain 5% Light bonus while in Lightforged Body state."
+        }
+    },
+    "1244": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Blizzard",
+            "ChineseShort": "冰风暴",
+            "EnglishLong": "Chants for <style=\"accent-gn\">2.9s</style>, then consumes <style=\"accent-gn\">20</style> <style=\"accent-gn\">Ice Energy</style> to summon an intense Blizzard at the target location, continuously dealing <style=\"magic\">Magic Damage</style> and applying <linktext=3003><style=\"ItemQuality_5\">Frost</style></linktext> to all enemies within the area. <br><br><size=22><style=\"tipsYellow\">Tips: This devastating AoE skill is most effective when used against immobilized enemies to maximize DMG dealt.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "守护极意",
+            "EnglishShort": "Ultimate Guard",
+            "EnglishLong": "For 10s after Casting Ultimate, block chance +30%."
+        }
+    },
+    "1245": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Frost Shelter",
+            "ChineseShort": "冰箱",
+            "EnglishLong": "Encase the caster in ice, and make caster immune to all DMG but are unable to move for the duration. Deals <style=\"magic\">Magic Damage</style> to all nearby enemies, and inflicts <linktext=3011><style=\"ItemQuality_5\">Slow</style></linktext>, which upgrades to <linktext=1171><style=\"ItemQuality_5\">Freeze</style></linktext>. <br><br><size=22><style=\"tipsYellow\">Tips: This skill is intended to be equipped in high-pressure situations to increase survivability.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "盾击守护",
+            "EnglishShort": "Shield Guard",
+            "EnglishLong": "Valor Bash restores 120% ATK as HP when it deals Crit DMG."
+        }
+    },
+    "1246": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Tidepool",
+            "ChineseShort": "水龙卷",
+            "EnglishLong": "Summon a surging Tidal Vortex at the target location, dealing <style=\"magic\">Magic Damage</style> on impact. Channels for <style=\"accent-gn\">5s</style> after casting. Can be manually canceled by casting again.<br><br><style=\"accent-gn\">Ultra Cold: Tidepool</style><br>During the <style=\"accent-gn\">Ultra Cold</style> state, the vortex Frozens upon ending and explodes, dealing higher <style=\"magic\">Magic Damage</style> to all enemies within range.<br><br><size=22><style=\"tipsYellow\">Tips: You cannot move or cast other skills while channeling. Best paired with allies' AoE skills in coordinated attacks.</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光愈裁断",
+            "EnglishShort": "Radiant Heal",
+            "EnglishLong": "Judgment Healing +25%."
+        }
+    },
+    "1247": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Frost Comet",
+            "ChineseShort": "天赋触发彗星"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "极意神圣之击",
+            "EnglishShort": "Ultimate Strike",
+            "EnglishLong": "Holy Strike damage power +2%, lasts for 10s, stacks up to 5 times."
+        }
+    },
+    "1248": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Glacier Hymn",
+            "ChineseShort": "博伊斯UTR_SKILL",
+            "EnglishLong": "Summon the ice's blessing to unfold an <style=\"accent-gn\">Ice Domain</style>, knocking all enemies back within the range. Then summons a comet to strike the targets, dealing <style=\"magic\">Magic Damage</style> and inflicting <linktext=1171><style=\"ItemQuality_5\">Freeze</style></linktext> on all affected enemies. <br><style=\"accent-gn\">Ice Domain</style><br>Within the Domain, restores <style=\"accent-gn\">220</style> <style=\"accent-gn\">Ice Energy</style> over time and gains <style=\"accent-gn\">Ultra Cold</style>. Enemies within the domain are continuously <linktext=3011><style=\"ItemQuality_5\">Slowed</style></linktext>, escalating to <linktext=1171><style=\"ItemQuality_5\">Freeze</style></linktext>. <br>While in <style=\"accent-gn\">Ultra Cold</style>, targets are treated as <linktext=1171><style=\"ItemQuality_5\">Freeze</style></linktext>. <br><br><size=22><style=\"tipsYellow\">Tips: Casting should be avoided when Ice Energy approaches its maximum capacity, otherwise the Ice Energy will be quickly depleted. The skill is best casted within the range of Ultra Cold</style></size>"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "盾击强化",
+            "EnglishShort": "Shield Strike Enhancement",
+            "EnglishLong": "Valor Bash damage +10%."
+        }
+    },
+    "1249": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法杖支援技-协同冰晶"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "极意征伐",
+            "EnglishShort": "Ultimate Conquest",
+            "EnglishLong": "Zeal Crusade damage +50%."
+        }
+    },
+    "1250": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯SKILL01_虚拟体",
+            "EnglishShort": "Maelstrom"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光之暴击",
+            "EnglishShort": "Light's Crit",
+            "EnglishLong": "Critical chance +<style=\"accent-gn\">3%</style>."
+        }
+    },
+    "1251": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯_SKILL01_虚拟体(冰)",
+            "EnglishShort": "Maelstrom"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "逆境强化",
+            "EnglishShort": "Adversity Enhancement",
+            "EnglishLong": "Special Attack and damage-focused Expertise are enhanced based on lost HP, with damage increasing by 1% for every 1% of HP lost."
+        }
+    },
+    "1252": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_03伤害虚拟体",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "广域征伐",
+            "EnglishShort": "Wide Raid",
+            "EnglishLong": "Zeal Crusade range +100%.<br>During Zeal Crusade, the effect of Indomitable Courage is doubled."
+        }
+    },
+    "1253": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "博伊斯ATK_EX虚拟体",
+            "EnglishShort": "Raincall Surge"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "悍勇无畏",
+            "EnglishShort": "Bold Fearless",
+            "EnglishLong": "Sacred Blade and Judgment have a fixed 10% chance to trigger Vanguard Hunt when dealing damage.<br>Vanguard Hunt: Deals 200% ATK Attack Damage to the target, restores 2% of Max HP, and grants Indomitable Courage.<br>Indomitable Courage: Haste +3%, lasts for 8s, stacks up to 10 times."
+        }
+    },
+    "1254": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "水龙卷召唤虚拟体"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光芒核心",
+            "EnglishShort": "Radiant Core",
+            "EnglishLong": "Vanguard Hunt can obtain Radiant Core.<br>Repeatedly obtaining Radiant Core reduces its burst time by 2s."
+        }
+    },
+    "1255": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚拟体冰球爆炸(改造B)"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "征伐追击",
+            "EnglishShort": "Conquest Pursuit",
+            "EnglishLong": "During Zeal Crusade, Vanguard Strike triggers Vanguard Hunt."
+        }
+    },
+    "1256": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "水龙卷虚拟体"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "决断之刃",
+            "EnglishShort": "Decisive Blade",
+            "EnglishLong": "Sacred Blade and Judgment have a fixed 10% increased chance to trigger Vanguard Hunt when dealing damage to targets with a lower percentage of HP than yourself."
+        }
+    },
+    "1257": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "冰风暴虚拟体",
+            "EnglishShort": "Blizzard"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "冷酷加速",
+            "EnglishShort": "Zeal Haste",
+            "EnglishLong": "For every 100 Light Energy consumed, Zeal Crusade's remaining CD -1s."
+        }
+    },
+    "1258": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Icy Bolt",
+            "ChineseShort": "天赋-冰晶落"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Icy Bolt (Talent)"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣印强化",
+            "EnglishShort": "Holy Sigil Enhancement",
+            "EnglishLong": "Judgment causes the target to suffer double the effect of Holy Mark for the next 5s when dealing damage."
+        }
+    },
+    "1259": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "天赋-冰霜彗星",
+            "EnglishShort": "Frost Comet"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣环守护",
+            "EnglishShort": "Divine Guard",
+            "EnglishLong": "When within the Divine Circle, all damage taken -10%."
+        }
+    },
+    "1260": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "冰陨石虚拟体",
+            "EnglishShort": "Ice Meteor Hologram"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "裁决精进",
+            "EnglishShort": "Judgment Improvement",
+            "EnglishLong": "For each stack of Lightforged Barrier, Judgment gains a 5% healing bonus."
+        }
+    },
+    "1261": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "冰风暴虚拟体-天赋版",
+            "EnglishShort": "Enhanced Blizzard"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "圣印追击",
+            "EnglishShort": "Sigil Pursuit",
+            "EnglishLong": "Vanguard Hunt deals 10% more damage to targets affected by Holy Mark."
+        }
+    },
+    "1262": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "冰陨石虚拟体",
+            "EnglishShort": "Ice Meteor Hologram"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "溢愈光壁",
+            "EnglishShort": "Overflow Healwall",
+            "EnglishLong": "When overflow healing applied by yourself accumulates to 10% of Max HP, gain 1 stack of Lightforged Barrier."
+        }
+    },
+    "1263": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法杖大招强力冰陨石",
+            "EnglishShort": "Staff Ultimate: Powerful Ice Meteor"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "光愈",
+            "EnglishShort": "Light Healing",
+            "EnglishLong": "Gain 12% healing bonus while in Lightforged Body state."
+        }
+    },
+    "1294": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "博伊斯FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Raincall Surge"
+        }
+    },
+    "1301": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "法杖天生回能量BUFF"
+        },
+        "TalentTable_Clean.json": {
+            "ChineseShort": "弦域扩张",
+            "EnglishShort": "String Expansion",
+            "EnglishLong": "Performance Passion max limit +1."
+        }
+    },
+    "1401": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "法杖回能量回复生命值BUFF",
+            "EnglishShort": "Windborne Grace"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "蒂娜ATK_01",
+            "EnglishShort": "Windborne Grace",
+            "EnglishLong": "<style=\"accent-gn\">Courage</style><br>A vital resource needed to perform <style=\"accent-gn\">Special Attack</style>s and select <style=\"accent-gn\">Expertise Skill</style>s. Automatically recovers at <style=\"accent-gn\">3</style> points per second, with a starting maximum of <style=\"accent-gn\">100</style> points. <br><br><style=\"accent-gn\">Basic Attack: Windborne Grace</style><br>Executes a sequence of up to four attacks, dealing <style=\"physical\">Attack Damage</style><br><br><size=22><style=\"tipsYellow\">Tips: Fill the gaps with Basic Attacks when Courage is too low for other offensive skills.</style></size>"
+        }
+    },
+    "1402": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "蒂娜ATK_02",
+            "EnglishShort": "Normal Attack"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Windborne Grace"
+        }
+    },
+    "1403": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "蒂娜ATK_03",
+            "EnglishShort": "Normal Attack"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Windborne Grace"
+        }
+    },
+    "1404": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "蒂娜ATK_04",
+            "EnglishShort": "Normal Attack"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Windborne Grace"
+        }
+    },
+    "1411": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Swift Blade",
+            "ChineseShort": "蒂娜ATK_11",
+            "EnglishLong": "Deals <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">100%</style> ATK to all the enemies, which scales with the Level/Tier of <style=\"accent-gn\">Basic Attack</style>. <br>Restores <style=\"accent-gn\">10</style> <style=\"accent-gn\">Courage</style> immediately upon use."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Windborne Grace"
+        }
+    },
+    "1417": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "蒂娜FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Windborne Grace"
+        }
+    },
+    "1419": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Skyfall",
+            "ChineseShort": "蒂娜特攻SKILL_02",
+            "EnglishLong": "Consumes <style=\"accent-gn\">35</style> <style=\"accent-gn\">Courage</style> to leap into the air and deliver a downward strike on the enemy, dealing <style=\"physical\">Attack Damage</style>.<br><i><style=\"text_third_gray\">\"Even if enemy lines are unbreakable, the wind of victory will tear them asunder!\"</style></i><br><br><size=22><style=\"tipsYellow\">Tips: Cast when Courage is near cap. When casting in succession, the leap is skipped for faster follow-up attacks.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Gale Thrust"
+        }
+    },
+    "1433": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Azure Sever"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "蒂娜飞鸟投强化",
+            "EnglishShort": "Falcon Strike",
+            "EnglishLong": "Enhanced <linktext=1524><style=\"ItemQuality_5\">Falcon Toss</style></linktext>, leap into the air and gather wind <style=\"accent-gn\">power</style>, launching a fierce wind blade spear. Deals <style=\"accent-gn\">750%</style> ATK as <style=\"physical\">Attack Damage</style> to all enemies in the area and significantly reduces their tenacity, growing with the upgrade/advancement of the <linktext=1524><style=\"ItemQuality_5\">Falcon Toss</style></linktext> skill.<br>Immediately gain <style=\"accent-gn\">3</style> stacks of <linktext=1152><style=\"ItemQuality_5\">Sharp</style></linktext> after Casting ."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Falcon Toss"
+        }
+    },
+    "1434": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Vortex Strike",
+            "ChineseShort": "蒂娜神影螺旋",
+            "EnglishLong": "Enhanced <linktext=1523><style=\"ItemQuality_5\">Spiral Thrust</style></linktext> that can unleash an ultimate strike, dealing continuous <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">1150%</style> of ATK to all enemies within range, which scales with the Level/Tier of <linktext=1523><style=\"ItemQuality_5\">Spiral Thrust</style></linktext>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Spiral Thrust"
+        }
+    },
+    "1435": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Drake Cannon",
+            "ChineseShort": "龙击炮",
+            "EnglishLong": "Thrusts forward, then leaps back to unleash a powerful burst of wind pressure, delivering a finishing blow that deals <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">345%</style> ATK, which scales with the Level/Tier of <style=\"accent-gn\">Basic Attack</style>. <br>Restores <style=\"accent-gn\">20</style> <style=\"accent-gn\">Courage</style> immediately upon use."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Windborne Grace"
+        }
+    },
+    "1517": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "依露娜FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Vines' Embrace"
+        }
+    },
+    "1519": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Feral Seed",
+            "ChineseShort": "艾露娜种子陨石",
+            "EnglishLong": "Summon a seed to strike enemies, dealing <style=\"magic\">Magic Damage</style> and reducing their Move SPD by <style=\"accent-gn\">30%</style>. While dealing DMG, the seed restores a total of <style=\"accent-gn\">30</style> <style=\"accent-gn\">Energy</style>. <br>This skill holds <style=\"accent-gn\">2</style> charges. <br><br><size=22><style=\"tipsYellow\">Tips: Casting is advised when Energy is low.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Wild Bloom"
+        }
+    },
+    "1524": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Fast Growth"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "艾露娜减CD",
+            "EnglishShort": "Growth Arcane",
+            "EnglishLong": "Applies an acceleration effect to the caster. Increases MATK and reduces CD while active.<br><br><size=22><style=\"tipsYellow\">Tips: Cast when other skills are on CD .</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Growth Arcane"
+        }
+    },
+    "1601": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "水剑粒子显示",
+            "EnglishShort": "Crimson Assault"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔ATK_01",
+            "EnglishShort": "Crimson Assault",
+            "EnglishLong": "<style=\"accent-gn\">Basic Attack: Crimson Blaze</style><br>Unleashes up to four consecutive strikes, dealing <style=\"pyro\">Fire DMG</style>.<br><style=\"accent-gn\">Plunge Attack: Flamefall Slash</style><br>Leaps and slams twin axes downward, striking enemies along the path and dealing <style=\"pyro\">Fire DMG</style> upon impact.<br><style=\"accent-gn\">Heavy Strike: Blazing Shockwave</style><br>Holds to charge, then swings forward with full force, dealing <style=\"pyro\">Fire DMG</style>.<br><br><size=22><style=\"tipsYellow\">Pro Tips: Good filler when main skills are on CD .</style></size>"
+        }
+    },
+    "1602": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔ATK_02",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1603": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔ATK_03",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1604": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔ATK_04",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1605": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔EXATK_01",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1606": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔EXATK_02",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1607": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔EXATK_03",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1608": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔EXATK_04",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1615": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔AIRATK_01",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1616": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔ATK_11",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1617": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔EXATK_11",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1618": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "塔塔EXAIRATK_01",
+            "EnglishShort": "Basic Attack: Scorching Swing"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1624": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "塔塔FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Crimson Assault"
+        }
+    },
+    "1701": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "冰剑粒子显示",
+            "EnglishShort": "Judgment Cut"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉ATK_01",
+            "EnglishShort": "Judgment Cut",
+            "EnglishLong": "<style=\"accent-gn\">Blade Intent</style><br>Stacks <style=\"accent-gn\">2</style> Blade Intent per second. When fully charged, <style=\"accent-gn\">Special Attack</style> is enhanced: Consumes <style=\"accent-gn\">100</style> Blade Intent to greatly increase its casting speed.<br><br><style=\"accent-gn\">Basic Attack: Swift Justice</style><br>Unleashes up to four sweeping strikes in scythe form, each dealing <style=\"physical\">Attack Damage</style>.<br><br><size=22><style=\"tipsYellow\">Tips: Time your Special Attack right after maxing out Blade Intent for maximum DMG.</style></size>"
+        }
+    },
+    "1705": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Overdrive",
+            "ChineseShort": "奥尔维拉强化普攻EXATK_01",
+            "EnglishLong": "Unleashes the power of Blade, each strike transforms the blade into a scythe, dealing higher <style=\"physical\">Attack Damage</style> and granting <style=\"accent-gn\">1</style> <style=\"accent-gn\">Thunder Sigil</style>.<br>This skill holds <style=\"accent-gn\">5</style> charges.<br><br><size=22><style=\"tipsYellow\">Tips: Ensure Thunder Sigil does not overflow and keep at least one Charge regenerating for consistent recharge.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Judgment Cut"
+        }
+    },
+    "1715": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Moonstrike",
+            "ChineseShort": "奥尔维拉特攻SKILL_02",
+            "EnglishLong": "Consumes <style=\"accent-gn\">3</style> <style=\"accent-gn\">Thunder Sigils</style> to dash forward with a spinning blade attack, dealing <style=\"physical\">Attack Damage</style> to nearby enemies. <style=\"accent-gn\">Moonstrike</style> simultaneously performs a circular slashing attack, dealing <style=\"physical\">Attack Damage</style> to surrounding targets. This DMG grows stronger with <style=\"accent-gn\">Scythe Wheel</style> skill upgrades and advancements. <br><i><style=\"text_third_gray\">\"Under the moonlight, I move as one with the shadows.\"</style></i><br><br><size=22><style=\"tipsYellow\">Tips: For maximum effectiveness, use when multiple Moonstrikes exist to trigger additional whirling attacks.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Iaido Slash"
+        }
+    },
+    "1727": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Piercing Slash"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉触发弱点攻击",
+            "EnglishShort": "Olvera Triggers Weak Point Strike"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Olvera Triggers Weak Point Strike"
+        }
+    },
+    "1732": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉触发鸣雷印记",
+            "EnglishShort": "Olvera Triggers Stormflash"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Stormflash"
+        }
+    },
+    "1733": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Storm Scythe",
+            "ChineseShort": "奥尔维拉触发镰刀",
+            "EnglishLong": "Quickly slashes horizontally with a scythe condensed from lightning, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">300%</style>ATK to the enemy, which scales with the Level/Tier of <style=\"accent-gn\">Thundercut</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Thundercut"
+        }
+    },
+    "1734": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Thunder Cut"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉触发爆裂居合斩",
+            "EnglishShort": "Thunder Iaido Slash",
+            "EnglishLong": "Consume all <style=\"accent-gn\">Thunder Sigil</style> to unleash <style=\"accent-gn\">5</style> rapid blade waves, dealing <style=\"magic\">Attack Damage</style> equal to <style=\"accent-gn\">700%</style> ATK. Scales with the Level/Tier of <style=\"accent-gn\">Special Attack</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Iaido Slash"
+        }
+    },
+    "1735": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Dracoflash"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉龙槌闪",
+            "EnglishShort": "Dragonhammer",
+            "EnglishLong": "Enhanced <linktext=1501><style=\"ItemQuality_5\">Flash strike</style></linktext>, Consume all <style=\"accent-gn\">Thunder Sigil</style>s, then charges forward after powering up to slash all enemies in path, dealing <style=\"accent-gn\">510%</style> ATK as <style=\"physical\">Attack Damage</style> (which scales with the Level/Tier of <linktext=1501><style=\"ItemQuality_5\">Flash Strike</style></linktext>). <style=\"accent-gn\">Each</style> <style=\"accent-gn\">Thunder Sigil</style> consumed increases DMG by <style=\"accent-gn\">25%</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Flash strike"
+        }
+    },
+    "1736": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Phantom Slash"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉飞雷斩乱",
+            "EnglishShort": "Raijin Dash Slash",
+            "EnglishLong": "Enhanced <linktext=1554><style=\"ItemQuality_5\">Raijin Dash</style></linktext>, Consume all <style=\"accent-gn\">Thunder Sigil</style>s to summon more ferocious lightning, dealing <style=\"accent-gn\">450%</style> ATK as <style=\"physical\">Attack Damage</style> (which scales with the Level/Tier of <linktext=1554><style=\"ItemQuality_5\">Raijin Dash</style></linktext>). <style=\"accent-gn\">Each</style> <style=\"accent-gn\">Thunder Sigil</style> consumed increases DMG by <style=\"accent-gn\">25%</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Raijin Dash"
+        }
+    },
+    "1737": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Divine Sickle",
+            "ChineseShort": "奥尔维拉神罚之镰",
+            "EnglishLong": "Forcefully slashes vertically forward with a scythe wreathed in destructive power, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">1500%</style>ATK to the enemies. Scales with the Level/Tier of <style=\"accent-gn\">Basic Attack</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Thundercut"
+        }
+    },
+    "1738": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Chaos Breaker",
+            "ChineseShort": "奥尔维拉缭乱兜割",
+            "EnglishLong": "Enhanced <linktext=1507><style=\"ItemQuality_5\">Moonblade</style></linktext>. Throws a devastating thunderous cyclone forward, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">500%</style> ATK to enemies while gaining full <style=\"accent-gn\">Blade Intent</style>. Scales with the Level/Tier of <linktext=1507><style=\"ItemQuality_5\">Moonstrike</style></linktext>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Moonstrike"
+        }
+    },
+    "1740": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉被动触发镰刀-左",
+            "EnglishShort": "Storm Scythe",
+            "EnglishLong": "Quickly slashes horizontally with a scythe condensed from lightning, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">400%</style> ATK to the enemy, which scales with the Level/Tier of <style=\"accent-gn\">Thundercut</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Thundercut"
+        }
+    },
+    "1741": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥尔维拉被动触发镰刀-右",
+            "EnglishShort": "Storm Scythe",
+            "EnglishLong": "Quickly slashes horizontally with a scythe condensed from lightning, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">400%</style> ATK to the enemy, which scales with the Level/Tier of <style=\"accent-gn\">Thundercut</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Thundercut"
+        }
+    },
+    "1742": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Thundercleave"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "霹雳连斩-最后一刀",
+            "EnglishShort": "Thundercut - Final Slash",
+            "EnglishLong": "A lightning-fast Iai Slash is executed, inflicting <style=\"physical\">Attack Damage</style> on enemies. Each strike costs <style=\"accent-gn\">50</style> <style=\"accent-gn\">Blade Intent</style>. Once Attack Speed reaches <style=\"accent-gn\">25%</style>|<style=\"accent-gn\">50%</style>|<style=\"accent-gn\">90%</style>, deals <style=\"accent-gn\">1</style>|<style=\"accent-gn\">2</style>|<style=\"accent-gn\">3</style> additional attack(s). If <style=\"accent-gn\">Blade Intent</style> remains after the strike, the skill can be immediately recast. <br><br><size=22><style=\"tipsYellow\">Tips: As a core skill to synergize with Moonstrike Spec, this skill primarily consumes Blade Intent to deal DMG. Execute consecutive casts when Blade Intent has reached its maximum capacity.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Thundercut"
+        }
+    },
+    "1795": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "奥尔维拉FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Judgment Cut"
+        }
+    },
+    "1901": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "陷阱触发BUFF",
+            "EnglishShort": "Halberd's Edge"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "杰拉德ATK_01",
+            "EnglishShort": "Halberd's Edge",
+            "EnglishLong": "<style=\"accent-gn\">Rage</style><br>An initial cap of <style=\"accent-gn\">100</style> points is assigned to this resource, which serves as the essential component for the execution of <style=\"accent-gn\">Special Attacks</style> and <style=\"accent-gn\">Expertise</style>. Restores <style=\"accent-gn\">2</style> <style=\"accent-gn\">Rage</style> upon taking DMG, subject to a maximum <style=\"accent-gn\">0.5s</style> CD. <br><br><style=\"accent-gn\">Basic Attack: Halberd's Edge</style><br>A heavy four-strike combo with a wide-blade Guardblade, each strike dealing <style=\"physical\">Attack Damage</style> and generating <style=\"accent-gn\">5</style> <style=\"accent-gn\">Rage</style>. <br><br><size=22><style=\"tipsYellow\">Tips: Rage should be accumulated through the use of Basic Attacks.</style></size>"
+        }
+    },
+    "1912": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "杰拉德FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Halberd's Edge"
+        }
+    },
+    "1931": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "杰拉德强袭",
+            "EnglishShort": "Countercrush",
+            "EnglishLong": "Consumes <style=\"accent-gn\">40</style> points of <style=\"accent-gn\">Rage</style>, violently slams down the weapon, dealing <style=\"physical\">Attack Damage</style> to surrounding enemies, and enters the <style=\"accent-gn\">Countercrush</style> state. During this time, Block Chance +<style=\"accent-gn\">100%</style>, <style=\"physical\">Attack Damage</style> taken from blocks -<style=\"accent-gn\">30%</style>. <br><br><size=22><style=\"tipsYellow\">Tips: Very effective in environments with mostly Attack Damage. After casting, the block chance increases, reliably reducing Attack Damage taken.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Shield Bash"
+        }
+    },
+    "1932": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Shield Combo"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "杰拉德特殊攻击TG-01强",
+            "EnglishShort": "Shield Bash"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Shield Bash"
+        }
+    },
+    "1935": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Rageblow"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "杰拉德普攻改-03",
+            "EnglishShort": "Countercrush",
+            "EnglishLong": "Consumes <style=\"accent-gn\">40</style> points of <style=\"accent-gn\">Rage</style>, violently slams down the weapon, dealing <style=\"physical\">Attack Damage</style> to surrounding enemies, and enters the <style=\"accent-gn\">Countercrush</style> state. During this time, Block Chance +<style=\"accent-gn\">100%</style>, <style=\"physical\">Attack Damage</style> taken from blocks -<style=\"accent-gn\">30%</style>. <br><br><size=22><style=\"tipsYellow\">Tips: Very effective in environments with mostly Attack Damage. After casting, the block chance increases, reliably reducing Attack Damage taken.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Halberd's Edge"
+        }
+    },
+    "1942": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Rupture",
+            "ChineseShort": "杰拉德ATK_01",
+            "EnglishLong": "Raise your weapon for a mighty blow, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">300%</style> ATK, and knocking the target airborne. Scales with the Leve/Tier of <style=\"accent-gn\">Basic Attack</style>.<br>Gain <style=\"accent-gn\">25</style><style=\"accent-gn\">Rage</style> upon casting."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Halberd's Edge"
+        }
+    },
+    "1943": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Stone Fist",
+            "ChineseShort": "杰拉德岩拳轰击",
+            "EnglishLong": "Enhanced <linktext=1539><style=\"ItemQuality_5\">Granite Fury</style></linktext>, condenses the power of giant rocks, summoning a massive boulder to crash down from above the target, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">650%</style> ATK to the enemies within range, and is bound to deal Crit DMG. Scales with the Leve/Tier of <linktext=1539><style=\"ItemQuality_5\">Granite Fury</style></linktext>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Halberd's Edge"
+        }
+    },
+    "2001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚拟体本体显示BUFF",
+            "EnglishShort": "Float"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "飘浮滑翔共鸣技能",
+            "EnglishShort": "Float",
+            "EnglishLong": "The Hero's Herb on the plains, the taste of lightness and freedom"
+        }
+    },
+    "2101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "法杖冰盾BUFF"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "罗罗拉ATK_01"
+        }
+    },
+    "2106": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "罗罗拉SKILL_01替换ATK",
+            "EnglishShort": "Flash strike"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Spirit Break"
+        }
+    },
+    "2201": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "冰子弹引力BUFF",
+            "EnglishShort": "Bullseye"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "罗特罗亚尼-弓-ATK_01",
+            "EnglishShort": "Bullseye",
+            "EnglishLong": "Initial max <style=\"accent-gn\">Photon Energy</style><br>is <style=\"accent-gn\">100</style>. Once full, performing a <style=\"accent-gn\">Special Attack</style> will activate <style=\"accent-gn\">Photon Reforge</style> state, consuming <style=\"accent-gn\">25</style> Photon Energy per second. The state ends when Photon Energy reaches <style=\"accent-gn\">0</style>. During this state, certain skills gain enhanced effects.<br><br><style=\"accent-gn\">Basic Attack: Bullseye</style><br>Quickly draw the bow to fire up to four consecutive arrows, each dealing <style=\"physical\">Attack Damage</style>. When not in <style=\"accent-gn\">Photon Reforge</style> state, the attack restores <style=\"accent-gn\">2</style> <style=\"accent-gn\">Photon Energy</style>.<br><br><size=22><style=\"tipsYellow\">Tips: Use Basic Attack to build up Photon Energy.</style></size>"
+        }
+    },
+    "2211": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter",
+            "ChineseShort": "罗特罗亚尼-弓-FRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Bullseye"
+        }
+    },
+    "2222": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Double Arrow",
+            "ChineseShort": "罗特罗亚尼-弓-特殊攻击B",
+            "EnglishLong": "Slides sideways and quickly shoots <style=\"accent-gn\">2</style> arrows, dealing <style=\"physical\">Attack Damage</style>.<br>In <style=\"accent-gn\">Photon Reforge</style> state, <style=\"accent-gn\">Double Arrow</style> evolves into <style=\"accent-gn\">Quadraflare</style>, leaping into the air and firing <style=\"accent-gn\">4</style> empowered arrows that deal high Attack Damage with doubled critical rate.<br>This skill holds <style=\"accent-gn\">3</style> charges.<br><br><size=22><style=\"tipsYellow\">Tips: Keep an eye on the Photon Reforge state and use ​Quadraflare​ at the right moment.</style></size>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Storm Arrow"
+        }
+    },
+    "2224": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Quadraflare"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "罗特罗亚尼-弓-特殊攻击B-强化",
+            "EnglishShort": "Lethal Shot"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lethal Shot"
+        }
+    },
+    "2239": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "爆炸箭二段",
+            "EnglishShort": "Explosive Arrow II"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Blast Shot"
+        }
+    },
+    "2240": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Lumi Torrent"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "强化怒涛射击",
+            "EnglishShort": "Sky Piercing Star Strike",
+            "EnglishLong": "Fires a giant arrow at the target, dealing <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">1000%</style> ATK."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Sky Piercing Star Strike"
+        }
+    },
+    "2296": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Phantom Falcon"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "幻影雄鹰",
+            "EnglishShort": "Phantom Eagle"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Phantom Eagle"
+        }
+    },
+    "2301": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "水剑释放随身特效",
+            "EnglishShort": "Resonant Strings"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_01",
+            "EnglishShort": "Resonant Strings",
+            "EnglishLong": "<style=\"accent-gn\">Peaceful Tune</style><br>A magical melody that, whenever DMG is dealt, restores HP equal to <style=\"accent-gn\">20%</style> of the DMG dealt, distributed evenly among up to <style=\"accent-gn\">5</style> allies (Party Members Prioritized). <br>Allies at full HP will not be included in the healing targets. If all Allies are at full HP, the healing will be considered as excess healing. <br><style=\"accent-gn\">Performance Energy</style>: Energy required to play Melody skills (<style=\"accent-gn\">Heroic Melody</style> and <style=\"accent-gn\">Healing Melody</style>). <style=\"accent-gn\">1</style> point is regenerated <style=\"accent-gn\">per</style> second. <br><style=\"accent-gn\">Performance Passion</style>: Required to perform music. <style=\"accent-gn\">1</style> point is regenerated every <style=\"accent-gn\">5s</style>. <br><br><style=\"accent-gn\">Basic Attack: Resonant Strings</style><br>Strums the strings to emit a scorching soundwave, dealing long-range <style=\"magic\">Magic Damage</style> to the enemy. <br><br><size=22><style=\"tipsYellow\">Tips: Using Basic Attacks when Performance Passion and Performance Energy are not maxed out provides consistent healing. Pair with talents to store this healing for emergency use.</size></style>"
+        }
+    },
+    "2302": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_02",
+            "EnglishShort": "Beat Performer ATK_01"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Soul Musician ATK_01"
+        }
+    },
+    "2303": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_03",
+            "EnglishShort": "Beat Performer ATK_03"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Soul Musician ATK_03"
+        }
+    },
+    "2304": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_04",
+            "EnglishShort": "Beat Performer ATK_04"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Soul Musician ATK_04"
+        }
+    },
+    "2314": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Rock the Stage/Infinite Rhapsody"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ULT_01",
+            "EnglishShort": "Rock the Stage",
+            "EnglishLong": "Let the Passion Flow Again! Consumes <style=\"accent-gn\">5</style> <style=\"accent-gn\">Performance Passion</style>, reigniting the spirits of the weary. Performs a sequence of notes that heals <style=\"accent-gn\">10</style> allies. <br><br><style=\"accent-gn\">Performance Passion</style>: Required to perform music. Regenerates <style=\"accent-gn\">1</style> stack every <style=\"accent-gn\">5s</style>. <br><br><size=22><style=\"tipsYellow\">Tips: Highest healing potential. Monitor team health to avoid overhealing.</size></style>"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Rock the Stage"
+        }
+    },
+    "2320": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Flame Shock"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "爆炎冲击",
+            "EnglishShort": "Flame Blast"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Flame Blast"
+        }
+    },
+    "2322": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_02a",
+            "EnglishShort": "Beat Performer ATK_02a"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "String Strike"
+        }
+    },
+    "2323": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_03a",
+            "EnglishShort": "Beat Performer ATK_03a"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "String Strike"
+        }
+    },
+    "2324": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "灵魂乐手ATK_04a",
+            "EnglishShort": "Beat Performer ATK_04a"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "String Strike"
+        }
+    },
+    "2329": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Pillar of Flame",
+            "ChineseShort": "灵魂乐手炎舞奏者"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "String Strike"
+        }
+    },
+    "2331": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Scorching Impact",
+            "ChineseShort": "灵魂乐手音浪烈焰"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "String Strike"
+        }
+    },
+    "2350": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "传奇野猪-嚎叫",
+            "EnglishShort": "Legendary Boarrier - Howl"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Legendary Boar - Howl"
+        }
+    },
+    "2401": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "冰剑释放随身特效",
+            "EnglishShort": "Blade of Justice"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "剑盾普攻01",
+            "EnglishShort": "Blade of Justice",
+            "EnglishLong": "<style=\"accent-gn\">Holy Sigil</style><br>Resource required to cast <style=\"accent-gn\">Special Attacks</style> and some Expertise</style>. There are <style=\"accent-gn\">5</style> initial Holy Sigils. Each Holy Sigil enters a <style=\"accent-gn\">10s</style> CD after being consumed, and generates <style=\"accent-gn\">10<style=\"accent-gn\"></style> Photon Energy. <br><br><style=\"accent-gn\">Photon Energy</style><br>Resource required to cast some <style=\"accent-gn\">Expertise</style>, starting at a max of <style=\"accent-gn\">100</style>. <br><br><style=\"accent-gn\">Basic Attack: Blade of Justice</style><br>Unleashes a 3-hit sword combo followed by a Swing, each hit dealing <style=\"physical\">Attack Damage</style>."
+        }
+    },
+    "2411": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Scorching Judgment",
+            "ChineseShort": "灼热裁决"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Judgment"
+        }
+    },
+    "2413": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Inferno Reckon",
+            "ChineseShort": "炽热复仇",
+            "EnglishLong": "Enhanced <linktext=1563><style=\"ItemQuality_5\">Reckoning</style></linktext>, whose DMG is equal to <style=\"accent-gn\">2</style> times that of <linktext=1563><style=\"ItemQuality_5\">Reckoning</style></linktext>, and does not consume <style=\"accent-gn\">Holy Sigil</style>but can still generate Holy <style=\"accent-gn\">Energy</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Reckoning"
+        }
+    },
+    "2416": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Condemn",
+            "ChineseShort": "前戳普攻（小）",
+            "EnglishLong": "Deals <style=\"physical\">Attack Damage</style> equal to <style=\"accent-gn\">200%</style> ATK to the enemy (which scales with the Level/Tier of <style=\"accent-gn\">Basic Attack</style>)."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Blade of Justice"
+        }
+    },
+    "2417": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Enhanced Condemn",
+            "ChineseShort": "前戳普攻（大）",
+            "EnglishLong": "Enhanced <linktext=1563><style=\"ItemQuality_5\">Condemn</style></linktext>, whose DMG is equal to <style=\"accent-gn\">2</style>times that of <linktext=1563><style=\"ItemQuality_5\">Conviction</style></linktext>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Blade of Justice"
+        }
+    },
+    "2422": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "剑盾Dodge_f",
+            "EnglishShort": "AegisDodge_f",
+            "EnglishLong": "AegisDodge_f"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "AegisbladeDodge_f"
+        }
+    },
+    "2423": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "剑盾Dodge_b",
+            "EnglishShort": "AegisDodge_b",
+            "EnglishLong": "AegisDodge_b"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "AegisbladeDodge_b"
+        }
+    },
+    "2424": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Red light counter"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "剑盾FRACTURE_ATK",
+            "EnglishShort": "AegisFRACTURE_ATK",
+            "EnglishLong": "AegisFRACTURE_ATK"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Blade of Justice"
+        }
+    },
+    "2450": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Radiant Impact",
+            "ChineseShort": "特攻A震荡波"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Valor Bash"
+        }
+    },
+    "3001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "冰法杖3技能BD替换技能"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！超能冲击",
+            "EnglishLong": "Unleashes a powerful energy pulse, dealing massive DMG upon surrounding <style=\"accent-gn\">enemies</style> and <linktext=3005><style=\"ItemQuality_5\">stunning</style></linktext> them. <br>If the enemy possesses <linktext=1091><style=\"ItemQuality_5\">Super Armor</style></linktext>, it will instead deal high Super Armor DMG."
+        }
+    },
+    "3101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "鬼人化效果生效Buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "守护 · 危机抵挡",
+            "EnglishLong": "Raises a <i><style=\"accent-gn\">Block Shield</style></i> for <style=\"accent-gn\">2s</style>. The <i><style=\"accent-gn\">Block Shield</style></i> will block the next incoming hit. Successful Block reduces the <style=\"accent-gn\">CD </style> of all your Weapon skills."
+        }
+    },
+    "3401": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "鬼人计combo计数管理"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "辅助 · 赐福",
+            "EnglishLong": "Grants nearby <style=\"accent-gn\">allies</style> a temporary <style=\"accent-gn\">DMG Boost</style>."
+        }
+    },
+    "3601": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "鬼人QTE特效"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！碎星陨落",
+            "EnglishLong": "Channels the power of the stars, entering Star Calling state. While active, greatly increases your <style=\"accent-gn\">Sigil chance</style> and grants <i><style=\"accent-gn\">Sigil: Falling Star</style></i>.<br><linktext=1061><style=\"ItemQuality_5\">Sigil</style></linktext>: When DMG is dealt, there is chance to summon <style=\"accent-gn\">1</style> meteor to bombard the target area, dealing area damage. More meteors are summoned based on your <style=\"accent-gn\">Sigil chance</style>. This effect has a CD, which - your <style=\"accent-gn\">Sigil chance</style>."
+        }
+    },
+    "3701": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "鬼人化关闭标记buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "攻击 · 凝滞",
+            "EnglishLong": "Surrounds yourself in pure Energy, restoring HP and granting <style=\"accent-gn\">DMG Immunity</style> for <style=\"accent-gn\">3</style>. You cannot take any other actions during this time."
+        }
+    },
+    "3901": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "恶火后裔切换标记Buff",
+            "EnglishShort": "Arcane! Flame Roar"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！琉火咆哮",
+            "EnglishShort": "Arcane! Flame Roar",
+            "EnglishLong": "<style=\"accent-gn\">Transforms into</style> Boss: Inferno Ogre to unleash a forward fiery breath that deals <style=\"physical\">Attack Damage</style> and <linktext=3000><style=\"ItemQuality_5\">interrupts</style></linktext> affected targets. Concurrently, applies <style=\"accent-gn\">Healing</style> to you, and <style=\"accent-gn\">100%</style> excess healing is converted into a <style=\"accent-gn\">Shield</style> lasting <style=\"accent-gn\">20s</style>. The transformed form reduces DMG taken by <style=\"accent-gn\">50%</style>."
+        }
+    },
+    "3905": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Stunt! Boarrier Rush",
+            "ChineseShort": "绝技！猪突猛进",
+            "EnglishLong": "<style=\"accent-gn\">Summon Elite</style>:  Boarrier Tyrant and charges forward with tusks for <style=\"accent-gn\">3s</style>. Deals <style=\"physical\">Attack Damage</style> and knocks enemies airborne during the charge. Boarrier tusks tear through flesh, inflicting <style=\"accent-gn\">100%</style> <linktext=3004><style=\"ItemQuality_5\">Wounds</style></linktext> on enemies hit for <style=\"accent-gn\">15s</style>. <br>Upon the skill cast, the DMG dealt and healing of your <style=\"accent-gn\">Special Attack</style> are increased for a period."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Stunt! Boar Rush"
+        }
+    },
+    "3938": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Arcane! Cocoon Technique"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！茧房术",
+            "EnglishShort": "Arcane! Cocoon Tech",
+            "EnglishLong": "<style=\"accent-gn\">Summon Boss</style>: Phantom Arachnocrab and transforms into a cocoon. Following a brief delay, the cocoon bursts, dealing <style=\"physical\">Attack Damage</style> and <linktext=3000><style=\"ItemQuality_5\">disrupting</style></linktext> the actions of the affected target. Your <style=\"accent-gn\">Mastery</style> is increased for a period."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Arcane! Cocoon Tech"
+        }
+    },
+    "3939": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Stunt! Lightning Orb"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "绝技！雷光球",
+            "EnglishShort": "Stunt! Thunder Orb",
+            "EnglishLong": "<style=\"accent-gn\">Summon Elite</style>:  Great Warhog to release a Lightning Orb forward, dealing <style=\"physical\">Attack Damage</style>. <br>Upon the skill cast, your <style=\"accent-gn\">Light Bonus</style> is increased for a period."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Stunt! Thunder Orb"
+        }
+    },
+    "3943": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Arcane! Infernal Thrust"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！地狱突刺",
+            "EnglishShort": "Arcane! Hell Thrust",
+            "EnglishLong": "<style=\"accent-gn\">Summon Boss</style>: Iron Fang to deliver AoE <style=\"physical\">Attack Damage</style> to nearby enemies, inflicting a <style=\"accent-gn\">100%</style> <linktext=3004><style=\"ItemQuality_5\">Wound</style></linktext> on all affected targets for <style=\"accent-gn\">15s</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Arcane! Hell Thrust"
+        }
+    },
+    "3944": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Arcane! Azure Tempest"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！沧澜风啸",
+            "EnglishShort": "Arcane! Azure Gale",
+            "EnglishLong": "<style=\"accent-gn\">Summon Boss</style>: Celestial Flier to charge forward, dealing Ice <style=\"physical\">Attack Damage</style> and <linktext=3000><style=\"ItemQuality_5\">disrupting</style></linktext> the targets' actions. After casting, your <style=\"accent-gn\">Haste</style> is increased for a period of time."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Arcane! Azure Gale"
+        }
+    },
+    "3946": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Arcane! Goblin Grand March"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "奥义！哥布林大行军",
+            "EnglishShort": "Arcane! Goblin March",
+            "EnglishLong": "Resonate with the power of Boss: Goblin King, summoning <style=\"accent-gn\">1 to 3</style> goblins at random to cast skills. <br><style=\"accent-gn\">Always</style> summons 1 random goblin from Elite: Goblin Sword and Elite: Goblin Crossbow. <br>Has <style=\"accent-gn\">a chance</style> to additionally summon 1 Elite: Jungle Goblin Warrior. <br>Has <style=\"accent-gn\">a chance</style> to additionally summon 1 from Elite: Hurricane Goblin Giant Axe or Boss: Wind Goblin King. Has a <style=\"accent-gn\">30% chance</style> to summon the Boss."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Arcane! Goblin March"
+        }
+    },
+    "3947": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Stunt! Spiral Fracture"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "绝技！螺旋断界",
+            "EnglishShort": "Stunt! Spiral Severance",
+            "EnglishLong": "<style=\"accent-gn\">Summon</style> Elite Muku Vanguard to charge forward, dealing <style=\"physical\">Attack Damage</style>. <br>Upon the skill cast, your <style=\"accent-gn\">Thunder Bonus</style> is increased for a period."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Stunt! Spiral Severance"
+        }
+    },
+    "4001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "鬼人化QTE派生技能",
+            "EnglishShort": "Dimensional Shift"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "次元切换",
+            "EnglishShort": "Dimensional Shift"
+        }
+    },
+    "4501": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "引燃效果Buff",
+            "EnglishShort": "Burn",
+            "EnglishLong": "Continuously lose 0.05% of Max HP per second"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "小猪冲锋",
+            "EnglishShort": "Pig Charge",
+            "EnglishLong": "After use, dash forward. Go forward bravely!"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Pig Charge"
+        }
+    },
+    "4571": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "立体鱼雷",
+            "EnglishShort": "3D \"Torpedo\"",
+            "EnglishLong": "Charges through the waves! Splashes water and dashes at high speed, leaving a dazzling \"swimming trail!\""
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "3D \"Torpedo"
+        }
+    },
+    "4601": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "引爆引燃Buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "风驰电掣",
+            "EnglishShort": "Blazing Dash",
+            "EnglishLong": "Increase speed after release. The speed of skill CD increases while moving."
+        }
+    },
+    "5101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "乱计数Buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "白色烟花"
+        }
+    },
+    "5501": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "太刀镰斩路线强化1"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "生存玩法-弹簧弹3"
+        }
+    },
+    "5901": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "太刀镰斩路线强化2"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "生存玩法-烟雾虚拟体"
+        }
+    },
+    "6001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "太刀镰强化技能复原",
+            "EnglishShort": "Elemental Shield"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "哥布林巢穴反弹盾",
+            "EnglishShort": "Elemental Shield",
+            "EnglishLong": "Reflective Shield"
+        }
+    },
+    "8001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "蒂娜前闪特效",
+            "EnglishShort": "I'm Gonna Punch You So Hard"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "防作弊技能",
+            "EnglishShort": "I'm Gonna Punch You So Hard"
+        }
+    },
+    "21404": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "持续回复生命值",
+            "EnglishShort": "HP Regan",
+            "EnglishLong": "Regan a small amount of HP over 10s."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Nourish"
+        }
+    },
+    "31901": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "青岚强袭",
+            "EnglishShort": "Gale Assault",
+            "EnglishLong": "Surrounded by a strong wind field, continuously dealing AOE damage."
+        },
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Rock Projectile"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Valor Cyclone"
+        }
+    },
+    "55231": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "爆炸箭BUFF",
+            "EnglishShort": "Explosive Arrow BUFF"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Blast Shot - Detonation"
+        }
+    },
+    "101112": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Falcon Dive"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "宠物雄鹰快速回旋",
+            "EnglishShort": "Pet Eagle Quick Spin"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Pet Eagle Quick Spin"
+        }
+    },
+    "102640": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "绝技！猪突猛进",
+            "EnglishShort": "Stunt! Boarrier Rush",
+            "EnglishLong": "Resonates with the power from Elite Boarrier Tyrant. Continuously maintains Tusk Charge status for <style=\"accent-gn\">3s</style>. Deals <style=\"physical\">Attack Damage</style> and knocks back enemies during the charge, with gradual directional control throughout. Boarrier tusks tear through flesh, inflicting <style=\"accent-gn\">100%</style> <linktext=3004><style=\"ItemQuality_5\">Wounds</style></linktext> on enemies hit for <style=\"accent-gn\">10s</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Stunt! Boar Rush"
+        }
+    },
+    "102658": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "绝技！猪突猛进",
+            "EnglishShort": "Stunt! Boarrier Rush",
+            "EnglishLong": "Summon Elite: Boarrier Tyrant for a <style=\"accent-gn\">3s</style> charge with extended tusks. Deals <style=\"physical\">Attack Damage</style> and knocks enemies airborne during the charge. Boarrier tusks tear through flesh, inflicting <style=\"accent-gn\">100%</style> <linktext=3004><style=\"ItemQuality_5\">Wounds</style></linktext> on enemies hit for <style=\"accent-gn\">15s</style>."
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Stunt! Boar Rush"
+        }
+    },
+    "140137": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "雷霆风暴",
+            "EnglishShort": "Lightning Storm"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "lightning storm"
+        }
+    },
+    "199902": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Terra Sunder"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "怒爆石头",
+            "EnglishShort": "Rage Burst Stone",
+            "EnglishLong": "Rage Burst Stone"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Rage Burst Stone"
+        }
+    },
+    "500101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "测试配置"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "火焰兽人-出生特效"
+        }
+    },
+    "600101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "渐显隐无敌buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "召唤法阵持续召唤滚石1"
+        }
+    },
+    "700001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "S1虚蚀之种前置"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀火柱虚拟体"
+        }
+    },
+    "700002": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "S1虚蚀之种"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀雾"
+        }
+    },
+    "700003": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种锁血1"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀晶体治疗"
+        }
+    },
+    "700004": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种持续加属性控制"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "落石"
+        }
+    },
+    "700005": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种加属性",
+            "EnglishShort": "Void Corruption Buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀陨星1"
+        }
+    },
+    "700006": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种回血1"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀陨星2"
+        }
+    },
+    "700007": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种再起1过程标记"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "散逸能量球1"
+        }
+    },
+    "700008": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种再起1结束标记"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "散逸能量球2"
+        }
+    },
+    "700009": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种锁血2"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "意外惊喜地面残留地板伤害虚拟体"
+        }
+    },
+    "700010": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种再起2过程标记"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀焰浪"
+        }
+    },
+    "700011": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种再起2结束标记"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀护盾爆炸"
+        }
+    },
+    "700012": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种回血2"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "暂停词缀测试"
+        }
+    },
+    "700013": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种暗蚀dot",
+            "EnglishShort": "Dark Corruption",
+            "EnglishLong": "Each layer deals 1% of Max HP damage per second"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀傀儡召唤"
+        }
+    },
+    "700101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种强化——强化暗蚀"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "山崩地裂"
+        }
+    },
+    "700102": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种强化——虚蚀污染"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "夺命飞斧"
+        }
+    },
+    "700103": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "虚蚀之种强化——虚蚀光环"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "无尽虚蚀"
+        }
+    },
+    "701001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "装置出生自带buff"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀之影爆炸"
+        }
+    },
+    "701002": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "装置虚蚀爆炸表演01"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚蚀波动爆炸"
+        }
+    },
+    "800001": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "BOSS扣血-10%",
+            "EnglishShort": "Boss HP -10%",
+            "EnglishLong": "Boss HP -10%"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法杖水球陷阱"
+        }
+    },
+    "800002": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "BOSS部位扣血-30%",
+            "EnglishShort": "Boss part HP -30%",
+            "EnglishLong": "Boss part HP -30%"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "普通陷阱"
+        }
+    },
+    "800003": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "BOSS部位扣血-0.5%",
+            "EnglishShort": "Boss part HP -0.5%",
+            "EnglishLong": "Boss part HP -0.5%"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "天赋小招-爆燃余烬"
+        }
+    },
+    "800004": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "安德拉讨伐战-炮弹飞行表演",
+            "EnglishShort": "Andra Crusade - Cannonball flight performance",
+            "EnglishLong": "Andra Crusade - Cannonball flight performance"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "新手BOSS虚蚀陷阱"
+        }
+    },
+    "800005": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "安德拉讨伐战-炮弹飞行表演（双腿区域）",
+            "EnglishShort": "Andra Crusade - Cannonball flight performance (leg area)",
+            "EnglishLong": "Andra Crusade - Cannonball flight performance (leg area)"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "地刺陷阱"
+        }
+    },
+    "800006": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "安德拉讨伐战-炮弹飞行表演（头部区域）",
+            "EnglishShort": "Andra's Campaign - Shell Flight Performance (Head Area)",
+            "EnglishLong": "Andra's Campaign - Shell Flight Performance (Head Area)"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "英雄本-风哥布林陷阱",
+            "EnglishLong": "Hero Ben-Dragon Claw-Wind Goblin Crossbow-Trap Shooting"
+        }
+    },
+    "800007": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "巨型机像的追击",
+            "EnglishShort": "Pursuit of the Golem",
+            "EnglishLong": "Being Targeted by the Golem's Firearms"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "英雄本-风哥布林风球陷阱",
+            "EnglishLong": "Heroic Instance - Dragon Claw - Wind Goblin Crossbow - Trap Shooting Wind Effect Version"
+        }
+    },
+    "866424": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影之池"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "暗影之池"
+        }
+    },
+    "866431": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "缠绕藤蔓"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "缠绕藤曼"
+        }
+    },
+    "866432": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "缠绕藤曼效果buff",
+            "EnglishShort": "Virtual Object Spark (Highland Mine)"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "虚拟体火种（高原矿洞）",
+            "EnglishShort": "Virtual Object Spark (Highland Mine)"
+        }
+    },
+    "880101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影军团剑士1%锁定生命值"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "束缚技能"
+        }
+    },
+    "880102": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影军团盾牌兵1%锁定生命值"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪二连击"
+        }
+    },
+    "880103": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影军团虚蚀特效"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪三连击"
+        }
+    },
+    "880104": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影堡垒丹佛范围预警特效"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪冰刺"
+        }
+    },
+    "880105": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影堡垒丹佛范围预警特效短"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪小水球散射"
+        }
+    },
+    "880106": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "黯影堡垒暗角特效"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪持续冰刺"
+        }
+    },
+    "880107": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "授勋仪式范围特效"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪出生技能"
+        }
+    },
+    "880110": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "偷偷摸摸走"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "海怪冰刺虚拟体"
+        }
+    },
+    "900101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "生存机制之龙卷风"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "跑酷本-飓风",
+            "EnglishLong": "(Parkour Dungeon) Hurricane"
+        }
+    },
+    "1010596": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "小伊的故事龙卷风",
+            "EnglishShort": "Ee-chan's Story - Tornado",
+            "EnglishLong": "Ee-chan's Story - Tornado"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Airy's Story - Tornado"
+        }
+    },
+    "1010597": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "小伊的故事飞鱼",
+            "EnglishShort": "Ee-chan's Story - Skyfish",
+            "EnglishLong": "Ee-chan's Story - Skyfish"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Airy's Story Skyfish"
+        }
+    },
+    "1700820": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Wild Wolf - Assist",
+            "ChineseShort": "宠物-地狐咬"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Wolf Coordinated Attack"
+        }
+    },
+    "1700824": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Wild Wolf - Tail Sweep",
+            "ChineseShort": "宠物-地狐横扫"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Tail Sweep"
+        }
+    },
+    "1700826": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Wild Wolf Pounce"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "宠物-强力飞扑",
+            "EnglishShort": "Pet - Powerful Pounce"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Pet - Powerful Pounce"
+        }
+    },
+    "1700827": {
+        "RecountTable_Clean.json": {
+            "EnglishShort": "Wild Wolf - Basic Attack"
+        },
+        "SkillTable_Clean.json": {
+            "ChineseShort": "宠物-普攻",
+            "EnglishShort": "Pet - Basic Attack"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Pet - Basic Attack"
+        }
+    },
+    "2031101": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "太刀-幸运",
+            "EnglishShort": "Tachi - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Tachi)"
+        }
+    },
+    "2031102": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "法杖-幸运",
+            "EnglishShort": "Staff - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Staff)"
+        }
+    },
+    "2031104": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "骑枪-幸运",
+            "EnglishShort": "Lance - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Lance)"
+        }
+    },
+    "2031105": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "法环-幸运",
+            "EnglishShort": "Rune Ring - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Chakram)"
+        }
+    },
+    "2031109": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "弓箭-幸运",
+            "EnglishShort": "Bow - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Bow and Arrow)"
+        }
+    },
+    "2031110": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "剑盾-幸运",
+            "EnglishShort": "Sword and Shield - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Sword and Shield)"
+        }
+    },
+    "2031111": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "吉他-幸运",
+            "EnglishShort": "Guitar - Luck"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Lucky Strike (Guitar)"
+        }
+    },
+    "2203091": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "幻影狼袭-子BUFF",
+            "EnglishShort": "Bleed"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Bleed (Bite Detonation)"
+        }
+    },
+    "2203102": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "魔狼撕咬-子BUFF2",
+            "EnglishShort": "Bleed"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Bleed (Coordinated Attack Detonation)"
+        }
+    },
+    "2203141": {
+        "BuffTable_Clean.json": {
+            "ChineseShort": "灵箭追踪-子BUFF",
+            "EnglishShort": "Bleed"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Bleed (Ray Arrow Detonation)"
+        }
+    },
+    "2900901": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法法菈普攻",
+            "EnglishShort": "Fafala's Basic Attack"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Fafaala's Basic Attack"
+        }
+    },
+    "2900902": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法法菈清算",
+            "EnglishShort": "Fafala's Reckoning"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Fafaala's Reckoning"
+        }
+    },
+    "2900903": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法法菈圣光灌注",
+            "EnglishShort": "Fafala's Holy Light Infusion"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Fafaala's Holy Light Infusion"
+        }
+    },
+    "2900904": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法法菈大招虚拟体",
+            "EnglishShort": "Fafala's Ultimate (Virtual Object)"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Fafaala's Ultimate (Virtual Object)"
+        }
+    },
+    "2900905": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "法法菈圣环",
+            "EnglishShort": "Fafala's Divine Circle"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Fafaala's Divine Circle"
+        }
+    },
+    "3340199": {
+        "SkillTable_Clean.json": {
+            "ChineseShort": "太刀裂痕虚拟体",
+            "EnglishShort": "Blade Rift Virtual Body"
+        },
+        "skill_names_manual_Clean.json": {
+            "EnglishShort": "Tachi Rift Virtual Body"
+        }
+    }
+}
